@@ -1,0 +1,2 @@
+# loggar (private) - workspace settings
+
