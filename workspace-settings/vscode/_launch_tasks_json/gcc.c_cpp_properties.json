@@ -1,0 +1,33 @@
+{
+	"configurations": [
+		{
+			"name": "Win32",
+			"includePath": [
+				"${workspaceRoot}",
+				"C:/_dev/mingw/include",
+				"C:/_dev/mingw/lib/gcc/mingw32/5.3.0/include",
+				"C:/_dev/mingw/lib/gcc/mingw32/5.3.0/include/c++",
+				"C:/_dev/mingw/lib/gcc/mingw32/5.3.0/include/c++/mingw32",
+				"C:/_dev/mingw/lib/gcc/mingw32/5.3.0/include/c++/backward"
+			],
+			"defines": [
+				"_DEBUG",
+				"UNICODE"
+			],
+			"intelliSenseMode": "msvc-x64",
+			"browse": {
+				"path": [
+					"${workspaceRoot}",
+					"C:/_dev/mingw/include",
+					"C:/_dev/mingw/lib/gcc/mingw32/5.3.0/include",
+					"C:/_dev/mingw/lib/gcc/mingw32/5.3.0/include/c++",
+					"C:/_dev/mingw/lib/gcc/mingw32/5.3.0/include/c++/mingw32",
+					"C:/_dev/mingw/lib/gcc/mingw32/5.3.0/include/c++/backward"
+				],
+				"limitSymbolsToIncludedHeaders": true,
+				"databaseFilename": ""
+			}
+		}
+	],
+	"version": 3
+}

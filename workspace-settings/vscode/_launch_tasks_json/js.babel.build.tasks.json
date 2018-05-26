@@ -1,0 +1,19 @@
+{
+	"version": "0.1.0",
+	"command": "babel",
+	"isShellCommand": true,
+	"tasks": [
+		{
+			"args": [
+				"${file}",
+				"--out-file",
+				"${fileDirname}/${fileBasenameNoExtension}.build.js",
+				"-w"
+			],
+			"taskName": "babel",
+			"suppressTaskName": true,
+			"isBuildCommand": true,
+			"isBackground": true
+		}
+	]
+}

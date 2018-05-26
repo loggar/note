@@ -1,0 +1,6 @@
+{
+	"python.pythonPath": "C:\\_dev\\python\\Python36-32\\python.exe",
+	"python.linting.pylintArgs": [
+		"--disable=C0301"
+	]
+}

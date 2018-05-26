@@ -1,0 +1,17 @@
+{
+	"version": "0.1.0",
+	"command": "go",
+	"isShellCommand": true,
+	"tasks": [
+		{
+			"args": [
+				"run",
+				"${file}"
+			],
+			"taskName": "go run",
+			"suppressTaskName": true,
+			"isBuildCommand": true,
+			"isBackground": true
+		}
+	]
+}
