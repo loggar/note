@@ -5,7 +5,7 @@ Personal access tokens
 ```
 Tokens you have generated that can be used to access the GitHub API.
 https://github.com/settings/tokens
-generated token : 05fe0d5d07ba78661ca47ba12d24faf90d25b275
+generated token : 57c66e4c163be7650b7ff4e860e0949bdefa1bdcs
 ```
 
 
@@ -13,7 +13,7 @@ vscode command : sync - extension settings - syncLocalSetting.json
 
 ```
 {"ignoreUploadFiles":["projects.json","projects_cache_git.json"],"ignoreUploadFolders":["workspaceStorage"],"replaceCodeSettings":{},"gistDescription":"Visual Studio Code Settings Sync Gist","version":282,
-"token":"05fe0d5d07ba78661ca47ba12d24faf90d25b275"}
+"token":"57c66e4c163be7650b7ff4e860e0949bdefa1bdcs"}
 ```
 
 
