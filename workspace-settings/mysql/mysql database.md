@@ -1,3 +1,0 @@
-```
-CREATE DATABASE  IF NOT EXISTS `samplespring` /*!40100 DEFAULT CHARACTER SET utf8 */;
-```

@@ -1,4 +1,0 @@
-```
-[local]
-root/ admin
-```
