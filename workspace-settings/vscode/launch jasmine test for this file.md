@@ -1,21 +1,15 @@
+# launch jasmine test for this file
+
+## install jasmine (global)
+
+```
+install -g jasmine
+```
+
+## add test-task to vscode task.json
+
+```
 {
-	"version": "0.1.0",
-	"showOutput": "always",
-	"isShellCommand": false,
-	"tasks": [
-		{
-			"suppressTaskName": true,
-			"isBuildCommand": true,
-			"isBackground": true,
-			"taskName": "babel",
-			"command": "babel",
-			"args": [
-				"${file}",
-				"--out-file",
-				"${fileDirname}/${fileBasenameNoExtension}.build.js"
-			]
-		},
-		{
 			"isTestCommand": true,
 			"isBackground": false,
 			"taskName": "jasmine",
@@ -49,5 +43,10 @@
 				]
 			}
 		}
-	]
-}
+```
+
+## run test for specific file on vscode
+
+```
+task - run test task
+```
