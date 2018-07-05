@@ -5,6 +5,6 @@
 * JEE
 
 ```
-**/WEB-INF/classes/*
-**/WEB-INF/lib/*
+webapp/WEB-INF/classes/*
+webapp/WEB-INF/lib/*
 ```
