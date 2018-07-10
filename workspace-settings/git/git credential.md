@@ -22,7 +22,7 @@ git config --unset credential.helper
 ### config file
 
 ```
-// .git/config
+// .git/config    <- applied
 
 url = https://username:password@repository-url.com
 ```
