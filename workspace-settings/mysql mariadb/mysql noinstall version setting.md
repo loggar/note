@@ -6,7 +6,7 @@ C:\_dev\mysql\mysql-5.7.11-winx64\bin\mysqld --initialize --console
 [mysql console 실행 ]
 C:\_dev\mysql\mysql-5.7.11-winx64\bin\mysqld --console
 
-[mysql user interface 실행]
+[mysql client 실행]
 C:\_dev\mysql\mysql-5.7.11-winx64\bin\mysql -u root -p
 Enter password: ************
 

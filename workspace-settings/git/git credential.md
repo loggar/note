@@ -4,6 +4,39 @@ $ git config credential.helper store
 $ git push https://<username>:<password>@example.com/repo.git
 ```
 
+or 
+
+```
+$ git config credential.helper store
+$ git push http://example.com/repo.git
+Username: <type your username>
+Password: <type your password>
+```
+
+cancellation
+
+```
+git config --unset credential.helper
+```
+
+### config file
+
+```
+// .git/config
+
+url = https://username:password@repository-url.com
+```
+
+### config global
+
+```
+git config --global credential.https://github.com.username <your_username>
+```
+
+```
+git config --global --edit
+```
+
 ### git push, pull with username 
 ```
 $ git push https://<username>:<password>@github.com/webnlog/ssomac.github.io
