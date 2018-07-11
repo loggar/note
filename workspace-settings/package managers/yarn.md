@@ -22,19 +22,19 @@ yarn install
 add dependencies
 
 ```
-yarn add [package]
+yarn add <package>
 ```
 
 add devDependencies
 
 ```
-yarn add -D [package]
+yarn add -D <package>
 ```
 
 remove dependencies
 
 ```
-yarn remove [package]
+yarn remove <package>
 
-yarn remove -D [package]
+yarn remove -D <package>
 ```

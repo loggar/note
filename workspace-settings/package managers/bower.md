@@ -32,14 +32,9 @@ bower install git://github.com/user/package.git
 bower install http://example.com/script.js
 ```
 
-save packages
+## install frontend package with bower
 
-```
-bower install <package> --save
-```
+$ bower install jsgrid --save
 
-use packages
-
-```
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-```
+[with bower.json]
+$ bower install
