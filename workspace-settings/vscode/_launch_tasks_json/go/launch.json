@@ -5,18 +5,17 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Python",
-			"type": "python",
+			"name": "Launch",
+			"type": "go",
 			"request": "launch",
-			"stopOnEntry": false,
-			"pythonPath": "${config:python.pythonPath}",
-			"program": "${file}",
-			"cwd": "${workspaceRoot}",
+			"mode": "debug",
+			"remotePath": "",
+			"port": 2345,
+			"host": "127.0.0.1",
+			"program": "${fileDirname}",
 			"env": {},
-			"envFile": "${workspaceRoot}/.env",
-			"debugOptions": [
-				"RedirectOutput"
-			]
+			"args": [],
+			"showLog": true
 		}
 	]
 }

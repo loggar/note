@@ -3,8 +3,6 @@
 		"float.h": "c",
 		"limits.h": "c",
 		"stdio.h": "c",
-		"time.h": "c",
-		"unistd.h": "c",
-		"string.h": "c"
+		"errors.h": "c"
 	}
 }

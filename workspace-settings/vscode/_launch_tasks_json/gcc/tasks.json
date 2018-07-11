@@ -7,6 +7,7 @@
 		"reveal": "always"
 	},
 	"tasks": [
+		// compile
 		{
 			"label": "compile",
 			"group": "build",
@@ -16,12 +17,15 @@
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}"
 			],
+			//https://code.visualstudio.com/docs/editor/tasks#_defining-a-problem-matcher
 			"problemMatcher": {
 				"fileLocation": [
 					"relative",
 					"${workspaceRoot}"
 				],
 				"pattern": {
+					//The regular expression. 
+					//Example to match: helloWorld.c:5:3: warning: implicit declaration of function ‘prinft’
 					"regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
 					"file": 1,
 					"line": 2,
@@ -31,6 +35,7 @@
 				}
 			}
 		},
+		// debug
 		{
 			"label": "compile-debug",
 			"group": "build",
@@ -41,12 +46,15 @@
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}"
 			],
+			//https://code.visualstudio.com/docs/editor/tasks#_defining-a-problem-matcher
 			"problemMatcher": {
 				"fileLocation": [
 					"relative",
 					"${workspaceRoot}"
 				],
 				"pattern": {
+					//The regular expression. 
+					//Example to match: helloWorld.c:5:3: warning: implicit declaration of function ‘prinft’
 					"regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
 					"file": 1,
 					"line": 2,
