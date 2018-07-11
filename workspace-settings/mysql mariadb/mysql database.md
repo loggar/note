@@ -1,3 +1,0 @@
-```
-CREATE DATABASE  IF NOT EXISTS `database_test_1` /*!40100 DEFAULT CHARACTER SET utf8 */;
-```

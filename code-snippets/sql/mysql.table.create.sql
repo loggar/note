@@ -1,5 +1,3 @@
-
-```
 use samplespring;
 
 CREATE TABLE `member` (
@@ -9,4 +7,3 @@ CREATE TABLE `member` (
   `password` varchar(45) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8
-```

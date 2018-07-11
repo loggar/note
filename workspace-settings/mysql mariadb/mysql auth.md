@@ -1,4 +1,4 @@
 ```
 [local]
-root/ admin
+root/admin
 ```
