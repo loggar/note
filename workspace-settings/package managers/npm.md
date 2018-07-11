@@ -1,10 +1,15 @@
-
-[https://yarnpkg.com/en/docs/usage](https://yarnpkg.com/en/docs/usage)
+## npm
 
 install package.json
 
 ```
 npm init
+```
+
+Generate it without having it ask any questions:
+
+```
+npm init -y
 ```
 
 install packages
