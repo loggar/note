@@ -1,3 +1,6 @@
-/code-snippets/_tmp/
+# temporary dirs
+tmp
+_tmp
 
-.vscode/
+# visual studio code
+.vscode
