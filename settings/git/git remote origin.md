@@ -3,7 +3,7 @@ for a new repository
 clone a exist repository
 
 ```
-git clone https://github.com/loggar/gcc.git
+git clone https://github.com/loggar/gcc.git [directory-name]
 ```
 
 add remote and push
