@@ -11,6 +11,22 @@
 | git revert   | Commit-level | Undo commits in a public branch                                      |
 | git revert   | File-level   | (N/A)                                                                |
 
+## git commit list
+
+```
+$ git log
+$ git log --stat
+$ git log --pretty=oneline
+$ git log --pretty=format:"%h - %an, %ar : %s"
+```
+
+## undo a local commit
+
+```
+git reset --soft HEAD^     # use --soft if you want to keep your changes
+git reset --hard HEAD^     # use --hard if you don't care about keeping the changes you made
+```
+
 ## Checkout old commits
 
 ```
@@ -51,4 +67,14 @@ The `--soft`, `--mixed`, and `--hard` flags do not have any effect on the file-l
 ```
 git checkout hotfix
 git revert HEAD~2
+```
+
+`git revert HEAD` creates a new commit which will revert the changes you made in your previous commit (current HEAD)
+
+```
+git commit -m 'restoring the file I removed by accident'
+git log
+    commit 102: restoring the file I removed by accident
+    commit 101: removing a file we don't need
+    commit 100: adding a file that we need
 ```
