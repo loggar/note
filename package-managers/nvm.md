@@ -33,3 +33,11 @@ nvm alias default system
 nvm alias default v9.3.0
 
 ```
+
+## where actual directory node installed is
+
+redhat
+
+```
+/root/.nvm/versions/node/v8.10.0/bin/node
+```
