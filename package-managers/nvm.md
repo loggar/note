@@ -1,4 +1,4 @@
-# Node Version Manager
+# nvm Node Version Manager
 
 ## install
 
