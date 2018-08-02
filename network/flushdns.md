@@ -1,3 +1,4 @@
+## flush DNS info
 
 ```
 ADD HOST_NAME,
@@ -13,4 +14,3 @@ Reply from IP_ADDRESS: bytes=32 time=2ms TTL=62
 Reply from IP_ADDRESS: bytes=32 time=4ms TTL=62
 
 ```
-
