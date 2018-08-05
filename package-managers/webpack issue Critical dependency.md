@@ -19,7 +19,7 @@
 ```
 
 
-solve : 
+solve : exclude node modules from bundling
 
 ```
 // webpack.config.server.prod.js
@@ -27,7 +27,9 @@ solve :
 const nodeExternals = require('webpack-node-externals')
 
 module.exports = {
-	externals: [nodeExternals({
-	})],
+
+	externals: [
+		nodeExternals({ modulesDir: "./node_modules" })
+	],
 }
 ```
