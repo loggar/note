@@ -15,7 +15,7 @@ mysql --max_allowed_packet=100M -u root -p database < dump.sql
 # added to avoid err "Got a packet bigger than 'max_allowed_packet' bytes"
 #
 net_buffer_length=1000000 
-max_allowed_packet=1000000000
+max_allowed_packet=33554432
 #
 ```
 
@@ -28,7 +28,7 @@ set-variable = max_allowed_packet = 32M
 or 
 
 ```
-set-variable = max_allowed_packet = 1000000000
+set-variable = max_allowed_packet = 33554432
 ```
 
 Then restart the server:
