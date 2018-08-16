@@ -1,5 +1,8 @@
 # Restful Web API
 
+* https://scotch.io/bar-talk/designing-a-restful-web-api
+
+
 ## Introduction
 
 Everybody provides API's these days. Some of the most popular ones are Facebook, Twitter, Github, Stripe and the list goes on.
