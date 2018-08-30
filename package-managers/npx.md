@@ -46,7 +46,7 @@ v8.10.0
 npx -p node@8 npm run build
 ```
 
-## Execute a full shell command using one npx call w/ multiple packages
+## Execute a full shell command using one npx call with multiple packages
 
 ```whell
 $ npx -p lolcatjs -p cowsay -c \
