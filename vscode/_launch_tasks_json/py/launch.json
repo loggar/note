@@ -13,10 +13,7 @@
 			"program": "${file}",
 			"cwd": "${workspaceRoot}",
 			"env": {},
-			"envFile": "${workspaceRoot}/.env",
-			"debugOptions": [
-				"RedirectOutput"
-			]
+			"envFile": "${workspaceRoot}/.env"
 		}
 	]
 }

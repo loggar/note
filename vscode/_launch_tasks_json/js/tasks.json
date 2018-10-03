@@ -1,53 +1,14 @@
 {
-	"version": "0.1.0",
-	"showOutput": "always",
-	"isShellCommand": false,
+	"version": "2.0.0",
 	"tasks": [
 		{
-			"suppressTaskName": true,
-			"isBuildCommand": true,
-			"isBackground": true,
-			"taskName": "babel",
+			"label": "Build (Babel)",
 			"command": "babel",
 			"args": [
 				"${file}",
 				"--out-file",
 				"${fileDirname}/${fileBasenameNoExtension}.build.js"
 			]
-		},
-		{
-			"isTestCommand": true,
-			"isBackground": false,
-			"taskName": "jasmine",
-			"command": "jasmine",
-			"args": [
-				"${file}"
-			],
-			"problemMatcher": {
-				"owner": "javascript",
-				"fileLocation": [
-					"absolute"
-				],
-				"severity": "error",
-				"pattern": [
-					{
-						"regexp": "Message.*"
-					},
-					{
-						"regexp": "[^ ](.*)",
-						"message": 1
-					},
-					{
-						"regexp": "Stack.*"
-					},
-					{
-						"regexp": "at +.*\\((.*\\\\*.ts):(\\d+):(\\d+)\\)",
-						"file": 1,
-						"line": 2,
-						"column": 3
-					}
-				]
-			}
 		}
 	]
 }
