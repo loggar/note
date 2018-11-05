@@ -13,7 +13,7 @@ ssh <server ip> -p 2222
 
 then simpleSSHD display single-use password.
 
-## spc
+## scp
 
 ```
 scp -P 2222 /PATH/TO/LOCAL/FILE <server ip>:/data/user/0/org.galexander.sshd/files/FILE
