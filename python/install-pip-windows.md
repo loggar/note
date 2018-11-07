@@ -26,3 +26,9 @@ C:\_dev\python\Python37-32\Scripts
 λ pip --version
 pip 10.0.1 from c:\_dev\python\python37-32\lib\site-packages\pip (python 3.7)
 ```
+
+## Update pip
+
+```
+python -m pip install --upgrade pip
+```
