@@ -9,4 +9,3 @@
 `docker network ls` lists networks
 
 `docker info` lists the number of containers and image, as well as system wide information regarding the Docker installation
-
