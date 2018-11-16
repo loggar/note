@@ -2,7 +2,27 @@
 
 ## install
 
-* https://github.com/creationix/nvm/blob/master/README.md
+refs) https://github.com/creationix/nvm
+
+Download nvm
+
+```
+$ git clone git://github.com/creationix/nvm.git ~/.nvm
+```
+
+Run nvm
+
+```
+$ source /root/.nvm/nvm.sh
+```
+
+Install nodejs with specific version
+
+```
+$ nvm install v8.10.0
+
+$ nvm ls
+```
 
 ## Usage
 
