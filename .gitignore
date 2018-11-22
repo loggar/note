@@ -1,9 +1,5 @@
-# temporary dirs
-tmp
-_tmp
-
 # npm
 node_modules/
 
 # visual studio code
-.vscode
+.vscode/
