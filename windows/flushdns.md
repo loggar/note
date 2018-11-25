@@ -1,4 +1,4 @@
-## flush DNS info
+## flush DNS info (Windows)
 
 ```
 ADD HOST_NAME,
