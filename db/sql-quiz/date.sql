@@ -1,0 +1,23 @@
+SELECT NOW()
+
+SELECT NOW(3)
+
+/* MYSQL
+
+CURDATE()
+
+CURTIME()
+
+DATE()
+
+EXTRACT()
+
+DATE_ADD()
+
+DATE_SUB()
+
+DATEDIFF()
+
+DATE_FORMAT()
+*/
+
