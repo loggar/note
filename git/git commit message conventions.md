@@ -16,3 +16,12 @@ They follow this syntax: `<type>(<scope>): <subject>`
 ```
 git commit -m "feat(todo-list) add filter feature"
 ```
+
+
+## frequently used
+
+fix (typo)
+
+refactor (dependencies) security vulnerabilities
+
+docs (git) commit msg conventions
