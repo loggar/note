@@ -1,12 +1,12 @@
 ## Start Service and Shell
 
-* service
+* Start Server
 
 ```
 C:/_dev/mongodb/mongodb-win64-3.4/bin/mongod.exe --dbpath C:/_dev/mongodb/mongodb-win64-3.4/data/db_sample
 ```
 
-* Shell
+* Client Shell
 
 ```
 C:\_dev\mongodb\mongodb-win64-3.4\bin\mongo.exe
