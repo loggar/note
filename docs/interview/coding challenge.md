@@ -42,15 +42,23 @@ The code for your solution is going to be read by another software developer, ou
 
 * **Take care when anming classes, methods/functions, and variables.** Names are like documentation: they should describe what the thing does, or what it represents. For this reason, avoid single letter variable names. Choose a name that reminds the reader what is stored inside the variable.
 * **Break it down.** Would you rather read a short paragraph made up of clear, concise sentences, or a wall of text full of dense sentences that seem to lead nowhere? Long and complex methods are like that wall of text you never want to read. Instead, break things up into smaller steps that combine to make a whole. The extra method refactoring technique is a powerful way to do this.
-* **Use connents sparingly.** In an effort to make their program easy to understand. applicants often fill their coding 
+* **Use connents sparingly.** In an effort to make their program easy to understand. applicants often fill their coding challenges with comments. Sometimes there are more comments than code! While it's great to see an applicant trying to help the reviewer to understand the program, code that is easy to understand is always better than a comment. When you feel the urge to write a comment, stop to think, could I write this in such a clear way that a comment isn't even needed? If not, could you turn the comment into a well-chosen name for a class, method/function, or a variable so that it is self-documenting rather than needing an explanatory comment?
+* **Be wary of code golf.** You're itching to compress your solution's central algorithm into a neat on-liner that would make even a veteran code-golfer nod with approval. Unfortunately. code cleverness and readability often have an inverse relationship. If your reviewer doesn't understand what your clever on-liner is doing, then its clevernesss will be lost on them, and they'll be left confused.
+* **Kepp your main method as high level as possible.** In most cases, your solution will do its work by calling one final function or method that brings everything together. In Java, this is usually the 'main' method. This central method that ties everything together should be as high level as possible, meaning, it should not be doing any of the heavy lifting in yout app. Instead, it should delegate out to the other pieces of your app designed to complete each step of the process. If your main method is longer than about 20 lines, it might be assuming responsibilities that belong elsewhere in your application.
 
 ## Follow the programing style of your language
 
+It may sound obvious, but if you choose an object-oriented language, you should make sure to write object-oriented code. If you choose a function language, you should write code in a functional style. If you're not sure what the appropriate style is for your language, take some time to research it before you tackle your coding challenge.
 
+If you're completing your challenge in an object-oriented language like Python or Ruby, the reviewer will want to see how you approach your solution in an OO way. For example, dew coding challenges will be small enough that you can write a good OO solution without at least four classes, and possibly more. They'll also want to see the single responsibility principle in action: the idea that each class in your application should have one job.
+
+Many coding challenges include the following stages: parsing input, processing the input, and presenting output. Each of these stages will require at least one class to perform each job. The 'processing' stage may require several classes to handle the varying jobs involved in producing the output.
 
 ## It is OK to get help
 
+Many coding challenges will hinge on a central algorithm common in computer science, for example, some variation of the knapsack problem. It's OK to research possible algorithms as you work on your coding challenge and choose the most appropriate one. What you definitely don't want to do is copy an altorithm that works but you don't understand. Instead, understand how the altorithm works, then implement it yourself.
 
+If you need to bounce ideas off another delveloper, Codementor can help. While it would be cheating to get another developer to work on your solution, there is nothing wrong with discussing possible approaches with someone else. If you do get hired, this is something you'll be doing every day as a working delveloper.
 
 ## Carefully review and refactor your solution
 
