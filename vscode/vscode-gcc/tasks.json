@@ -1,0 +1,58 @@
+{
+  "version": "2.0.0",
+  "runner": "terminal",
+  "type": "shell",
+  "echoCommand": true,
+  "presentation": {
+    "reveal": "always"
+  },
+  "tasks": [
+    // compile
+    {
+      "label": "compile",
+      "group": "build",
+      "command": "gcc",
+      "args": ["${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}"],
+      //https://code.visualstudio.com/docs/editor/tasks#_defining-a-problem-matcher
+      "problemMatcher": {
+        "fileLocation": ["relative", "${workspaceRoot}"],
+        "pattern": {
+          //The regular expression.
+          //Example to match: helloWorld.c:5:3: warning: implicit declaration of function ‘prinft’
+          "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+          "file": 1,
+          "line": 2,
+          "column": 3,
+          "severity": 4,
+          "message": 5
+        }
+      }
+    },
+    // debug
+    {
+      "label": "compile-debug",
+      "group": "build",
+      "command": "gcc",
+      "args": [
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}"
+      ],
+      //https://code.visualstudio.com/docs/editor/tasks#_defining-a-problem-matcher
+      "problemMatcher": {
+        "fileLocation": ["relative", "${workspaceRoot}"],
+        "pattern": {
+          //The regular expression.
+          //Example to match: helloWorld.c:5:3: warning: implicit declaration of function ‘prinft’
+          "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+          "file": 1,
+          "line": 2,
+          "column": 3,
+          "severity": 4,
+          "message": 5
+        }
+      }
+    }
+  ]
+}

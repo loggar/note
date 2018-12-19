@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build (Babel)",
+      "command": "babel",
+      "args": [
+        "${file}",
+        "--out-file",
+        "${fileDirname}/${fileBasenameNoExtension}.build.js"
+      ]
+    }
+  ]
+}

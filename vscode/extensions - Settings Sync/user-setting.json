@@ -1,0 +1,23 @@
+{
+  "editor.renderWhitespace": "all",
+  "html.format.wrapLineLength": 256,
+  "editor.insertSpaces": false,
+  "editor.detectIndentation": false,
+  "sync.gist": "f58ccf8f326c8c449bf518384eef8a73",
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.forceDownload": false,
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDragAndDrop": false,
+  "window.zoomLevel": 0,
+  "extensions.ignoreRecommendations": false,
+  "explorer.confirmDelete": false,
+  "workbench.colorTheme": "Visual Studio Light",
+  "git.autofetch": true,
+  "workbench.statusBar.feedback.visible": false,
+  "debug.node.autoAttach": "on"
+}
