@@ -1,4 +1,4 @@
-윈도우10 wndow search 클릭과 엔터 동작 안할때
+When Windows 10 Search Click & Enter not work
 
 ```
 window + R : run -> services.msc
@@ -7,7 +7,7 @@ windows search -> context menu -> restart.
 ```
 
 
-윈도우10 시작버튼 작동 안할때
+When Windows 10 Start button not work
 
 ```
 CTRL+Shift+ESC - powershell
