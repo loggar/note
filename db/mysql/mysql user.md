@@ -1,4 +1,4 @@
-user 생성 및 권한 설정
+create user, set privileges
 
 ```
 use mysql;
@@ -7,26 +7,26 @@ GRANT ALL PRIVILEGES ON springbook.* TO 'springbook'@'localhost' with grant opti
 select * from user;
  ```
 
-권한 적용
+apply new privileges
 
 ```
 flush privileges; 
 ```
 
 
-권한 보기
+list privileges
 
 ```
 show grants for 'springbook'@'localhost';
 ```
 
-권한 삭제
+delete privileges
 
 ```
 revoke all on samplespring.table from springbook@localhost;
 ```
 
-user 삭제
+delete user
 
 ```
 drop user 'springbook'@'localhost';

@@ -1,10 +1,10 @@
-cli 실행
+run cli
 
 ```
 apacheDir/bin/apache
 ```
 
-cli 종료
+exit cli
 
 ```
 ctrl + c

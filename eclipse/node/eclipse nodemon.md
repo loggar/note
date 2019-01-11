@@ -10,7 +10,7 @@ node 대신 nodemon 으로 실행하면 파일 수정시 자동으로 적용된�
 js 파일 수정시에만 적용된다/ html 파일 수정시 재시작되지 않는 점 확인.
 
 ```
-C:\_workspace\ex_js>nodemon server_js_tutorial.js
+nodemon server_js_tutorial.js
 ```
 
 

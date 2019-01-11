@@ -9,7 +9,6 @@ C:\_dev\python\Python37-32\Scripts
 λ pip install virtualenv
 Collecting virtualenv
   Downloading https://files.pythonhosted.org/packages/b6/30/96a02b2287098b23b875bc8c2f58071c35d2efe84f747b64d523721dc2b5/virtualenv-16.0.0-py2.py3-none-any.whl (1.9MB)
-    100% |████████████████████████████████| 1.9MB 2.9MB/s
 Installing collected packages: virtualenv
   The script virtualenv.exe is installed in 'c:\_dev\python\python37-32\Scripts' which is not on PATH.
   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
