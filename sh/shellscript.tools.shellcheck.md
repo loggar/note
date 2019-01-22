@@ -11,7 +11,7 @@ sample test shellscript code
 #! /usr/bin/env bash
 
 cd $1
-$path = $( pwd )
+$path=$( pwd )
 echo $path
 ```
 
