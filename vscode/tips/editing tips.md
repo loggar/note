@@ -17,3 +17,7 @@
 - Go to Definition (F12)
 - Find All References (Shift+F12)
 - Rename Symbol (F2)
+
+# Copy / Paste
+
+- duplicate a line (Shift+Alt+Down / Shift+Alt+Up)

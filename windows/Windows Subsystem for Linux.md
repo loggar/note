@@ -16,8 +16,8 @@ To download and install your preferred distro(s), you have three choices:
 
 ### 1. Download and install from the Windows Store
 
-   - open windows store and search "linux"
-   - get a linux distribution you want to install
+- open windows store and search "linux"
+- get a linux distribution you want to install
 
 ### 2. Download and install from the Command-Line/Script
 
@@ -60,7 +60,6 @@ Make sure your target directory (`~/Ubuntu` in this example) is on your system d
 
 Run the distro launcher To complete installation, run the distro launcher application in the target folder, named `<distro>.exe`. For example: `ubuntu.exe`, etc.
 
-
 ## Complete initialization of your distro
 
 Now that your Linux distro is installed, you must initialize your new distro instance once, before it can be used.
@@ -68,6 +67,8 @@ Now that your Linux distro is installed, you must initialize your new distro ins
 ### Setting up a new Linux user account
 
 Once installation is complete, you will be prompted to create a new user account (and its password).
+
+> my local account: loggar/loggar#1
 
 This user account is for the normal non-admin user that you'll be logged-in as by default when launching a distro.
 
