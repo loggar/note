@@ -83,3 +83,31 @@ Most distros ship with an empty/minimal package catalog. We strongly recommend r
 ```bash
 sudo apt update && sudo apt upgrade
 ```
+
+## Interact with Windows Storage
+
+Windows -> WSL
+
+```
+C:\Users\webnl\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\loggar
+```
+
+WSL -> Windows
+
+```
+/mnt/c
+```
+
+### permission issue
+
+After copy files (directories) to `C:\Users\webnl\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\loggar`
+
+In the WSL, permission modification needed.
+
+For a copied directory `express-docker-simple-ex-1`, apply chmod for the directory and all recursive sub-directories.
+
+```
+sudo chmod 755 -R ./docker-simple-ex-1
+
+cd docker-simple-ex-1
+```
