@@ -1,7 +1,8 @@
 # vscode editing tips
 
+## selections
+
 - Column (box) selection (Shift+Alt Drag)
-- Copy line up / down (Shift+Alt+Up or Shift+Alt+Down)
 - Move line up and down (Alt+Up or Alt+Down)
 - Shrink / expand selection (Shift+Alt+Left or Shift+Alt+Right)
 - Go to Symbol in File (Ctrl+Shift+O)
@@ -10,7 +11,7 @@
 - Select current line (Ctrl+I)
 - Navigate to beginning and end of file (Ctrl+Home and Ctrl+End)
 
-# IntelliSense
+## IntelliSense
 
 - Trigger the Suggestions widget (Ctrl+Space)
 - Peek (Ctrl+Shift+F12)
@@ -18,6 +19,6 @@
 - Find All References (Shift+F12)
 - Rename Symbol (F2)
 
-# Copy / Paste
+## Copy / Paste
 
 - duplicate a line (Shift+Alt+Down / Shift+Alt+Up)
