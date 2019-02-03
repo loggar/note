@@ -5,12 +5,12 @@
       "name": "Run C/C++",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/${fileBasenameNoExtension}.exe",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
-      "externalConsole": true,
+      "externalConsole": false,
       "MIMode": "gdb",
       "miDebuggerPath": "C:/_dev/mingw/bin/gdb.exe",
       "setupCommands": [
@@ -20,18 +20,18 @@
           "ignoreFailures": false
         }
       ],
-      "preLaunchTask": "build & run file"
+      "preLaunchTask": "build for run file"
     },
     {
       "name": "Debug C/C++",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/${fileBasenameNoExtension}.exe",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
-      "externalConsole": true,
+      "externalConsole": false,
       "MIMode": "gdb",
       "miDebuggerPath": "C:/_dev/mingw/bin/gdb.exe",
       "setupCommands": [
@@ -41,7 +41,7 @@
           "ignoreFailures": false
         }
       ],
-      "preLaunchTask": "build & debug file"
+      "preLaunchTask": "build for debug file"
     }
   ]
 }

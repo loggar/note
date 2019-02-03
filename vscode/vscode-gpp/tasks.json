@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "build & debug file",
+      "label": "build for debug file",
       "type": "shell",
       "command": "g++",
       "args": [
@@ -17,7 +17,7 @@
       }
     },
     {
-      "label": "build & run file",
+      "label": "build for run file",
       "type": "shell",
       "command": "g++",
       "args": ["${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}"],
