@@ -1,5 +1,13 @@
 # Python Interactive window
 
+### install packages
+
+```
+pip list
+
+pip install jupyter
+```
+
 ## Show
 
 View - Command Palette - Python: Show Python Interactive window
