@@ -111,3 +111,13 @@ sudo chmod 755 -R ./docker-simple-ex-1
 
 cd docker-simple-ex-1
 ```
+
+### WSL bash
+
+In windows Command prompt (or PowerShell prompt or any other terminal), WSL bash can be accessed with `current path`.
+
+```
+C:\_loggar\_workspace\loggar-note\node (master)
+λ bash
+loggar@DESKTOP-CLQSJPF:/mnt/c/_loggar/_workspace/loggar-note/node$
+```
