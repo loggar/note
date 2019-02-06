@@ -45,14 +45,35 @@ $ . ./venv/activate
 ### install packages
 
 ```
-pip list
+(.venv) λ pip list
 
-pip install jupyter
+(.venv) λ pip install jupyter
+```
+
+or, with requirements file:
+
+`requirements.txt`
+
+```
+Flask==0.12.3
+click==6.7
+gunicorn==19.7.1
+itsdangerous==0.24
+Jinja2==2.9.6
+MarkupSafe==1.0
+pytz==2017.2
+requests==2.13.0
+Werkzeug==0.12.1
+```
+
+```
+(.venv) λ pip install -r requirements.txt
+
+(.venv) λ pip list
 ```
 
 ### deactivate
 
 ```
-C:\Users\webnl\Documents\_workspace\loggar-py (master)
 (.venv) λ deactivate
 ```

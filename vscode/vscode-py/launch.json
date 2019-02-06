@@ -11,9 +11,9 @@
       "stopOnEntry": false,
       "pythonPath": "${config:python.pythonPath}",
       "program": "${file}",
-      "cwd": "${workspaceRoot}",
+      "cwd": "${workspaceFolder}",
       "env": {},
-      "envFile": "${workspaceRoot}/.env"
+      "envFile": "${workspaceFolder}/.env"
     }
   ]
 }
