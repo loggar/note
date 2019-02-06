@@ -1,4 +1,4 @@
-# Install NodeJS in CentOS
+# Install NodeJS in WSL Ubuntu
 
 ## Install NodeJS
 
