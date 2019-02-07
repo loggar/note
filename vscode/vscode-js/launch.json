@@ -6,7 +6,7 @@
       "request": "launch",
       "name": "Launch Program .js",
       "program": "${file}",
-      "cwd": "${workspaceRoot}"
+      "cwd": "${workspaceFolder}"
     },
     {
       "type": "node",
