@@ -13,3 +13,13 @@ Selecting an interpreter from the list adds an entry for python.pythonPath with 
 Tip: To prevent automatic activation of a selected environment, add "`python.terminal.activateEnvironment": false` to your settings.json file.
 
 Note: By default, VS Code uses the interpreter identified by `python:pythonPath` setting when debugging code. You can override this behavior by specifying a different path in the `pythonPath` property of a debug configuration.
+
+## Can not perform a `--user` install
+
+```
+PS C:\Users\webnl\Documents\_workspace\loggar-py> & c:/Users/webnl/Documents/_workspace/loggar-py/.venv/Scripts/python.exe -m pip install -U pylint --user
+Can not perform a '--user' install. User site-packages are not visible in this virtualenv.
+
+PS C:\Users\webnl\Documents\_workspace\loggar-py> & c:/Users/webnl/Documents/_workspace/loggar-py/.venv/Scripts/python.exe -m pip install pylint
+# It will work.
+```
