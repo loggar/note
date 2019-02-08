@@ -6,6 +6,10 @@ Install git
 
 ```
 $ sudo apt install git
+
+# or
+
+$ yum install git
 ```
 
 Download nvm
@@ -17,7 +21,11 @@ $ git clone git://github.com/creationix/nvm.git ~/.nvm
 Run nvm
 
 ```
+# WSL Ubuntu
 $ source /home/loggar/.nvm/nvm.sh
+
+# Centos
+$ source /root/.nvm/nvm.sh
 ```
 
 Install nodejs with specific version
