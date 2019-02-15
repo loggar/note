@@ -1,4 +1,4 @@
-Archive for required library: 'C:/_dev/maven_repository/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final.jar' in project 'PROJECT_NAME' cannot be read or is not a valid ZIP file	
+## Archive for required library: 'C:/_dev/maven_repository/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final.jar' in project 'PROJECT_NAME' cannot be read or is not a valid ZIP file	
 
 ```
 PROJECT_NAME		Build path	Build Path Problem
@@ -9,7 +9,7 @@ update maven project -> DOWNLOAD DEPENDENCIES AGAIN
 ```
 
 
-org.codehaus.plexus.archiver.jar.Manifest.write(java.io.PrintWriter)
+## org.codehaus.plexus.archiver.jar.Manifest.write(java.io.PrintWriter)
 
 ```
 install new software [m2eclipse-mavenarchiver]
