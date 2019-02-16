@@ -1,8 +1,13 @@
 # Debugging Angular CLI Apps inside VSCode with Browser Preview
 
-ref) https://medium.com/@MarkPieszak/debugging-angular-cli-inside-vscode-with-browser-preview-8dcc4b18ed64
+## Dependencies
 
-`launch.json`
+vscode extensions:
+
+- Debugger for Chrome
+- Browser Preview
+
+## `launch.json`
 
 ```json
 {
@@ -36,3 +41,4 @@ ref) https://medium.com/@MarkPieszak/debugging-angular-cli-inside-vscode-with-br
 }
 ```
 
+Run debug `<browser-preview: Launch>` on Angular components, for example.

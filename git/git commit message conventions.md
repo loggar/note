@@ -10,6 +10,7 @@
 * perf: A code change that improves performance
 * test: When testing your code
 * chore: Changes to the build process or auxiliary tools and libraries
+* settings: configurations, settings
 
 They follow this syntax: `<type>(<scope>): <subject>`
 

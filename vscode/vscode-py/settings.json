@@ -1,15 +1,7 @@
 {
   "python.pythonPath": ".venv\\Scripts\\python.exe",
-  "python.linting.pylintArgs": [
-    "--disable=C0103",
-    "--disable=C0111",
-    "--disable=C0301",
-    "--disable=C0321",
-    "--disable=E0401",
-    "--disable=W0312",
-    "--disable=W0231",
-    "--disable=W0703"
-  ],
+  "python.linting.pylintArgs": [],
+  "python.analysis.disabled": ["unresolved-import"],
   "editor.detectIndentation": false,
   "python.jediEnabled": false,
   "python.linting.pylintEnabled": true,
