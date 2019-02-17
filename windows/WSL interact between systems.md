@@ -28,6 +28,18 @@ sudo chmod 755 -R ./docker-simple-ex-1
 cd docker-simple-ex-1
 ```
 
+```
+loggar@DT-Charly:~/_workspace$ ls
+work_ex_1
+loggar@DT-Charly:~/_workspace$ sudo chmod 755 -R ./work_ex_1
+[sudo] password for loggar:
+loggar@DT-Charly:~/_workspace$ ls -la ./work_ex_1
+total 0
+drwxr-xr-x 1 loggar loggar 512 Feb  4 10:53  .
+drwxrwxrwx 1 loggar loggar 512 Feb  4 10:53  ..
+-rwxr-xr-x 1 loggar loggar   5 Feb 18 10:23 'wsl file permission test.txt'
+```
+
 ### WSL bash
 
 In windows Command prompt (or PowerShell prompt or any other terminal), WSL bash can be accessed with `current path`.
