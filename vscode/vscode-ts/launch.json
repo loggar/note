@@ -4,14 +4,15 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program .ts",
+      "name": "Launch Program .ts out",
       "program": "${fileDirname}/${fileBasenameNoExtension}.js"
     },
     {
       "type": "node",
-      "request": "attach",
-      "name": "Attach to Process",
-      "port": 5858
+      "request": "launch",
+      "name": "ts-node .ts",
+      "runtimeArgs": ["-r", "ts-node/register"],
+      "args": ["${file}"]
     }
   ]
 }

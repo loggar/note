@@ -4,22 +4,18 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "type": "typescript",
-      "tsconfig": "tsconfig.json",
-      "problemMatcher": ["$tsc"],
+      "label": "tsc:single-ts-file",
+      "type": "shell",
+      "command": "tsc",
+      "args": [
+        "${file}",
+        "--out",
+        "${fileDirname}/${fileBasenameNoExtension}.js"
+      ],
       "group": {
         "kind": "build",
         "isDefault": true
       }
-    },
-    {
-      "label": "ts-node",
-      "type": "shell",
-      "group": "none",
-      "isBackground": true,
-      "command": "npx",
-      "args": ["ts-node", "${file}"],
-      "problemMatcher": ["$tsc"]
     }
   ]
 }
