@@ -24,6 +24,12 @@ C:\_dev\python\Python37-32\Scripts
 λ virtualenv .venv
 ```
 
+### make virtualenv for an workspace with different python version from system environment
+
+```
+virtualenv --python=C:\_dev\python\Python27\python.exe .venv
+```
+
 ### activate virtual env for the workspace
 
 ```
