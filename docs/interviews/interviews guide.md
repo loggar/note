@@ -22,7 +22,7 @@ I’ve personally seen many candidates for senior positions fail this test while
 Of course, you’ll need to know more than just FizzBuzz to survive your interviews. You also need to make sure that you know:
 
 - Basic data structures and algorithms: such as linked lists, arrays, trees and sorts.
-- Common “gotchas” in your language of choice, such as whether strings are immutable, and how memory is managed.
+- Common `gotchas` in your language of choice, such as whether strings are immutable, and how memory is managed.
 - Object Oriented Programming concepts like class versus object, and inheritance.
 
 At the beginning of your career, you’ll need to shine on these sorts of questions, since you don’t have the experiences to prove that you will be good at the job.

@@ -38,7 +38,7 @@ sudo apt-get install -y docker-ce
 sudo usermod -aG docker $USER
 ```
 
-At this point you must close your terminal and open a new one so that you can run Docker without sudo. You might as well do it now!
+At this point you must close your terminal and open a new one so that you can run Docker without `sudo`. You might as well do it now!
 
 ## Install Docker Compose
 

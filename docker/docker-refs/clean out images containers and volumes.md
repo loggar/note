@@ -86,7 +86,7 @@ alias docker-clean-unused='docker system prune --all --force --volumes'
 alias docker-clean-all='docker stop $(docker container ls -a -q) && docker system prune -a -f --volumes'
 ```
 
-To set them to load up when you run your shell, add them to your shell’s rc file.
+To set them to load up when you run your shell, add them to your shell’s `rc` file.
 
 ```
 echo [ALIASES...] \
@@ -108,7 +108,7 @@ alias docker-clean-all='docker container stop $(docker container ls -a -q) && do
 >> ~/.bashrc && source ~/.bashrc
 ```
 
-The full command for Zsh:
+The full command for `Zsh`:
 
 ```
 echo "alias docker-clean-unused='docker system prune --all --force --volumes'

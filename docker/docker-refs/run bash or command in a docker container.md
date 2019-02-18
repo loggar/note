@@ -2,7 +2,7 @@
 
 # Docker
 
-Assuming you know the name of your container, or if you don’t run docker ps to list the processes running and copy the container name…
+Assuming you know the name of your container, or if you don’t run `docker ps` to list the processes running and copy the container name…
 
 Use either docker run or use docker exec with the -i (interactive) flag to keep stdin open and -t to allocate a terminal.
 

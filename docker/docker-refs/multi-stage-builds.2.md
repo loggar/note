@@ -38,15 +38,15 @@ EXPOSE 80
 
 As you can see, this Dockerfile has 2 "FROM" instructions. Each of them represents a stage in a Multi-stage build.
 
-In the first stage, I install all the necessary tools to build a Jekyll application like ruby and bundler and yarn for frontend dependencies required by this specefic site.
+In the first stage, I install all the necessary tools to build a Jekyll application like ruby and bundler and yarn for frontend dependencies required by this specific site.
 
-The final result of this stage is a folder called "\_site" with a bunch of HTML, Javascript and CSS. In production I just want to serve this static content, and I dont need all the ruby dependencies needed for building the site in the final image, so I create a new stage based on nginx-alpine image and I just copy the generated site contents from the build stage into it.
+The final result of this stage is a folder called "\_site" with a bunch of HTML, Javascript and CSS. In production I just want to serve this static content, and I don't need all the ruby dependencies needed for building the site in the final image, so I create a new stage based on nginx-alpine image and I just copy the generated site contents from the build stage into it.
 
 If I build the image now, the final image will just have the generated site.
 
-This is great for production use, but during development I dont want to have to build the site everytime I do a change, and want to have nice things like "hot-reload" and "on the fly" assets compilation.
+This is great for production use, but during development I don't want to have to build the site every time I do a change, and want to have nice things like "hot-reload" and "on the fly" assets compilation.
 
-Thats where the "target" flag enters in action. This flag allows you to specify in which stage do you want your build to stop. so if you specify:
+That's where the "target" flag enters in action. This flag allows you to specify in which stage do you want your build to stop. so if you specify:
 
 ```
 $ docker build . --target=build-env

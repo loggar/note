@@ -2,7 +2,7 @@
 
 ### Get set up
 
-* Install Docker ToolBax (windows 10)
+* Install Docker ToolBox (windows 10)
 
 https://docs.docker.com/toolbox/toolbox_install_windows/
 

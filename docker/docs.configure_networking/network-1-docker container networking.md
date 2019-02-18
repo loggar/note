@@ -244,7 +244,7 @@ $ docker network inspect isolated_nw
 ]
 ```
 
-* The docker_gwbridge network
+* The `docker_gwbridge` network
 ```
 $ docker network create --subnet 172.30.0.0/16 \
 > --opt com.docker.network.bridge.name=docker_gwbridge \
@@ -309,5 +309,5 @@ b9788c7adca3        nginx               "nginx -g 'daemon ..."   43 hours ago   
   }
 }
 ```
-1. On the Docker client, create or edit the file ~/.config.json in the home directory of the user which starts containers.
+1. On the Docker client, create or edit the file `~/.config.json` in the home directory of the user which starts containers.
 2. When you create or start new containers, the environment variables will be set automatically within the container.

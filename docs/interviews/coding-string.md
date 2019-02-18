@@ -20,7 +20,7 @@
 
 ## How to replace each given character to other, e.g. blank with %20?
 
-## How to find all permutataions of String?
+## How to find all permutations of String?
 
 ## How to reverse words in a sentence without using library method?
 
@@ -28,7 +28,7 @@
 
 ## How to remove duplicate characters from String?
 
-## How to check if a String is valid shuffe of two String?
+## How to check if a String is valid shuffle of two String?
 
 ## Write a program to check if a String contains another String (indexOf()).
 

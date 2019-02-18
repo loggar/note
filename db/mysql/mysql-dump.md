@@ -1,12 +1,12 @@
-# mysqump
+# mysqldump
 
-Dump "elearning" database
+Dump `elearning` database
 
 ```
 mysqldump -u root -p  elearning > elearning_data.sql
 ```
 
-Following command will take backup of entire database including stored procedures. For example your database name is “mydb”.
+Following command will take backup of entire database including stored procedures. For example your database name is `mydb`.
 
 ```
 mysqldump -u root -p --routines mydb > mydb.sql

@@ -27,7 +27,7 @@ The last thing we need to do is set things up so that volume mounts work. This t
 
 When using WSL, Docker for Windows expects you to supply your volume paths in a format that matches this: `/c/Users/nick/dev/myapp`.
 
-But, WSL doesn’t work like that. Instead, it uses the `/mnt/c/Users/nick/dev/myapp` format. Honestly I think Docker should change their path to use /mnt/c because it’s more clear on what’s going on, but that’s a discussion for another time.
+But, WSL doesn’t work like that. Instead, it uses the `/mnt/c/Users/nick/dev/myapp` format. Honestly I think Docker should change their path to use `/mnt/c` because it’s more clear on what’s going on, but that’s a discussion for another time.
 
 To get things to work for now, you have 2 options. If you’re running Windows 18.03 (Spring 2018) or newer you can configure WSL to mount at `/` instead of `/mnt` and you’re all done. If you’re running 17.09 (Fall 2017) you’ll need to do something else.
 
@@ -59,7 +59,7 @@ Once you make those changes, sign out and sign back in to Windows to ensure the 
 
 ### If you get an error the next time you start your WSL terminal don’t freak out.
 
-It’s a bug with 18.03 and you can easily fix it. Hit `CTRL + Shift + ECS` to open the task manager, goto the “Services” tab, find the “LxssManager” service and restart it.
+It’s a bug with 18.03 and you can easily fix it. Hit `CTRL + Shift + ECS` to open the task manager, goto the “Services” tab, find the `LxssManager` service and restart it.
 
 This seems to only happen if you sign out of Windows instead of doing a full reboot and will likely be fixed in a future 18.03+ patch.
 

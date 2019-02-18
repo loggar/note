@@ -1,14 +1,14 @@
 # Dockerfile
 
-> Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. — OpenSource.com, What is Docker?
+> Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. — OpenSource.com, What is Docker?
 
 ## Dockerfile Commands
 
-* FROM — this initializes a new build stage and sets the Base Image for subsequent instructions. As such, a valid Dockerfile must start with a FROM instruction.
-* RUN — will execute any commands in a new layer on top of the current image and commit the results. The resulting committed image will be used for the next step in the Dockerfile.
-* ENV — sets the environment variable <key> to the value <value>. This value will be in the environment for all subsequent instructions in the build stage and can be replaced inline in many as well.
-* EXPOSE — informs Docker that the container listens on the specified network ports at runtime. You can specify whether the port listens on TCP or UDP, and the default is TCP if the protocol is not specified. This makes it possible for the host and the outside world to access the isolated Docker Container
-* VOLUME — creates a mount point with the specified name and marks it as holding externally mounted volumes from the native host or other containers.
+* FROM — this initializes a new build stage and sets the Base Image for subsequent instructions. As such, a valid Dockerfile must start with a FROM instruction.
+* RUN — will execute any commands in a new layer on top of the current image and commit the results. The resulting committed image will be used for the next step in the Dockerfile.
+* ENV — sets the environment variable <key> to the value <value>. This value will be in the environment for all subsequent instructions in the build stage and can be replaced inline in many as well.
+* EXPOSE — informs Docker that the container listens on the specified network ports at runtime. You can specify whether the port listens on TCP or UDP, and the default is TCP if the protocol is not specified. This makes it possible for the host and the outside world to access the isolated Docker Container
+* VOLUME — creates a mount point with the specified name and marks it as holding externally mounted volumes from the native host or other containers.
 
 ## Dockerfile Examples
 

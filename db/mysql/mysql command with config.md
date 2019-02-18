@@ -14,7 +14,7 @@ Warning: Using a password on the command line interface can be insecure.
 
 ## solve
 
-configure userinfo config file
+configure user info config file
 
 for example, `config.cnf`
 

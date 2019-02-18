@@ -10,5 +10,5 @@
 
 ### JavaScript and CSS Code Beautifier
 
-* Web Developer
-* ColorZilla
+* `Web Developer`
+* `ColorZilla`

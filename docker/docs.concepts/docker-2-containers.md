@@ -1,7 +1,7 @@
 # Docker Tutorial
 ## Containers
 
-### Builid docker image
+### Build docker image
 
 * Start Docker ToolBox (Windows 10)
 ```
