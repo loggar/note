@@ -1,7 +1,7 @@
 {
   "python.pythonPath": ".venv\\Scripts\\python.exe",
   "python.linting.pylintArgs": [],
-  "python.analysis.disabled": ["unresolved-import"],
+  "python.analysis.disabled": ["unresolved-import", "use-before-def"],
   "editor.detectIndentation": false,
   "python.jediEnabled": false,
   "python.linting.pylintEnabled": true,

@@ -19,28 +19,3 @@ pip 10.0.1 from c:\_dev\python\python37-32\lib\site-packages\pip (python 3.7)
 python -m pip install --upgrade pip
 ```
 
-## pip list
-
-```
-$ pip search "query"
-
-$ pip show package-name
-
-$ pip list
-
-$ pip list --outdated
-```
-
-## pip install
-
-```
-$ pip install package-name
-
-$ pip install package-name==1.0.0
-
-$ pip install package-name --upgrade
-
-$ pip install package-name --upgrade --force-reinstall
-
-$ pip uninstall package-name
-```

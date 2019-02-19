@@ -61,15 +61,10 @@ or, with requirements file:
 `requirements.txt`
 
 ```
-Flask==0.12.3
-click==6.7
-gunicorn==19.7.1
-itsdangerous==0.24
-Jinja2==2.9.6
-MarkupSafe==1.0
-pytz==2017.2
-requests==2.13.0
-Werkzeug==0.12.1
+jupyter==1.0.0
+pytest==4.2.0
+pylint==2.2.2
+autopep8==1.4.3
 ```
 
 ```
