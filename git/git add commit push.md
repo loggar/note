@@ -28,6 +28,12 @@ Also you can use the default commit command to make a more elaborated commit mes
 git commit
 ```
 
+git commit with user id
+
+```
+git commit --author="Name <email>" -m "whatever"
+```
+
 The latter command will open up your default command line editor. Usually, the default command line editor is vim. In vim you would type your commit message. Afterward, you can save and exit vim by using :wq which stands for write and quit. Most of the time, you will use the shortcut commit though. It is fast and often an inlined commit message is sufficient.
 
 Now, before you get to the third step, multiple commits can accumulate in your local repository. Eventually, in the third step, you would push all the commits in one command to the remote repository.
