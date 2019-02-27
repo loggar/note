@@ -2,7 +2,7 @@
 
 ## launch
 
-`settings.json`
+`launch.json`
 ```json
 {
   "version": "0.2.0",
@@ -37,4 +37,14 @@ pip install pytest-env
 [pytest]
 env =
     PYTHONDONTWRITEBYTECODE=1
+```
+
+`settings.json`
+```json
+{
+ "python.unitTest.unittestEnabled": true,
+  "python.unitTest.pyTestEnabled": true,
+  "python.unitTest.pyTestPath": ".venv\\Scripts\\pytest.exe",
+  "python.unitTest.pyTestArgs": ["-c", "pytest.ini"]
+}
 ```

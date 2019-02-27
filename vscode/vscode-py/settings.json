@@ -8,5 +8,7 @@
   "python.jediEnabled": false,
   "python.linting.pylintEnabled": true,
   "python.unitTest.unittestEnabled": true,
-  "python.unitTest.pyTestEnabled": true
+  "python.unitTest.pyTestEnabled": true,
+  "python.unitTest.pyTestPath": ".venv\\Scripts\\pytest.exe",
+  "python.unitTest.pyTestArgs": ["-c", "pytest.ini"]
 }
