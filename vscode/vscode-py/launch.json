@@ -12,10 +12,8 @@
       "pythonPath": "${config:python.pythonPath}",
       "program": "${file}",
       "cwd": "${workspaceFolder}",
-      "envFile": "${workspaceFolder}/.env",
-      "env": {
-        "PYTHONDONTWRITEBYTECODE": "True"
-      }
+      "envFile": "${workspaceFolder}/py.dev.env",
+      "env": {}
     }
   ]
 }

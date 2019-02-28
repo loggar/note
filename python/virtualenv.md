@@ -33,8 +33,11 @@ virtualenv --python=C:\_dev\python\Python27\python.exe .venv
 ### activate virtual env for the workspace
 
 ```
-# Windows
+# Windows cmd
 λ .venv\Scripts\activate
+
+# Windows powershell
+$ .venv\Scripts\Activate.ps1
 
 (.venv) λ where python
 C:\Users\webnl\Documents\_workspace\loggar-py\.venv\Scripts\python.exe
