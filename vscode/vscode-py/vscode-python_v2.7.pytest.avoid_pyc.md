@@ -15,13 +15,20 @@
       "pythonPath": "${config:python.pythonPath}",
       "program": "${file}",
       "cwd": "${fileDirname}",
-      "envFile": "${workspaceFolder}/.env",
+      "envFile": "${workspaceFolder}/py.dev.env",
       "env": {
         "PYTHONDONTWRITEBYTECODE": "True"
       }
     }
   ]
 }
+```
+
+or in `py.dev.env` file
+```
+[pytest]
+env =
+    PYTHONDONTWRITEBYTECODE=True
 ```
 
 ## pytest
