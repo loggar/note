@@ -7,7 +7,7 @@
       "name": "PowerShell Launch (current file)",
       "script": "${file}",
       "args": [],
-      "cwd": "${file}"
+      "cwd": "${workspaceRoot}"
     },
     {
       "type": "PowerShell",

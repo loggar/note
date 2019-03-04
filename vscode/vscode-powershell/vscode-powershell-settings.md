@@ -45,3 +45,12 @@ And recommendations
   "files.trimTrailingWhitespace": true
 }
 ```
+
+If you don't want these settings to affect all files types, VSCode also allows per-language configurations. Create a language specific setting by putting settings in a [`<language-name>`] field. For example:
+
+```json
+"[powershell]": {
+    "files.encoding": "utf8bom",
+    "files.autoGuessEncoding": true
+}
+```
