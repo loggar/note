@@ -8,6 +8,7 @@
 
 ## Select and activate an environment
 
+`settings.json`
 ```json
 "python.disableInstallationCheck": true
 ```
