@@ -3,6 +3,7 @@
 ## launch
 
 `launch.json`
+
 ```json
 {
   "version": "0.2.0",
@@ -25,10 +26,12 @@
 ```
 
 or in `py.dev.env` file
+
 ```
-[pytest]
-env =
-    PYTHONDONTWRITEBYTECODE=True
+# dev.env - development configuration
+
+# python cache
+PYTHONDONTWRITEBYTECODE=1
 ```
 
 ## pytest
@@ -40,6 +43,7 @@ pip install pytest-env
 ```
 
 `pytest.ini`
+
 ```
 [pytest]
 env =
@@ -47,11 +51,18 @@ env =
 ```
 
 `settings.json`
+
 ```json
 {
- "python.unitTest.unittestEnabled": true,
+  "python.unitTest.unittestEnabled": true,
   "python.unitTest.pyTestEnabled": true,
   "python.unitTest.pyTestPath": ".venv\\Scripts\\pytest.exe",
   "python.unitTest.pyTestArgs": ["-c", "pytest.ini"]
 }
+```
+
+PowerShell
+
+```
+$Env:PYTHONDONTWRITEBYTECODE=1
 ```
