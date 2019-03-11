@@ -12,5 +12,11 @@
   "python.unitTest.unittestEnabled": true,
   "python.unitTest.pyTestEnabled": true,
   "python.unitTest.pyTestPath": ".venv\\Scripts\\pytest.exe",
-  "python.unitTest.pyTestArgs": ["-v", "-c", "pytest.ini"]
+  "python.unitTest.pyTestArgs": ["-v", "-c", "pytest.ini"],
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  }
 }
