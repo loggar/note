@@ -1,3 +1,5 @@
+# git branch
+
 ## Branching
 
 Git Branches are used for multiple use cases. Imagine you are working on a new feature for your project. You want to open a new branch for it to track the changes independently from the whole project, to be more specific: independently from the master branch. Before you merge the branch into your master branch, you (or others) can review the changes.
@@ -31,4 +33,20 @@ Now you can start to adjust the code, `git add .` and `git commit` them, and pus
 
 ```
 git push origin <branch>
+```
+
+## create new branch
+
+```sh
+git checkout -b "newer-branch"
+```
+
+```sh
+git add .
+
+git commit -m "add a detailed description"
+```
+
+```sh
+git push --set-upstream origin newer-branch
 ```
