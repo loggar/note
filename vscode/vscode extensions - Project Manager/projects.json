@@ -1,0 +1,114 @@
+[
+  {
+    "name": "_lang.en",
+    "rootPath": "$home\\Documents\\_workspace\\loggar-eng",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "_lessons.js",
+    "rootPath": "$home\\Documents\\_lessons\\lessons-js",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "_eco.server-ecosystem-dev",
+    "rootPath": "$home\\Documents\\_server-ecosystem\\server-ecosystem-dev",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "_eco.class-enroll-status",
+    "rootPath": "$home\\Documents\\_server-ecosystem\\class-enroll-status",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "_eco._library",
+    "rootPath": "$home\\Documents\\_server-ecosystem\\_library",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "_eco.excel-prisms-update",
+    "rootPath": "$home\\Documents\\_server-ecosystem\\excel-prisms-update",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "_eco.job-schedulers",
+    "rootPath": "$home\\Documents\\_server-ecosystem\\job-schedulers",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "_work.note",
+    "rootPath": "$home\\Documents\\_workspace\\loggar-note",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "_work.c",
+    "rootPath": "$home\\Documents\\_workspace\\loggar-c",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "_work.py",
+    "rootPath": "$home\\Documents\\_workspace\\loggar-py",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "_work.py2",
+    "rootPath": "$home\\Documents\\_workspace\\loggar-py2",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "_work.sh",
+    "rootPath": "$home\\Documents\\_workspace\\loggar-sh",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "js.js",
+    "rootPath": "$home\\Documents\\_workspace_js\\loggar-js",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "js.front",
+    "rootPath": "$home\\Documents\\_workspace_js\\loggar-js-front",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "js.node",
+    "rootPath": "$home\\Documents\\_workspace_js\\loggar-node",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "js.vue",
+    "rootPath": "$home\\Documents\\_workspace_js\\loggar-vue",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  }
+]
