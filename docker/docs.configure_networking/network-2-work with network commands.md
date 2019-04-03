@@ -14,7 +14,8 @@ fef9b7bade1a        docker_gwbridge     bridge              local
 3d57e8ebb6db        none                null                local
 ```
 
-* Create default networks (bridge)
+- Create default networks (bridge)
+
 ```
 $ docker network create simple-network
 698dc28706da53cd1558572550a8f0578095fc52bae1b52bde9322fcc820c87c
@@ -54,7 +55,8 @@ $ docker network inspect simple-network
 ]
 ```
 
-* Create overlay networks with options
+- Create overlay networks with options
+
 ```
 $ docker swarm init --advertise-addr $(docker-machine ip default)
 Swarm initialized: current node (j17ya4oo3xbgkuxz2gyjm8jg7) is now a manager.
@@ -82,7 +84,7 @@ im0ogc3j3ebj        my-multihost-network   overlay             swarm
 698dc28706da        simple-network         bridge              local
 ```
 
->The following example uses -o to bind to a specific IP address available on the host when binding ports, then uses docker network inspect to inspect the network, and finally attaches a new container to the new network. Note that you should replace the IP address 172.23.0.1 shown in the example with an IP address available on a network interface in your host.
+> The following example uses -o to bind to a specific IP address available on the host when binding ports, then uses docker network inspect to inspect the network, and finally attaches a new container to the new network. Note that you should replace the IP address 172.23.0.1 shown in the example with an IP address available on a network interface in your host.
 
 ```
 $ docker network create -o "com.docker.network.bridge.host_binding_ipv4"="172.23.0.1" my-network

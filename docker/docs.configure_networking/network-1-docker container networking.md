@@ -1,4 +1,5 @@
 # Docker - Configure networking
+
 ## Docker container networking
 
 ### Default networks
@@ -11,7 +12,8 @@ NETWORK ID          NAME                DRIVER              SCOPE
 3d57e8ebb6db        none                null                local
 ```
 
-* The default bridge network
+- The default bridge network
+
 ```
 $ docker network inspect bridge
 [
@@ -52,6 +54,7 @@ $ docker network inspect bridge
     }
 ]
 ```
+
 ```
 $ docker run -itd --name=container1 busybox
 Unable to find image 'busybox:latest' locally
@@ -61,10 +64,12 @@ Digest: sha256:bbc3a03235220b170ba48a157dd097dd1379299370e1ed99ce976df0355d24f0
 Status: Downloaded newer image for busybox:latest
 314c3d788968bba736b8aec3a971fd04d04cc03058ebef047d7e56720a7889b5
 ```
+
 ```
 $ docker run -itd --name=container2 busybox
 942cba2922db682238a977b4aee432ac0de8bc7b51d13c1125e78196a9c7bf48
 ```
+
 ```
 $ docker network inspect bridge
 [
@@ -120,6 +125,7 @@ $ docker network inspect bridge
     }
 ]
 ```
+
 ```
 $ docker attach container1
 / # ip -4 addr
@@ -152,11 +158,13 @@ ff02::2 ip6-allrouters
 
 ### User-defined networks
 
-* Bridge networks
+- Bridge networks
+
 ```
 $ docker network create --driver bridge isolated_nw
 2c5faeaea6fc761c6c1a736ad1effc3a0b11804a20eca5c7f1c79cdbdf931c88
 ```
+
 ```
 $ docker network inspect isolated_nw
 [
@@ -190,6 +198,7 @@ $ docker network inspect isolated_nw
     }
 ]
 ```
+
 ```
 $ docker network ls
 NETWORK ID          NAME                DRIVER              SCOPE
@@ -198,10 +207,12 @@ NETWORK ID          NAME                DRIVER              SCOPE
 2c5faeaea6fc        isolated_nw         bridge              local
 3d57e8ebb6db        none                null                local
 ```
+
 ```
 $ docker run --network=isolated_nw -itd --name=container3 busybox
 d5d509a2cd354db04453ffb66b1b08f583fa678490b08f8d6f1736ab128600c3
 ```
+
 ```
 $ docker network inspect isolated_nw
 [
@@ -244,7 +255,8 @@ $ docker network inspect isolated_nw
 ]
 ```
 
-* The `docker_gwbridge` network
+- The `docker_gwbridge` network
+
 ```
 $ docker network create --subnet 172.30.0.0/16 \
 > --opt com.docker.network.bridge.name=docker_gwbridge \
@@ -261,7 +273,8 @@ fef9b7bade1a        docker_gwbridge     bridge              local
 3d57e8ebb6db        none                null                local
 ```
 
-* Overlay networks in swarm mode
+- Overlay networks in swarm mode
+
 ```
 $ docker network create \
   --driver overlay \
@@ -273,7 +286,8 @@ $ docker service create --replicas 2 --network my-multi-host-network --name my-w
 716thylsndqma81j6kkkb5aus
 ```
 
-* Custom network plugins
+- Custom network plugins
+
 ```
 $ docker network create --driver weave mynet
 ```
@@ -286,6 +300,7 @@ $ docker run -it -d -p 80 nginx
 $ docker ps
 64879472feea        nginx               "nginx -g 'daemon ..."   43 hours ago        Up About a minute   443/tcp, 0.0.0.0:32768->80/tcp   blissful_mclean
 ```
+
 ```
 $ docker run -it -d -p 8080:80 nginx
 
@@ -295,7 +310,7 @@ b9788c7adca3        nginx               "nginx -g 'daemon ..."   43 hours ago   
 
 ### Use a proxy server with containers
 
-* Configure the Docker Client
+- Configure the Docker Client
 
 ```
 {
@@ -309,5 +324,6 @@ b9788c7adca3        nginx               "nginx -g 'daemon ..."   43 hours ago   
   }
 }
 ```
+
 1. On the Docker client, create or edit the file `~/.config.json` in the home directory of the user which starts containers.
 2. When you create or start new containers, the environment variables will be set automatically within the container.
