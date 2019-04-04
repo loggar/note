@@ -31,7 +31,7 @@ more flexible than class inheritance.
 Good to hear:
 
 - Classes: create tight coupling or hierarchies/taxonomies.
-- Prototypes: mentions of concatenative inheritance, prototype delegation, functional inheritance, object composition.
+- Prototypes: mentions of concatenated inheritance, prototype delegation, functional inheritance, object composition.
 
 ## What are the pros and cons of functional programming vs object-oriented programming?
 
@@ -41,7 +41,7 @@ Good to hear:
 
 **FP Pros:** Using the functional paradigm, programmers avoid any shared state or side-effects, which eliminates bugs caused by multiple functions competing for the same resources. With features such as the availability of point-free style (aka tacit programming), functions tend to be radically simplified and easily recomposed for more generally reusable code compared to OOP.
 
-FP also tends to favor declarative and denotational styles, which do not spell out step-by-step instructions for operations, but instead concentrate on what to do, letting the underlying functions take care of the how. This leaves tremendous latitude for refactoring and performance optimization, even allowing you to replace entire algorithms with more efficient ones with very little code change. (e.g., memoize, or use lazy evaluation in place of eager evaluation.)
+FP also tends to favor declarative and de-notational styles, which do not spell out step-by-step instructions for operations, but instead concentrate on what to do, letting the underlying functions take care of the how. This leaves tremendous latitude for refactoring and performance optimization, even allowing you to replace entire algorithms with more efficient ones with very little code change. (e.g., memoize, or use lazy evaluation in place of eager evaluation.)
 
 Computation that makes use of pure functions is also easy to scale across multiple processors, or across distributed computing clusters without fear of threading resource conflicts, race conditions, etc…
 
@@ -54,7 +54,7 @@ FP has a much steeper learning curve than OOP because the broad popularity of OO
 Good to hear:
 
 - Mentions of trouble with shared state, different things competing for the same resources, etc…
-- Awareness of FP’s capability to radically simplify many applications.
+- Awareness of FP 's capability to radically simplify many applications.
 - Awareness of the differences in learning curves.
 - Articulation of side-effects and how they impact program maintainability.
 - Awareness that a highly functional codebase can have a steep learning curve.
