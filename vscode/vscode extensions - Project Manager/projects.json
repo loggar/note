@@ -105,6 +105,13 @@
     "enabled": true
   },
   {
+    "name": "js.react",
+    "rootPath": "$home\\Documents\\_workspace_js\\loggar-react",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
     "name": "js.vue",
     "rootPath": "$home\\Documents\\_workspace_js\\loggar-vue",
     "paths": [],

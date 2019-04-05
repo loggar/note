@@ -1,0 +1,15 @@
+{
+  "version": "0.1",
+  "language": "en",
+  "words": [],
+  "flagWords": [],
+  "ignoreWords": [],
+  "dictionaries": [],
+  "languageSettings": [
+    {
+      "languageId": "markdown",
+      "enabled": true,
+      "dictionaries": []
+    }
+  ]
+}
