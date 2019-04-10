@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch via babel-node",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/babel-node",
+      "runtimeArgs": ["--presets", "@babel/preset-env"],
+      "program": "${file}",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
