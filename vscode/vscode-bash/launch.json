@@ -4,10 +4,10 @@
     {
       "type": "bashdb",
       "request": "launch",
-      "name": "Bash-Debug (hardcoded script name)",
-      "cwd": "${workspaceFolder}",
+      "name": "Bash-Debug (simplest configuration)",
       "program": "${file}",
-      "args": []
+      "showDebugOutput": true,
+      "terminalKind": "integrated"
     }
   ]
 }
