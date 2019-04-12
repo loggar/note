@@ -31,3 +31,15 @@ Theme List
 ```
 OSH_THEME="powerline-plain"
 ```
+
+## update
+
+```
+upgrade_oh_my_bash
+```
+
+## uninstall
+
+```
+uninstall_oh_my_bash
+```
