@@ -9,10 +9,10 @@
   "editor.detectIndentation": false,
   "python.jediEnabled": false,
   "python.linting.pylintEnabled": true,
-  "python.unitTest.unittestEnabled": true,
-  "python.unitTest.pyTestEnabled": true,
-  "python.unitTest.pyTestPath": ".venv\\Scripts\\pytest.exe",
-  "python.unitTest.pyTestArgs": ["-v", "-c", "pytest.ini"],
+  "python.testing.unittestEnabled": true,
+  "python.testing.pyTestEnabled": true,
+  "python.testing.pyTestPath": ".venv\\Scripts\\pytest.exe",
+  "python.testing.pyTestArgs": ["-v", "-c", "pytest.ini"],
   "[javascript]": {
     "editor.tabSize": 2
   },
