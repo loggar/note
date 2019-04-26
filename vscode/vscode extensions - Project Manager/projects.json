@@ -1,19 +1,5 @@
 [
   {
-    "name": "_lang.en",
-    "rootPath": "$home\\Documents\\_workspace\\loggar-eng",
-    "paths": [],
-    "group": "",
-    "enabled": true
-  },
-  {
-    "name": "_lessons.js",
-    "rootPath": "$home\\Documents\\_lessons\\lessons-js",
-    "paths": [],
-    "group": "",
-    "enabled": true
-  },
-  {
     "name": "_eco.server-ecosystem-dev",
     "rootPath": "$home\\Documents\\_server-ecosystem\\server-ecosystem-dev",
     "paths": [],
@@ -49,35 +35,14 @@
     "enabled": true
   },
   {
-    "name": "_work.note",
-    "rootPath": "$home\\Documents\\_workspace\\loggar-note",
+    "name": "_lessons.js",
+    "rootPath": "$home\\Documents\\_lessons\\lessons-js",
     "paths": [],
     "group": "",
     "enabled": true
   },
   {
-    "name": "_work.c",
-    "rootPath": "$home\\Documents\\_workspace\\loggar-c",
-    "paths": [],
-    "group": "",
-    "enabled": true
-  },
-  {
-    "name": "_work.py",
-    "rootPath": "$home\\Documents\\_workspace\\loggar-py",
-    "paths": [],
-    "group": "",
-    "enabled": true
-  },
-  {
-    "name": "_work.py2",
-    "rootPath": "$home\\Documents\\_workspace\\loggar-py2",
-    "paths": [],
-    "group": "",
-    "enabled": true
-  },
-  {
-    "name": "_work.sh",
+    "name": "work.sh",
     "rootPath": "$home\\Documents\\_workspace\\loggar-sh",
     "paths": [],
     "group": "",
@@ -98,6 +63,13 @@
     "enabled": true
   },
   {
+    "name": "js.ng",
+    "rootPath": "$home\\Documents\\_workspace_js\\loggar-ng",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
     "name": "js.node",
     "rootPath": "$home\\Documents\\_workspace_js\\loggar-node",
     "paths": [],
@@ -112,8 +84,71 @@
     "enabled": true
   },
   {
+    "name": "js.ts",
+    "rootPath": "$home\\Documents\\_workspace_js\\loggar-ts",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
     "name": "js.vue",
     "rootPath": "$home\\Documents\\_workspace_js\\loggar-vue",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "work.en",
+    "rootPath": "$home\\Documents\\_workspace\\loggar-eng",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "work.note",
+    "rootPath": "$home\\Documents\\_workspace\\loggar-note",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "work.c",
+    "rootPath": "$home\\Documents\\_workspace\\loggar-c",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "work.cpp",
+    "rootPath": "$home\\Documents\\_workspace\\loggar-gpp",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "work.go",
+    "rootPath": "$home\\Documents\\_workspace_go\\src\\github.com\\loggar\\go",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "work.py",
+    "rootPath": "$home\\Documents\\_workspace\\loggar-py",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "work.py2",
+    "rootPath": "$home\\Documents\\_workspace\\loggar-py2",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "workspace_tmp",
+    "rootPath": "$home\\Documents\\_workspace_tmp",
     "paths": [],
     "group": "",
     "enabled": true
