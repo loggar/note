@@ -26,6 +26,12 @@ set
 set PATH=%PATH%;C:/newPath
 ```
 
+```
+set PY_ENV=development
+
+echo %PY_ENV%
+```
+
 unset
 
 ```
@@ -44,4 +50,10 @@ $Env:<variable-name> += "<new-value>"
 $Env:path += ";c:\temp"
 
 Set-Item -Path Env:Path -Value ($Env:Path + ";C:\Temp")
+```
+
+```
+$env:PY_ENV = "development"
+
+$Env:PY_ENV
 ```
