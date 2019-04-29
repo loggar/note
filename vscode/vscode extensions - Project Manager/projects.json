@@ -35,8 +35,22 @@
     "enabled": true
   },
   {
+    "name": "_eco.post-code-aus",
+    "rootPath": "$home\\Documents\\_server-ecosystem\\post-search-auspost",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
     "name": "_lessons.js",
     "rootPath": "$home\\Documents\\_lessons\\lessons-js",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "_lessons.py",
+    "rootPath": "$home\\Documents\\_lessons\\lessons-py",
     "paths": [],
     "group": "",
     "enabled": true
