@@ -60,6 +60,8 @@ The best way to get started with this feature is to open your Linux files in Fil
 explorer.exe .
 ```
 
+
+
 ### In command line
 
 WSL is primarily a command line tool, and so of course this feature also works in the command line. You can find your distro’s files by accessing `\\wsl$\{distro name}\` where `{distro name}` is the name of a running distro. Here’s what it looks like to access Debian with PowerShell.

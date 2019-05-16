@@ -7,4 +7,3 @@ netstat -an
 
 netstat -an | grep LISTEN
 ```
-
