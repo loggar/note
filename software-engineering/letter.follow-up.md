@@ -1,4 +1,16 @@
+
+
 # letter, follow-up
+
+## accept an interview 
+
+Hi Jill,
+
+Thanks for the invitation to interview. I look forward to meeting with you tomorrow (TUESDAY) at 4 PM in your Kent office.
+
+Regards,
+
+## after an interview
 
 ```
 Subject line: Thank you for the opportunity, [Hiring Manager’s Name]!
@@ -14,3 +26,4 @@ Best,
 
 [Your sign-off]
 ```
+
