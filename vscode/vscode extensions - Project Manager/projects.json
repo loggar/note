@@ -56,6 +56,13 @@
     "enabled": true
   },
   {
+    "name": "_lessons.java",
+    "rootPath": "$home\\Documents\\_lessons\\lessons-java",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
     "name": "work.sh",
     "rootPath": "$home\\Documents\\_workspace\\loggar-sh",
     "paths": [],
