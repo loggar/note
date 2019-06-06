@@ -35,6 +35,13 @@
     "enabled": true
   },
   {
+    "name": "_sims.timesheet",
+    "rootPath": "$home\\Documents\\_server-ecosystem\\TIMESHEET-SIMS",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
     "name": "_eco.post-code-aus",
     "rootPath": "$home\\Documents\\_server-ecosystem\\post-search-auspost",
     "paths": [],
