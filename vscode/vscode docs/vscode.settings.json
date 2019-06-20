@@ -1,0 +1,54 @@
+
+{
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.enabled": true,
+  "cSpell.enabledLanguageIds": ["markdown"],
+  "cSpell.language": "en,en-GB",
+  "cSpell.showStatus": true,
+  "debug.node.autoAttach": "on",
+  "editor.detectIndentation": false,
+  "editor.minimap.maxColumn": 200,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.renderWhitespace": "all",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": false,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "html.format.wrapLineLength": 256,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "prettier.printWidth": 256,
+  "sync.askGistName": false,
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.forceDownload": false,
+  "sync.gist": "f58ccf8f326c8c449bf518384eef8a73",
+  "sync.quietSync": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Visual Studio Light",
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.startupEditor": "welcomePage",
+  "workbench.statusBar.feedback.visible": false
+}
