@@ -5,6 +5,7 @@
 VSCode sends data to Microsoft about it's usage
 
 ```
+"telemetry.enableCrashReporter": false,
 "telemetry.enableTelemetry": false
 ```
 
