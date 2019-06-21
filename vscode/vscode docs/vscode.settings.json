@@ -1,4 +1,3 @@
-
 {
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -33,11 +32,24 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "extensions.ignoreRecommendations": false,
+  "files.exclude": {
+    "**/.git": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true
+  },
   "git.autofetch": true,
   "git.confirmSync": false,
   "html.format.wrapLineLength": 256,
   "liveServer.settings.donotShowInfoMsg": true,
   "prettier.printWidth": 256,
+  "search.exclude": {
+    "**/bower_components": true,
+    "**/node_modules": true,
+    "**/venv": true
+  },
   "sync.askGistName": false,
   "sync.autoDownload": false,
   "sync.autoUpload": false,
@@ -46,6 +58,7 @@
   "sync.quietSync": false,
   "sync.removeExtensions": true,
   "sync.syncExtensions": true,
+  "telemetry.enableTelemetry": false,
   "window.zoomLevel": 0,
   "workbench.colorTheme": "Visual Studio Light",
   "workbench.settings.enableNaturalLanguageSearch": false,

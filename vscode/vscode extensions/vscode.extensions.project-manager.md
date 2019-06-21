@@ -1,3 +1,8 @@
+# vscode extensions: Project Manager
+
+`projects.json`
+
+```json
 [
   {
     "name": "_eco.server-ecosystem-dev",
@@ -182,3 +187,4 @@
     "enabled": true
   }
 ]
+```

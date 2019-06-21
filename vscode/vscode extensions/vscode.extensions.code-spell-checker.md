@@ -1,3 +1,8 @@
+# vscode extensions: Code Spell Checker
+
+`cSpell.json`
+
+```json
 {
   // Version of the setting file.  Always 0.1
   "version": "0.1",
@@ -24,3 +29,15 @@
     }
   ]
 }
+```
+
+`settings.json`
+
+```json
+{
+  "cSpell.enabled": true,
+  "cSpell.showStatus": true,
+  "cSpell.enabledLanguageIds": ["markdown"],
+  "cSpell.language": "en,en-GB"
+}
+```
