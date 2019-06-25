@@ -6,6 +6,12 @@
 $ winver
 ```
 
+Or,
+
+```
+Settings - System - About
+```
+
 ## windows 8 and belows
 
 ```sh
