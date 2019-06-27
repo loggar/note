@@ -1,9 +1,6 @@
-## Clean out your Docker images, containers and volumes
+# Clean out your Docker images, containers and volumes
 
-* https://medium.com/the-code-review/clean-out-your-docker-images-containers-and-volumes-with-single-commands-b8e38253c271
-
-
-### Just clean out unused data and processes
+## Just clean out unused data and processes
 
 ```
 docker system prune
@@ -34,7 +31,7 @@ docker volume prune       # Remove all unused volumes
 docker image prune        # Remove unused images
 ```
 
-### Destroy all for a complete Docker refresh
+## Destroy all for a complete Docker refresh
 
 ```
 docker container stop [CONTAINERS...]
@@ -68,15 +65,14 @@ docker container stop $(docker container ls -a -q) && docker system prune -a -f 
 
 Similarly, you now know how to combine docker commands to just remove one aspect if you prefer. Pass a list of all the IDs to the associated remove command.
 
-
-* Containers `docker container rm $(docker container ls -a -q)`
-* Images `docker image rm $(docker image ls -a -q)`
-* Volumes `docker volume rm $(docker volume ls -q)`
-* Networks `docker network rm $(docker network ls -q)`
+- Containers `docker container rm $(docker container ls -a -q)`
+- Images `docker image rm $(docker image ls -a -q)`
+- Volumes `docker volume rm $(docker volume ls -q)`
+- Networks `docker network rm $(docker network ls -q)`
 
 > NOTE: There are alternative methods for doing this, for example `docker ps` for listing running containers, and `docker rm` for removing containers. I have written it this way as I feel it is more memorable to use consistent command names and syntax across docker objects.
 
-### How to reuse them easily with shell aliases
+## How to reuse them easily with shell aliases
 
 Instead of typing these out each time you can set them as aliases for your shell. You can call the commands whatever you like, here I have called them docker-clean.
 
@@ -117,7 +113,7 @@ alias docker-clean-all='docker container stop $(docker container ls -a -q) && do
 >> ~/.zshrc && source ~/.zshrc
 ```
 
-### Now try the alias commands out in your terminal!
+## Now try the alias commands out in your terminal!
 
 ```
 MacBook-Pro% docker ps
@@ -145,10 +141,34 @@ deleted: sha256:bcbbeee6343a0f57576e7c3f67dfa992c11d0e24d916e998dec5eb17c3e180f6
 Total reclaimed space: 155.1MB
 ```
 
-### Learn more
+## More
 
 Having these commands make it quick and easy to manage your docker system. Now you know how to list and remove things in docker, why not create other aliases, for example just for cleaning out containers:
 
 ```
 alias docker-clean-containers='docker container stop $(docker container ls -a -q) && docker container rm $(docker container ls -a -q)'
+```
+
+## Notes
+
+```
+docker system prune --volumes
+
+docker container prune
+
+docker container prune --filter "until=12h"
+
+docker container stop $(docker container ls -aq)
+
+docker container rm $(docker container ls -aq)
+
+docker image prune
+
+docker image prune -a
+
+docker image prune -a --filter "until=12h"
+
+docker network prune
+
+docker network prune -a --filter "until=12h"
 ```
