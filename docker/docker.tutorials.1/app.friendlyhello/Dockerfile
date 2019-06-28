@@ -2,10 +2,10 @@
 FROM python:2.7-slim
 
 # Set the working directory to /app
-WORKDIR /app
+WORKDIR /apps/friendlyhello
 
 # Copy the current directory contents into the container at /app
-ADD . /app
+ADD . /apps/friendlyhello
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --trusted-host pypi.python.org -r docker-py-requirements.txt
