@@ -5,6 +5,13 @@
 ```json
 [
   {
+    "name": "_front.timesheet.sims",
+    "rootPath": "$home\\Documents\\_server-ecosystem\\timesheet-client",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
     "name": "_eco.server-ecosystem-dev",
     "rootPath": "$home\\Documents\\_server-ecosystem\\server-ecosystem-dev",
     "paths": [],
@@ -40,15 +47,15 @@
     "enabled": true
   },
   {
-    "name": "_sims.timesheet",
-    "rootPath": "$home\\Documents\\_server-ecosystem\\TIMESHEET-SIMS",
+    "name": "_eco.post-code-aus",
+    "rootPath": "$home\\Documents\\_server-ecosystem\\post-search-auspost",
     "paths": [],
     "group": "",
     "enabled": true
   },
   {
     "name": "_eco.post-code-aus",
-    "rootPath": "$home\\Documents\\_server-ecosystem\\post-search-auspost",
+    "rootPath": "$home\\Documents\\_server-ecosystem\\students_accounts",
     "paths": [],
     "group": "",
     "enabled": true
