@@ -1,8 +1,10 @@
+# eclipse 2019-06
+
 ```
 -startup
-plugins/org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar
+plugins/org.eclipse.equinox.launcher_1.5.400.v20190515-0925.jar
 --launcher.library
-plugins/org.eclipse.equinox.launcher.win32.win32.x86_64_1.1.551.v20171108-1834
+plugins/org.eclipse.equinox.launcher.win32.win32.x86_64_1.1.1000.v20190125-2016
 -product
 org.eclipse.epp.package.jee.product
 -showsplash
@@ -13,16 +15,12 @@ openFile
 openFile
 --launcher.appendVmargs
 -vmargs
--Xverify:none
--XX:+AggressiveOpts
--XX:-UseConcMarkSweepGC
--XX:+CMSIncrementalMode=true
--Duser.name=charly.lee
 -Dosgi.requiredJavaVersion=1.8
 -Dosgi.instance.area.default=@user.home/eclipse-workspace
+-Dosgi.dataAreaRequiresExplicitInit=true
 -XX:+UseG1GC
 -XX:+UseStringDeduplication
 --add-modules=ALL-SYSTEM
--Xms2048m
--Xmx2048m
+-Xms3072m
+-Xmx3072m
 ```
