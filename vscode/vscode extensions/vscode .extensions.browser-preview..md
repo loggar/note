@@ -43,4 +43,4 @@ vscode extensions:
 
 Run debug `<browser-preview: Launch>` on Angular components, for example.
 
-![Browser Preview Debug Run example](https://loggar.github.io/note/settings/vscode .extensions.browser-preview.png)
+![Browser Preview Debug Run example](https://loggar.github.io/note/settings/vscode.extensions.browser-preview.png)
