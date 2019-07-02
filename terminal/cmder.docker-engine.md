@@ -17,5 +17,5 @@ Task parameters:
 Commands:
 
 ```
-bash.exe-l -i "%DOCKER_TOOLBOX_INSTALL_PATH%\start.sh" -new_console:t:"Docker"
+C:\_dev\git\bin\bash.exe -l -i "%DOCKER_TOOLBOX_INSTALL_PATH%\start.sh" -new_console:t:"Docker"
 ```
