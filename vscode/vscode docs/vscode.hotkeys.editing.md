@@ -8,7 +8,7 @@
 - Go to Symbol in File (`Ctrl+Shift+O`)
 - Go to Symbol in Workspace (`Ctrl+T`)
 - Navigate to a specific line (`Ctrl+G`)
-- Select current line (`Ctrl+I`)
+- Select current line (`Ctrl+L`)
 - Navigate to beginning and end of file (`Ctrl+Home/End`)
 
 ## IntelliSense
@@ -27,7 +27,7 @@
 
 - indent/outdent line or selections (`Ctrl + ]/[`)
 
-## braket
+## bracket
 
 - jump to matching braket (`Ctrl + Shift + \`)
 
