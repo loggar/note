@@ -54,7 +54,7 @@
     "enabled": true
   },
   {
-    "name": "_eco.post-code-aus",
+    "name": "_eco.students-accounts",
     "rootPath": "$home\\Documents\\_server-ecosystem\\students_accounts",
     "paths": [],
     "group": "",
@@ -194,4 +194,5 @@
     "enabled": true
   }
 ]
+
 ```
