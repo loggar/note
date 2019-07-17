@@ -5,194 +5,186 @@
 ```json
 [
   {
+    "enabled": true,
+    "group": "",
     "name": "_front.timesheet.sims",
-    "rootPath": "$home\\Documents\\_server-ecosystem\\timesheet-client",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_server-ecosystem\\timesheet-client"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "_eco.server-ecosystem-dev",
-    "rootPath": "$home\\Documents\\_server-ecosystem\\server-ecosystem-dev",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_server-ecosystem\\server-ecosystem-dev"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "_eco.class-enroll-status",
-    "rootPath": "$home\\Documents\\_server-ecosystem\\class-enroll-status",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_server-ecosystem\\class-enroll-status"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "_eco._library",
-    "rootPath": "$home\\Documents\\_server-ecosystem\\_library",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_server-ecosystem\\_library"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "_eco.excel-prisms-update",
-    "rootPath": "$home\\Documents\\_server-ecosystem\\excel-prisms-update",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_server-ecosystem\\excel-prisms-update"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "_eco.job-schedulers",
-    "rootPath": "$home\\Documents\\_server-ecosystem\\job-schedulers",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_server-ecosystem\\job-schedulers"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "_eco.post-code-aus",
-    "rootPath": "$home\\Documents\\_server-ecosystem\\post-search-auspost",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_server-ecosystem\\post-search-auspost"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "_eco.students-accounts",
-    "rootPath": "$home\\Documents\\_server-ecosystem\\students_accounts",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_server-ecosystem\\students_accounts"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "_lessons.js",
-    "rootPath": "$home\\Documents\\_lessons\\lessons-js",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_lessons\\lessons-js"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "_lessons.py",
-    "rootPath": "$home\\Documents\\_lessons\\lessons-py",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_lessons\\lessons-py"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "_lessons.java",
-    "rootPath": "$home\\Documents\\_lessons\\lessons-java",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_lessons\\lessons-java"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "work.sh",
-    "rootPath": "$home\\Documents\\_workspace\\loggar-sh",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_workspace\\loggar-sh"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "js.js",
-    "rootPath": "$home\\Documents\\_workspace_js\\loggar-js",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_workspace_js\\loggar-js"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "js.front",
-    "rootPath": "$home\\Documents\\_workspace_js\\loggar-js-front",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_workspace_js\\loggar-js-front"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "js.ng",
-    "rootPath": "$home\\Documents\\_workspace_js\\loggar-ng",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_workspace_js\\loggar-ng"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "js.node",
-    "rootPath": "$home\\Documents\\_workspace_js\\loggar-node",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_workspace_js\\loggar-node"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "js.react",
-    "rootPath": "$home\\Documents\\_workspace_js\\loggar-react",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_workspace_js\\loggar-react"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "js.ts",
-    "rootPath": "$home\\Documents\\_workspace_js\\loggar-ts",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_workspace_js\\loggar-ts"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "js.vue",
-    "rootPath": "$home\\Documents\\_workspace_js\\loggar-vue",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_workspace_js\\loggar-vue"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "work.en",
-    "rootPath": "$home\\Documents\\_workspace\\loggar-eng",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_workspace\\loggar-eng"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "work.note",
-    "rootPath": "$home\\Documents\\_workspace\\loggar-note",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_workspace\\loggar-note"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "work.c",
-    "rootPath": "$home\\Documents\\_workspace\\loggar-c",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_workspace\\loggar-c"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "work.cpp",
-    "rootPath": "$home\\Documents\\_workspace\\loggar-gpp",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_workspace\\loggar-gpp"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "work.go",
-    "rootPath": "$home\\Documents\\_workspace_go\\src\\github.com\\loggar\\go",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_workspace_go\\src\\github.com\\loggar\\go"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "work.py",
-    "rootPath": "$home\\Documents\\_workspace\\loggar-py",
     "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_workspace\\loggar-py"
   },
   {
+    "enabled": true,
+    "group": "",
     "name": "work.py2",
-    "rootPath": "$home\\Documents\\_workspace\\loggar-py2",
     "paths": [],
-    "group": "",
-    "enabled": true
-  },
-  {
-    "name": "workspace_tmp",
-    "rootPath": "$home\\Documents\\_workspace_tmp",
-    "paths": [],
-    "group": "",
-    "enabled": true
+    "rootPath": "$home\\Documents\\_workspace\\loggar-py2"
   }
 ]
-
 ```
