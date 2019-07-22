@@ -2,7 +2,9 @@
   "python.venvPath": ".venv",
   "python.pythonPath": ".venv\\Scripts\\python.exe",
   "python.envFile": "${workspaceFolder}/py.dev.env",
-  "python.linting.pylintArgs": [],
+  "python.linting.pylintArgs": [
+    "--disable=C0111"
+  ],
   "python.analysis.disabled": ["unresolved-import", "use-before-def"],
   "editor.tabSize": 4,
   "editor.insertSpaces": true,
