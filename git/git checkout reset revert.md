@@ -78,3 +78,15 @@ git log
     commit 101: removing a file we don't need
     commit 100: adding a file that we need
 ```
+
+## Remove a file you accidentally committed in your last commit (but haven’t pushed yet)
+
+```
+git reset --soft HEAD^1
+
+git rm --cached <file-name>
+
+git commit -m "my commit message"
+```
+
+The removed file or files can then be added into a separate commit.
