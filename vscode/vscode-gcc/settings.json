@@ -1,8 +1,11 @@
 {
-  "files.associations": {
-    "float.h": "c",
-    "limits.h": "c",
-    "stdio.h": "c",
-    "errors.h": "c"
-  }
+	"files.associations": {
+		"float.h": "c",
+		"limits.h": "c",
+		"stdio.h": "c",
+		"errors.h": "c",
+		"unistd.h": "c",
+    "signal.h": "c"
+  },
+  "C_Cpp.intelliSenseEngineFallback": "Disabled"
 }
