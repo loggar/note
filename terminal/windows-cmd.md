@@ -6,6 +6,16 @@
 $ type nul > file1.txt
 ```
 
+```
+$ echo some text > file3.txt
+```
+
+appending text to a file
+
+```
+$ echo some text >> file3.txt
+```
+
 ## Create a directory
 
 ```
