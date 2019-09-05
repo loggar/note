@@ -32,8 +32,19 @@ wsl --set-default-version 2
 ```
 wsl --list --verbose
 
-# or 
+# or
 
 wsl -l -v
 ```
 
+## Windows 10 Insider Preview Builds
+
+Install
+
+```
+Go to Settings > Update & Security > Windows Insider Program and click Get Started to access the latest build.
+
+1. Enter the account you used to sign into the Windows Insider Program.
+2. Follow the prompts to install.
+3. Go to Settings > Update & Security > Windows Update and click Check for updates to install.
+```
