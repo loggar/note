@@ -7,7 +7,7 @@
   {
     "enabled": true,
     "group": "",
-    "name": "_front.timesheet.sims",
+    "name": "_eco.timesheet.front",
     "paths": [],
     "rootPath": "$home\\Documents\\_server-ecosystem\\timesheet-client"
   },
@@ -59,6 +59,27 @@
     "name": "_eco.students-accounts",
     "paths": [],
     "rootPath": "$home\\Documents\\_server-ecosystem\\students_accounts"
+  },
+  {
+    "enabled": true,
+    "group": "",
+    "name": "_tcsi.tcsi-project",
+    "paths": [],
+    "rootPath": "$home\\Documents\\__docs_koi\\TCSI\\TCSI_PROJECT"
+  },
+  {
+    "enabled": true,
+    "group": "",
+    "name": "_tmp.mysql-dump-to-backup",
+    "paths": [],
+    "rootPath": "$home\\Documents\\_server-ecosystem\\mysql-dump-to-backup"
+  },
+  {
+    "enabled": true,
+    "group": "",
+    "name": "_tmp.excel-education-provider",
+    "paths": [],
+    "rootPath": "$home\\Documents\\_server-ecosystem\\excel-education-provider"
   },
   {
     "enabled": true,

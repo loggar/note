@@ -1,3 +1,8 @@
+# vscode extensions: REST Client
+
+`vscode.extensions.rest-client.req.http`
+
+```
 # Sample of Rest-Client
 
 POST http://localhost:3000/users HTTP/1.1
@@ -47,3 +52,21 @@ content-type: application/json
 ###
 DELETE http://localhost:3000/users/abcd1234efgh5679
 
+
+```
+
+`vscode.extensions.rest-client.curl.http`
+
+```
+curl \
+	--request GET \
+	--url http://localhost:27010
+
+###
+
+curl \
+	-X POST \
+	-H "Content-Type: application/x-www-form-urlencoded" \
+	-d "description=running node server on android system" \
+	--url http://localhost:27010/todo
+```
