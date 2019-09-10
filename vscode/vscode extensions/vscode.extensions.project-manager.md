@@ -7,77 +7,77 @@
   {
     "enabled": true,
     "group": "",
-    "name": "_eco.timesheet.front",
+    "name": "_eco.apps.timesheet.front",
     "paths": [],
     "rootPath": "$home\\Documents\\_server-ecosystem\\timesheet-client"
   },
   {
     "enabled": true,
     "group": "",
-    "name": "_eco.server-ecosystem-dev",
+    "name": "_eco.dev.server-ecosystem-dev",
     "paths": [],
     "rootPath": "$home\\Documents\\_server-ecosystem\\server-ecosystem-dev"
   },
   {
     "enabled": true,
     "group": "",
-    "name": "_eco.class-enroll-status",
+    "name": "_eco.apps.class-enroll-status",
     "paths": [],
     "rootPath": "$home\\Documents\\_server-ecosystem\\class-enroll-status"
   },
   {
     "enabled": true,
     "group": "",
-    "name": "_eco._library",
+    "name": "_eco.dev._library",
     "paths": [],
     "rootPath": "$home\\Documents\\_server-ecosystem\\_library"
   },
   {
     "enabled": true,
     "group": "",
-    "name": "_eco.excel-prisms-update",
+    "name": "_eco.apps.excel-prisms-update",
     "paths": [],
     "rootPath": "$home\\Documents\\_server-ecosystem\\excel-prisms-update"
   },
   {
     "enabled": true,
     "group": "",
-    "name": "_eco.job-schedulers",
+    "name": "_eco.schedulers.job-schedulers",
     "paths": [],
     "rootPath": "$home\\Documents\\_server-ecosystem\\job-schedulers"
   },
   {
     "enabled": true,
     "group": "",
-    "name": "_eco.post-code-aus",
+    "name": "_eco.local.post-code-aus",
     "paths": [],
     "rootPath": "$home\\Documents\\_server-ecosystem\\post-search-auspost"
   },
   {
     "enabled": true,
     "group": "",
-    "name": "_eco.students-accounts",
+    "name": "_eco.schedulers.students-accounts",
     "paths": [],
     "rootPath": "$home\\Documents\\_server-ecosystem\\students_accounts"
   },
   {
     "enabled": true,
     "group": "",
-    "name": "_tcsi.tcsi-project",
+    "name": "_project.report.tcsi-project",
     "paths": [],
-    "rootPath": "$home\\Documents\\__docs_koi\\TCSI\\TCSI_PROJECT"
+    "rootPath": "C:\\_workspace_koi\\KOI_TCSI"
   },
   {
     "enabled": true,
     "group": "",
-    "name": "_tmp.mysql-dump-to-backup",
+    "name": "_eco.local.mysql-dump-to-backup",
     "paths": [],
     "rootPath": "$home\\Documents\\_server-ecosystem\\mysql-dump-to-backup"
   },
   {
     "enabled": true,
     "group": "",
-    "name": "_tmp.excel-education-provider",
+    "name": "_eco.local.excel-education-provider",
     "paths": [],
     "rootPath": "$home\\Documents\\_server-ecosystem\\excel-education-provider"
   },
