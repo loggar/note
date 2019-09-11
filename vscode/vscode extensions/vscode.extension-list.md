@@ -1,0 +1,23 @@
+# vscode extension list
+
+- Active File In StatusBar
+- Bash Debug
+- Browser Preview
+- C/C++
+- Code Spell Checker
+- Debugger for Chrome
+- Docker
+- GitLens - Gt supercharged
+- Go
+- Import Cost
+- Markdown All in One
+- Path Intellisense
+- PowerShell
+- Prettier - Code formatter
+- Project Manager
+- Python
+- REST Client
+- Settings Sync
+- Sort JSON objects
+- Sort lines
+- WordCounter
