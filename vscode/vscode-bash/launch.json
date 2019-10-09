@@ -4,10 +4,10 @@
     {
       "type": "bashdb",
       "request": "launch",
-      "name": "Bash-Debug (simplest configuration)",
+      "name": "Bash-Debug (current file)",
       "program": "${file}",
       "showDebugOutput": true,
-      "terminalKind": "integrated"
+      "terminalKind": "debugConsole"
     }
   ]
 }
