@@ -12,6 +12,7 @@
       "pythonPath": "${config:python.pythonPath}",
       "program": "${file}",
       "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
       "envFile": "${workspaceFolder}/py.dev.env",
       "env": {}
     }
