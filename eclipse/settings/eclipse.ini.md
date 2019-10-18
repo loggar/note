@@ -1,4 +1,4 @@
-# eclipse 2019-06
+# eclipse 2019-09
 
 ```
 -startup
@@ -17,10 +17,16 @@ openFile
 -vmargs
 -Dosgi.requiredJavaVersion=1.8
 -Dosgi.instance.area.default=@user.home/eclipse-workspace
--Dosgi.dataAreaRequiresExplicitInit=true
 -XX:+UseG1GC
 -XX:+UseStringDeduplication
+-XX:+AggressiveOpts
 --add-modules=ALL-SYSTEM
--Xms3072m
--Xmx3072m
+-Dosgi.requiredJavaVersion=1.8
+-Dosgi.dataAreaRequiresExplicitInit=true
+-Xss2m
+-Xmn512m
+-Xms2048m
+-Xmx4096m
+--add-modules=ALL-SYSTEM
+
 ```
