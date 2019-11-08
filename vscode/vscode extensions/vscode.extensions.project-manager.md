@@ -6,14 +6,7 @@
 [
   {
     "enabled": true,
-    "group": "",
-    "name": "_eco.apps.timesheet.front",
-    "paths": [],
-    "rootPath": "$home\\Documents\\_server-ecosystem\\timesheet-client"
-  },
-  {
-    "enabled": true,
-    "group": "",
+    "group": "_eco",
     "name": "_eco.dev.server-ecosystem-dev",
     "paths": [],
     "rootPath": "$home\\Documents\\_server-ecosystem\\server-ecosystem-dev"
@@ -21,16 +14,16 @@
   {
     "enabled": true,
     "group": "",
-    "name": "_eco.apps.class-enroll-status",
-    "paths": [],
-    "rootPath": "$home\\Documents\\_server-ecosystem\\class-enroll-status"
-  },
-  {
-    "enabled": true,
-    "group": "",
     "name": "_eco.dev._library",
     "paths": [],
     "rootPath": "$home\\Documents\\_server-ecosystem\\_library"
+  },
+  {
+    "enabled": true,
+    "group": "_eco",
+    "name": "_eco.apps.class-enroll-status",
+    "paths": [],
+    "rootPath": "$home\\Documents\\_server-ecosystem\\class-enroll-status"
   },
   {
     "enabled": true,
@@ -63,13 +56,6 @@
   {
     "enabled": true,
     "group": "",
-    "name": "_project.report.tcsi-project",
-    "paths": [],
-    "rootPath": "C:\\_workspace_koi\\KOI_TCSI"
-  },
-  {
-    "enabled": true,
-    "group": "",
     "name": "_eco.local.mysql-dump-to-backup",
     "paths": [],
     "rootPath": "$home\\Documents\\_server-ecosystem\\mysql-dump-to-backup"
@@ -80,6 +66,34 @@
     "name": "_eco.local.excel-education-provider",
     "paths": [],
     "rootPath": "$home\\Documents\\_server-ecosystem\\excel-education-provider"
+  },
+  {
+    "enabled": true,
+    "group": "_eco",
+    "name": "_eco.apps.timesheet.casual",
+    "paths": [],
+    "rootPath": "$home\\Documents\\_server-ecosystem\\timesheet-casual"
+  },
+  {
+    "enabled": true,
+    "group": "",
+    "name": "_project.docs.it",
+    "paths": [],
+    "rootPath": "C:\\_workspace_koi_plain\\KOI_IT"
+  },
+  {
+    "enabled": true,
+    "group": "",
+    "name": "_project.docs.report",
+    "paths": [],
+    "rootPath": "C:\\_workspace_koi_plain\\KOI_REPORT_HEIMSHELP"
+  },
+  {
+    "enabled": true,
+    "group": "",
+    "name": "_lessons.teaching.workspace",
+    "paths": [],
+    "rootPath": "$home\\Documents\\_docs_koi_teaching\\workspace"
   },
   {
     "enabled": true,
