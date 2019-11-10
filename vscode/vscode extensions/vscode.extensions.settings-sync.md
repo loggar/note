@@ -4,6 +4,15 @@
 
 ```json
 {
-  "sync.gist": "f58ccf8f326c8c449bf518384eef8a73"
+  "sync.gist": "da538f25b58b2038ff9237e0be5218e0c81f284b"
 }
 ```
+
+gist token
+
+```
+github - settings - developer - token
+
+gist token - update token
+```
+
