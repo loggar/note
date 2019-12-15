@@ -1,19 +1,19 @@
-> Describe Closure and Modular in Front Javascript.
+> Describe Modular in Front Javascript.
 
 > Describe how bind() and apply() functions work.
 
-> Describe Promise and Async functions.
+> Describe Promises and Asynchronous functions.
 
 > Describe Prototype and Object.
 
 > Describe map(), filter(), reduce() Array methods.
 
-> Describe Javascript library that you prefer and its cons.
+> Describe Javascript library that you prefer and its pros and cons.
 
-> Code: Write a code that send two http-request and display their json format response, one asynchronously, one synchronously.
+> Code: Write a code that send two http-requests one asynchronously, one synchronously. Display their json format response.
 
 > Code: Write a singleton object module. This has a very simple method that uses a protected property from outside of the module (ES5).
 
 > Code: Write a html box module. This generate different boxes in HTML-Body when a factory method of the module applied.
 
-> Code: Write a html table module. This includes a method that appends a TR element to the TABLE
+> Code: Write a html List module. This includes a method that appends a LI element to the List.
