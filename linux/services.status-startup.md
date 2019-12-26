@@ -1,4 +1,4 @@
-# List Services and Startups
+# List Services and Startups (Centos)
 
 For current versions of Ubuntu, you probably have a mix of Upstart, and SystemV. Newer versions of Ubuntu after 15.04 "Vivid Vervet" (and other Linux distros like RHEL/CentOS 7) are moving to use SystemD.
 
@@ -14,6 +14,44 @@ To list all Upstart services and run `initctl show-config` on them, this one-lin
 
 ```
 initctl list | awk '{ print $1 }' | xargs -n1 initctl show-config
+```
+
+## `systemctl`
+
+You can use the systemd command to list all the services on your Linux system:
+
+```
+systemctl list-unit-files --type service -all
+```
+
+Combine it with the grep command and you can display just the running services:
+
+```
+sudo systemctl | grep running
+```
+
+```
+systemctl start <service-name>
+
+systemctl restart <service-name>
+
+systemctl stop <service-name>
+
+systemctl status <service-name>
+```
+
+## `service`
+
+```
+service --status-all
+
+service <service-name> start
+
+service <service-name> stop
+
+service <service-name> restart
+
+service <service-name> status
 ```
 
 ## [System V](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/installation_guide/s1-boot-init-shutdown-sysv)
