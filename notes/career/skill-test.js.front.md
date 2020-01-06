@@ -10,7 +10,7 @@
 
 > Describe Javascript library that you prefer and its pros and cons.
 
-> Code: Write a code that send two http-requests one asynchronously, one synchronously. Display their json format response.
+> Code: Write a code that sends two http-requests one asynchronously, one synchronously. Display their json format response.
 
 > Code: Write a singleton object module. This has a very simple method that uses a protected property from outside of the module (ES5).
 
