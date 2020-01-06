@@ -14,4 +14,7 @@ These changes are immediate.
 
 ```
 # crontab -e */10 * * * * /bin/bash /opt/script/disk-usage-alert.sh
+
+# 4 AM every day
+# crontab -e 0 4 * * * /bin/sh /path/to/backup_script.sh >> /dev/null 2>&1
 ```
