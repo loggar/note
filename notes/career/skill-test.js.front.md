@@ -12,6 +12,8 @@
 
 > Code: Write a code that sends two http-requests one asynchronously, one synchronously. Display their json format response.
 
+> Code: Write a code that sends two http-requests concurrently. Display their json format response.
+
 > Code: Write a singleton object module. This has a very simple method that uses a protected property from outside of the module (ES5).
 
 > Code: Write a html box module. This generate different boxes in HTML-Body when a factory method of the module applied.
