@@ -12,7 +12,7 @@
 
 > Describe Dependency Injection.
 
-> Code: Create a simply-configured Spring Dynamic Web Application. Write a Service component that generates a json content from a text file. Write a Controller component that provides json format text the Service component generated.
+> Code: Create a simply-configured Spring Dynamic Web Application. Write a Service component that generates a json content from a text file. Write a Controller component that provides clients a json format text the Service component generated.
 
 > Code: Create a simple API(HTTP) Client that implements two methods below:
 > String get(String url, String params);
