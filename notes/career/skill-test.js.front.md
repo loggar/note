@@ -19,3 +19,6 @@
 > Code: Write a html box module. This generate different boxes in HTML-Body when a factory method of the module applied.
 
 > Code: Write a html List module. This includes a method that appends a LI element to the List.
+
+> Code: Write a code that sends two http-requests concurrently. Display their json format response.
+
