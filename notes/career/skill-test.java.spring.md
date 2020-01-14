@@ -12,15 +12,15 @@
 
 > Describe Dependency Injection.
 
-> Describe the differences between == and equals
+> Describe the differences between == and equals.
 
-> Describe synchronized keyword
+> Describe synchronized keyword.
 
 > Describe the differences between functional and object-oriented programming.
 
-> Code: Create a simply-configured Spring Dynamic Web Application. Write a Service component that generates a json content from a text file. Write a Controller component that provides clients a json format text the Service component generated.
+> Code: Create a simply-configured Spring Dynamic Web Application. Write a Service component and Controller class that do simple actions. Configure DI in the project.
 
-> Code: Create a simple API(HTTP) Client that implements two methods below:
-> String get(String url, String params);
-> String put(String url, String params);
+> Code: Write a simple API(HTTP) Client that implements two methods below:
+> String get(/* arg group */);
+> String put(/* arg group */);
 
