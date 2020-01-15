@@ -19,7 +19,7 @@ Areas for Improvement:
 
 I really appreciate that you took the time to consider us. I know there are a lot of companies out there that are hiring. I wanted to pass on the feedback just as soon as I had it, as I know your job-search is time sensitive. While we were really impressed with your ability to get things done at your current company, we have decided to move forward with someone else, whom we think would be the best fit for the job.  I've posted feedback below for your benefit:
 
-Strengths::
+Strengths:
 - Has knowledge about pretty diverse parts: from SQL injections to CSRF
 - Candidate's thorough approach is reasonable: he started learning the tool with its tests, updated the docs, used profiler and debugger.  High level understanding of what he was working with.
 - Judgement about using shared storages for different services was good.
