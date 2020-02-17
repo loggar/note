@@ -25,8 +25,9 @@ VSCode sends data to Microsoft about it's usage
   "files.watcherExclude": {
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
-    "**/node_modules/**": true
-  }
+    "**/node_modules/**": true,
+    "**/venv/**": true,
+  },
 ```
 
 ## Files in Explorer
