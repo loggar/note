@@ -16,7 +16,7 @@
 - Prettier - Code formatter
 - Project Manager
 - Python
-- Remote Development
+- Remote - WSL
 - REST Client
 - Settings Sync
 - Sort JSON objects
