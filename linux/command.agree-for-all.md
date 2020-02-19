@@ -1,0 +1,3 @@
+```
+yes | yum install curl
+```

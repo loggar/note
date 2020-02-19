@@ -25,3 +25,9 @@ Log file
 ```
 ./nohup.out
 ```
+
+Run a long-lasting process in the background and close the terminal
+
+```
+nohup wget http://large-files.com/10gb-super-movie.avi &
+```
