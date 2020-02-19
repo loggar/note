@@ -18,3 +18,29 @@ These changes are immediate.
 # 4 AM every day
 # crontab -e 0 4 * * * /bin/sh /path/to/backup_script.sh >> /dev/null 2>&1
 ```
+
+To run a job every twelve hours, the syntax is:
+
+```
+0 */12 * * *
+```
+
+## cron help tool
+
+```
+https://crontab.guru/
+```
+
+## running
+
+If you’re curious whether your cron job is currently running, find the PID of cron with:
+
+```
+pstree -ap | grep cron
+```
+
+then run
+
+```
+pstree -ap <PID>
+```
