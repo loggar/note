@@ -68,8 +68,6 @@ Now that your Linux distro is installed, you must initialize your new distro ins
 
 Once installation is complete, you will be prompted to create a new user account (and its password).
 
-> my local account: loggar/loggar#1
-
 This user account is for the normal non-admin user that you'll be logged-in as by default when launching a distro.
 
 You can choose any username and password you wish - they have no bearing on your Windows username.

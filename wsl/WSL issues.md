@@ -17,3 +17,21 @@ solution:
 ```
 C:\Windows\System32\bash.exe -c "sudo /usr/sbin/service ssh --full-restart"
 ```
+
+## Unable to convert to version 2
+
+```
+PS C:\Users\username> wsl --set-version WLinux 2
+Conversion in progress, this may take a few minutes...
+For information on key differences with WSL 2 please visit https://aka.ms/wsl2
+Exporting the distribution failed.
+bsdtar: Write error
+```
+
+solution:
+
+```
+Windows Start - Settings - Update & Security - Windows Security - Virus & threat protection - Manage settings (or Virus & threat protection settings)
+
+> Turn Off: Real-time protection
+```
