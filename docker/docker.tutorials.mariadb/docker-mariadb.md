@@ -31,6 +31,12 @@ docker run --name mariadb1 -e MYSQL_ROOT_PASSWORD=mypass -p 33301:3306 -d mariad
 docker run --name mariadb1 -e MYSQL_ROOT_PASSWORD=mypass -p 33301:3306 -d mariadb:10.3 --log-bin --binlog-format=MIXED
 ```
 
+If want to make the container starts automatically when Docker starts.
+
+```
+$ docker update --restart unless-stopped mariadb1
+```
+
 List Container (Running)
 
 ```
@@ -175,4 +181,3 @@ MariaDB [(none)]> SELECT User, Host FROM mysql.user WHERE Host <> 'localhost';
 +------+---------------+
 2 rows in set (0.000 sec)
 ```
-
