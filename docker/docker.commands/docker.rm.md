@@ -21,3 +21,21 @@ Remove all the volumes:
 ```
 $ docker volume prune
 ```
+
+## images
+
+Remove all unused images
+
+```
+$ docker image ls
+$ docker image prune -a
+```
+
+## network
+
+Remove all unused network
+
+```
+$ docker network ls
+$ docker network prune
+```
