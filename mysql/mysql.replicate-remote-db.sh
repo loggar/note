@@ -22,6 +22,7 @@ DUMP_FILE="replicate-project-databese-production.sql"
 # ===============================
 
 # get remote database
+echo "Dump database $REMOTE_HOST $REMOTE_DB"
 
 if [ "$DB_PASS" == "" ];
 then
@@ -31,6 +32,7 @@ else
 fi
 
 # drop all tables
+echo "Drop database $DB_HOST $DB_NAME"
 
 if [ "$DB_PASS" == "" ];
 then
@@ -46,6 +48,7 @@ else
 fi
 
 # restore new database
+echo "Restore database $DB_HOST $DB_NAME"
 
 if [ "$DB_PASS" == "" ];
 then
