@@ -17,7 +17,7 @@ DB_HOST="localhost"
 DB_NAME=""
 
 # SQL DUMP FILENAME
-DUMP_FILE="replicate-project-databese-production.sql"
+DUMP_FILE="replica-projectname-prod.sql"
 
 # ===============================
 
