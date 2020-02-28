@@ -1,6 +1,6 @@
 # Docker command
 
-## docker engine commands
+## docker commands
 
 - `docker build` — builds an image from a Dockerfile
 - `docker images` — displays all Docker images on that machine
