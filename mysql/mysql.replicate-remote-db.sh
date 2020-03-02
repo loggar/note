@@ -26,9 +26,9 @@ echo "Dump database $REMOTE_HOST $REMOTE_DB"
 
 if [ "$DB_PASS" == "" ];
 then
-  mysqldump -h $REMOTE_HOST -u $REMOTE_USER $REMOTE_DB > $DUMP_FILE
+  mysqldump -h $REMOTE_HOST -u $REMOTE_USER --routines $REMOTE_DB > $DUMP_FILE
 else
-  mysqldump -h $REMOTE_HOST -u $REMOTE_USER -p$REMOTE_PASS $REMOTE_DB > $DUMP_FILE
+  mysqldump -h $REMOTE_HOST -u $REMOTE_USER -p$REMOTE_PASS --routines $REMOTE_DB > $DUMP_FILE
 fi
 
 # drop all tables
