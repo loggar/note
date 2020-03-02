@@ -26,9 +26,9 @@ echo "Dump database $REMOTE_HOST $REMOTE_DB"
 
 if [ "$DB_PASS" == "" ];
 then
-  mysqldump -h $REMOTE_HOST -u $REMOTE_USER --routines $REMOTE_DB > $DUMP_FILE
+  mysqldump -h $REMOTE_HOST -u $REMOTE_USER --routines --triggers $REMOTE_DB > $DUMP_FILE
 else
-  mysqldump -h $REMOTE_HOST -u $REMOTE_USER -p$REMOTE_PASS --routines $REMOTE_DB > $DUMP_FILE
+  mysqldump -h $REMOTE_HOST -u $REMOTE_USER -p$REMOTE_PASS --routines --triggers $REMOTE_DB > $DUMP_FILE
 fi
 
 # drop all tables
@@ -37,12 +37,12 @@ echo "Drop database $DB_HOST $DB_NAME"
 if [ "$DB_PASS" == "" ];
 then
   mysqldump -u $DB_USER \
-    --add-drop-table --no-data $DB_NAME | \
+    --add-drop-table --no-data --routines --triggers $DB_NAME | \
     grep -e '^DROP \| FOREIGN_KEY_CHECKS' | \
     mysql -u $DB_USER $DB_NAME
 else
   mysqldump -u $DB_USER -p$DB_PASS \
-    --add-drop-table --no-data $DB_NAME | \
+    --add-drop-table --no-data --routines --triggers $DB_NAME | \
     grep -e '^DROP \| FOREIGN_KEY_CHECKS' | \
     mysql -u $DB_USER -p$DB_PASS $DB_NAME
 fi
