@@ -1,0 +1,5 @@
+# linux command, hacks
+
+```
+sudo !!
+```
