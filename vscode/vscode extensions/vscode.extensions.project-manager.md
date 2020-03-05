@@ -7,9 +7,9 @@
   {
     "enabled": true,
     "group": "_eco",
-    "name": "_eco.dev.server-ecosystem-dev",
+    "name": "_eco.dev._server-ecosystem.dev",
     "paths": [],
-    "rootPath": "$home\\Documents\\_server-ecosystem\\server-ecosystem-dev"
+    "rootPath": "$home\\Documents\\_server-ecosystem\\_server-ecosystem.dev"
   },
   {
     "enabled": true,
@@ -42,23 +42,9 @@
   {
     "enabled": true,
     "group": "",
-    "name": "_eco.local.post-code-aus",
-    "paths": [],
-    "rootPath": "$home\\Documents\\_server-ecosystem\\post-search-auspost"
-  },
-  {
-    "enabled": true,
-    "group": "",
     "name": "_eco.schedulers.students-accounts",
     "paths": [],
     "rootPath": "$home\\Documents\\_server-ecosystem\\students_accounts"
-  },
-  {
-    "enabled": true,
-    "group": "",
-    "name": "_eco.local.mysql-dump-to-backup",
-    "paths": [],
-    "rootPath": "$home\\Documents\\_server-ecosystem\\mysql-dump-to-backup"
   },
   {
     "enabled": true,
@@ -70,9 +56,16 @@
   {
     "enabled": true,
     "group": "_eco",
-    "name": "_eco.apps.timesheet.casual",
+    "name": "_eco.apps.timesheet-casual-client",
     "paths": [],
-    "rootPath": "$home\\Documents\\_server-ecosystem\\timesheet-casual"
+    "rootPath": "$home\\Documents\\_server-ecosystem\\timesheet-casual.client"
+  },
+  {
+    "enabled": true,
+    "group": "_eco",
+    "name": "_eco.apps.timesheet-casual-server",
+    "paths": [],
+    "rootPath": "$home\\Documents\\_server-ecosystem\\timesheet-casual.server"
   },
   {
     "enabled": true,
@@ -203,6 +196,13 @@
   {
     "enabled": true,
     "group": "",
+    "name": "work.php",
+    "paths": [],
+    "rootPath": "$home\\Documents\\_workspace\\loggar-php"
+  },
+  {
+    "enabled": true,
+    "group": "",
     "name": "work.go",
     "paths": [],
     "rootPath": "$home\\Documents\\_workspace_go\\src\\github.com\\loggar\\go"
@@ -217,9 +217,9 @@
   {
     "enabled": true,
     "group": "",
-    "name": "work.py2",
+    "name": "work.py27",
     "paths": [],
-    "rootPath": "$home\\Documents\\_workspace\\loggar-py2"
+    "rootPath": "$home\\Documents\\_workspace\\loggar-py27"
   }
 ]
 ```
