@@ -16,6 +16,8 @@
 - Prettier - Code formatter
 - Project Manager
 - Python
+- Remote - Containers
+- Remote - SSH
 - Remote - WSL
 - REST Client
 - Settings Sync
