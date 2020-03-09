@@ -1,5 +1,5 @@
-push 동기화 문제
+## issue push synchronization
 
 ```
-team > remote > push > next > specifications for push 에서 해당 branch specification 선택후 finish
+team > remote > push > next > specifications for push > Select branch specifications
 ```

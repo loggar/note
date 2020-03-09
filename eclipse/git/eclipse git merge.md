@@ -1,8 +1,7 @@
+# branch merge
 
-branch merge
+## merge : a branch -> master branch
 
 ```
-a branch -> master branch 로 merge
-
-team > switch to master > merge > a branch 선택
+team > switch to master > merge > select the branch
 ```
