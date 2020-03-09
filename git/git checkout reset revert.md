@@ -27,6 +27,22 @@ git reset --soft HEAD^     # use --soft if you want to keep your changes
 git reset --hard HEAD^     # use --hard if you don't care about keeping the changes you made
 ```
 
+# throw away all local changes
+
+get rid of all local changes
+
+```
+git fetch --all
+
+git reset --hard origin/master
+```
+
+## remove a commit have been already pushed
+
+```
+$ git revert <commit-hash>
+```
+
 ## Checkout old commits
 
 ```

@@ -1,8 +1,5 @@
 ## add commit push
 
-
-## Advanced
-
 First, you can either add all or only selected changed files for the next commit.
 
 ```
@@ -56,7 +53,7 @@ git pull --rebase origin master
 
 What’s the difference between pull and pull rebase? A basic `git pull` would simply put all the changes from the remote repository on top of your changes. With a pull rebase, it is the other way around. The changes from the remote repository come first, then your changes will be added on top. Essentially a pull rebase has two benefits:
 
-* it keeps an ordered git history, because your changes are always added last
-* it helps you to resolve conflicts, if you run into them, because you can adjust your own changes more easily
+- it keeps an ordered git history, because your changes are always added last
+- it helps you to resolve conflicts, if you run into them, because you can adjust your own changes more easily
 
 If you have changed but uncommited files when you pull from the remote repository, you are asked to stash your changed files first. After you have pulled all the changes, you can apply the stash again. Stashing will be explained later in the article.
