@@ -1,5 +1,7 @@
 # Bindmounting a Volume
 
+## Bindmounting
+
 Share a drive with docker desktop
 
 ```
@@ -16,4 +18,10 @@ Visit mounted host directory
 
 ```
 C:\Users\webnl\Documents\_volume_mounted\nginx\nginxlogs
+```
+
+## Volume Mounting SSH Keys into a Docker Container
+
+```
+docker run --rm -it -v ~/.ssh:/root/.ssh:ro alpine .
 ```
