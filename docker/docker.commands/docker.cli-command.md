@@ -37,6 +37,12 @@ This tells Docker to run (`run`) the image that was built and tagged as `user1/n
 - docker stop, this sends the signal `SIGTERM` followed by `SIGKILL` after a grace period. In short, this is a way to bring down the container in a more graceful way meaning it gets to release resources and saving state.
 - docker kill, this sends `SIGKILL` right away. This means resource release or state save might not work as intended. In development, it doesn’t really matter which one of the two commands are being used but in a production scenario it probably wiser to rely on `docker stop`
 
+### top Docker Containers by Name Using Patterns
+
+```
+docker container stop $(docker container ls -q --filter name=myapp*)
+```
+
 ## List Docker processes and data
 
 `docker container ls -a` list containers, also can be shown with `docker ps`
