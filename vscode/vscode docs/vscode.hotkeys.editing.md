@@ -1,5 +1,13 @@
 # vscode editing tips
 
+## custom (charly.loggar)
+
+- Delete Line `Ctrl+D`
+- Find Resource `Ctrl+Shift+R`
+- Git Sync `Ctrl+Shift+G`
+- Run Build Task `Ctrl+Shift+B`
+- Run Test Task `Ctrl+Shift+T`
+
 ## selections
 
 - Column (box) selection (`Shift+Alt Drag`)
