@@ -4,7 +4,7 @@
 
 - Delete Line `Ctrl+D`
 - Find Resource `Ctrl+Shift+R`
-- Git Sync `Ctrl+Shift+G`
+- Git Sync `Ctrl+Alt+G`
 - Run Build Task `Ctrl+Shift+B`
 - Run Test Task `Ctrl+Shift+T`
 - Search in workspaces `Ctrl+H`
