@@ -7,6 +7,7 @@
 - Git Sync `Ctrl+Shift+G`
 - Run Build Task `Ctrl+Shift+B`
 - Run Test Task `Ctrl+Shift+T`
+- Search in workspaces `Ctrl+H`
 
 ## selections
 
