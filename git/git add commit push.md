@@ -56,4 +56,4 @@ What’s the difference between pull and pull rebase? A basic `git pull` would s
 - it keeps an ordered git history, because your changes are always added last
 - it helps you to resolve conflicts, if you run into them, because you can adjust your own changes more easily
 
-If you have changed but uncommited files when you pull from the remote repository, you are asked to stash your changed files first. After you have pulled all the changes, you can apply the stash again. Stashing will be explained later in the article.
+If you have changed but uncommitted files when you pull from the remote repository, you are asked to stash your changed files first. After you have pulled all the changes, you can apply the stash again. Stashing will be explained later in the article.
