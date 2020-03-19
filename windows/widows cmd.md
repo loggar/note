@@ -24,3 +24,12 @@ PS C:\> (get-command javac.exe).Path
 
 C:\_dev\Java\jdk1.8.0_191\bin\javac.exe
 ```
+
+## Multi-line command
+
+```
+java ^
+	-classpath ./target/classes;./target/test-classes;./webapp/WEB-INF/lib/*; ^
+	com.koi.deploy.test.RunMavenBuild ^
+	local all
+```
