@@ -1,6 +1,6 @@
 # IP docker host
 
-## Host IP from in a Container
+## Host IP from in a container
 
 Docker for Mac / Docker for Windows
 
