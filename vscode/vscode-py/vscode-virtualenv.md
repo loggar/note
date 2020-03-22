@@ -9,6 +9,7 @@
 ## Select and activate an environment
 
 `settings.json`
+
 ```json
 "python.disableInstallationCheck": true
 ```
@@ -29,4 +30,15 @@ Can not perform a '--user' install. User site-packages are not visible in this v
 
 PS C:\Users\webnl\Documents\_workspace\loggar-py> & c:/Users/webnl/Documents/_workspace/loggar-py/.venv/Scripts/python.exe -m pip install pylint
 # It will work.
+```
+
+## Environments and Terminal windows
+
+prerequisite: Python: Select Interpreter, virtualenv environment.
+
+`settings.json`
+
+```json
+"python.terminal.activateEnvironment" = true, // default, The environment is also activated automatically when you use the Terminal: Create New Integrated Terminal.
+"python.terminal.activateEnvironment" = false // The environment needs to be set manually.
 ```

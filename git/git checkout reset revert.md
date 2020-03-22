@@ -27,6 +27,22 @@ git reset --soft HEAD^     # use --soft if you want to keep your changes
 git reset --hard HEAD^     # use --hard if you don't care about keeping the changes you made
 ```
 
+# throw away all local changes
+
+get rid of all local changes
+
+```
+git fetch --all
+
+git reset --hard origin/master
+```
+
+## remove a commit have been already pushed
+
+```
+$ git revert <commit-hash>
+```
+
 ## Checkout old commits
 
 ```
@@ -78,3 +94,15 @@ git log
     commit 101: removing a file we don't need
     commit 100: adding a file that we need
 ```
+
+## Remove a file you accidentally committed in your last commit (but haven’t pushed yet)
+
+```
+git reset --soft HEAD^1
+
+git rm --cached <file-name>
+
+git commit -m "my commit message"
+```
+
+The removed file or files can then be added into a separate commit.

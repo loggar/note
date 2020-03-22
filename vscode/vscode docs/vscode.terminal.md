@@ -30,8 +30,23 @@
 
 ### WSL (Ubuntu) bash
 
+64-bit arch Windows, 64-bit arch Application or 32-bit arch Windows, 32-bit arch Application:
+
 ```json
 {
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe"
+  // terminal: WSL bash
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\system32\\wsl.exe",
+  // eol: unix-format
+  "files.eol": "\n"
+}
+```
+
+64-bit arch Windows, 32-bit arch Application:
+
+```json
+{
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\bash.exe"
+  // eol: unix-format
+  "files.eol": "\n"
 }
 ```

@@ -22,7 +22,7 @@ Once you’ve opened a log file (or any file) using less file-name, use the foll
 * `n` for next match in backward direction
 * `N` for previous match in forward direction
 
-Tip: If you dont bother about which direction the search is happening, and you want to search file path, or URL, such as “/home/ramesh/”, you can use backward search (?pattern) which will be handy as you don’t want to escape slashes each time.
+Tip: If you don't bother about which direction the search is happening, and you want to search file path, or URL, such as “/home/ramesh/”, you can use backward search (?pattern) which will be handy as you don’t want to escape slashes each time.
 
 ```
 Search Path

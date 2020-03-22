@@ -6,8 +6,9 @@
     {
       "label": "tsc:single-ts-file",
       "type": "shell",
-      "command": "tsc",
+      "command": "npx",
       "args": [
+        "tsc",
         "${file}",
         "--out",
         "${fileDirname}/${fileBasenameNoExtension}.js"
