@@ -31,3 +31,14 @@ The top 10 docker run options in alphabetical order.
 
 10) `--workdir` , `-w` State the working directory inside the container. For example, if you copy your files into an app folder within your container then you may want to set the working directory to app.
 ```
+
+## Run stopped containers
+
+```
+docker start $(docker ps -a -q --filter "status=exited")
+```
+
+```
+docker start  `docker ps -q -l` # restart it in the background
+docker attach `docker ps -q -l` # reattach the terminal & stdin
+```
