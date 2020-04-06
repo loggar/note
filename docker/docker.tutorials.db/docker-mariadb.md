@@ -11,7 +11,7 @@ docker search mariadb
 Install Image
 
 ```
-docker pull mariadb:10.3
+docker pull mariadb:10.2
 ```
 
 List Images
@@ -24,11 +24,11 @@ docker image ls
 Create Container
 
 ```
-docker run --name mariadb1 -e MYSQL_ROOT_PASSWORD=mypass -p 33301:3306 -d mariadb:10.3
+docker run --name mariadb1 -e MYSQL_ROOT_PASSWORD=mypass -p 33301:3306 -d mariadb:10.2
 
 # or options for mysqld
 
-docker run --name mariadb1 -e MYSQL_ROOT_PASSWORD=mypass -p 33301:3306 -d mariadb:10.3 --log-bin --binlog-format=MIXED
+docker run --name mariadb1 -e MYSQL_ROOT_PASSWORD=mypass -p 33301:3306 -d mariadb:10.2 --log-bin --binlog-format=MIXED
 ```
 
 If want to make the container starts automatically when Docker starts.
@@ -42,7 +42,7 @@ List Container (Running)
 ```
 $ docker ps
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                     NAMES
-5d7dad8c6cdc        mariadb:10.3        "docker-entrypoint.s…"   4 seconds ago       Up 3 seconds        0.0.0.0:33301->3306/tcp   mariadb1
+5d7dad8c6cdc        mariadb:10.2        "docker-entrypoint.s…"   4 seconds ago       Up 3 seconds        0.0.0.0:33301->3306/tcp   mariadb1
 ```
 
 ## Running and Stopping the Container
@@ -150,7 +150,7 @@ root@15e718ba2c27:/# mysql -u root -p
 Enter password:
 Welcome to the MariaDB monitor.  Commands end with ; or \g.
 Your MariaDB connection id is 12
-Server version: 10.3.22-MariaDB-1:10.3.22+maria~bionic-log mariadb.org binary distribution
+Server version: 10.2.31-MariaDB-1:10.2.31+maria~bionic-log mariadb.org binary distribution
 
 Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
 
