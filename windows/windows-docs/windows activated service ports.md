@@ -9,5 +9,5 @@ netstat -ano | findstr :<portnumber>
 Kill a process that is assigned to a port
 
 ```
-taskkill /PID <pid> /F
+taskkill /pid <pid> /f
 ```
