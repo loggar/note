@@ -14,7 +14,7 @@
 
 ```
 # sudo tar xf /tmp/apache-maven-3.6.3-bin.tar.gz -C /opt
-# sudo ln -s /opt/apache-maven-3.6.3 /opt/maven
+# sudo ln -s /opt/apache-maven-3.6.3 /opt/apache-maven
 ```
 
 ```
@@ -46,8 +46,8 @@ OS name: "linux", version: "4.19.76-linuxkit", arch: "amd64", family: "unix"
 PATH=$PATH:$HOME/bin
 
 export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.el7_7.x86_64
-export M2_HOME=/opt/maven
-export MAVEN_HOME=/opt/maven
+export M2_HOME=/opt/apache-maven
+export MAVEN_HOME=/opt/apache-maven
 
 export PATH=${PATH}:${M2_HOME}/bin
 ```
@@ -57,7 +57,7 @@ export PATH=${PATH}:${M2_HOME}/bin
 
 # mvn --version
 Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
-Maven home: /opt/maven
+Maven home: /opt/apache-maven
 Java version: 1.8.0_242, vendor: Oracle Corporation, runtime: /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.el7_7.x86_64/jre
 Default locale: en_US, platform encoding: ANSI_X3.4-1968
 OS name: "linux", version: "4.19.76-linuxkit", arch: "amd64", family: "unix"
