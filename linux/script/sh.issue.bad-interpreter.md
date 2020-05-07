@@ -1,15 +1,15 @@
-# issues
+# issue on running scripts: bad interpreter
 
 ## running a bash script
 
 ```
 $ ./test.sh
--bash: ./replicate_sims_prod_to_dev.sh: /usr/bin/bash^M: bad interpreter: No such file or directory
+-bash: ./some-script-from-windows.sh: /usr/bin/bash^M: bad interpreter: No such file or directory
 ```
 
 I have seen this issue when creating scripts in Windows env and then porting over to run on a Unix environment.
 
-### Resolve
+## Resolve
 
 #### dos2unix
 

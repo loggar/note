@@ -17,6 +17,10 @@
 # sudo ln -s /opt/apache-maven-3.6.3 /opt/maven
 ```
 
+```
+# mvn --version
+```
+
 ### maven release
 
 ```

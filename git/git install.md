@@ -2,13 +2,28 @@
 
 ## centos 7
 
-Remove old git
-
-### Add IUS CentOS 7 repo
-
 ```
 sudo yum remove git*
 ```
+
+### Install git
+
+```
+# sudo yum install git
+```
+
+```
+# git --version
+git version 1.8.3.1
+```
+
+```
+git config --global user.name "Your Name"
+git config --global user.email "youremail@yourdomain.com"
+git config --list
+```
+
+### Add IUS CentOS 7 repo
 
 Add IUS CentOS 7 repo
 
