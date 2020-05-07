@@ -1,4 +1,4 @@
-# issue on running scripts: bad interpreter
+# Issue on running scripts: bad interpreter
 
 ## running a bash script
 

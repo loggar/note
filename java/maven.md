@@ -1,4 +1,4 @@
-# Install java
+# Install Maven
 
 ## centos
 
