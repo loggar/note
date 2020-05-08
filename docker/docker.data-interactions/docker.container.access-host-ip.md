@@ -1,6 +1,6 @@
-# IP docker host
+# docker hostname
 
-## Host IP from in a container
+## Host Hostname or IP from a container
 
 Docker for Mac / Docker for Windows
 

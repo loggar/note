@@ -3,6 +3,11 @@
 Find Your Local Network IP Address on MacOS / Linux:
 
 ```
+# install net-tools if haven't, for example in centOS:
+$ yum install net-tools
+```
+
+```
 $ ifconfig
 # or $ ip a
 
