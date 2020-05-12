@@ -14,7 +14,7 @@ Docker for Linux
 $ ip a
 ```
 
-## for MAC/ Winfows/ Linux
+## for MAC/ Windows/ Linux
 
 ```sh
 HOST_DOMAIN="host.docker.internal"

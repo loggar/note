@@ -16,7 +16,7 @@ As a disclaimer, getting security wrong is very easy, and I'm not an expert. If 
 
 - A whole lot more
 
-Seriously, be mindful about how much the information/services that you administer are worth, and what could happen if they were compromised. Then consider carefully if you need to hire extra help or educate yourself more in the subject, security breaches can seriusly f@#* you up, your close ones, and people you dont even know.
+Seriously, be mindful about how much the information/services that you administer are worth, and what could happen if they were compromised. Then consider carefully if you need to hire extra help or educate yourself more in the subject, security breaches can seriously f@#* you up, your close ones, and people you don't even know.
 
 That said, this tutorial is divided in 7 parts:
 
