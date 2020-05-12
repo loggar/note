@@ -29,13 +29,20 @@ sudo wget https://www.openssl.org/source/openssl-1.1.1c.tar.gz
 
 sudo tar -xf openssl-1.1.1c.tar.gz
 
-cd openssl-1.1.1c
 ```
 
 ## install openssl
 
 ```sh
+cd /usr/local/src/openssl-1.1.1c
+
 sudo ./config --prefix=/usr/local/ssl --openssldir=/usr/local/ssl shared zlib
+```
+
+```
+sudo make
+sudo make test
+sudo make install
 ```
 
 Naviagate to the `/etc/ld.so.conf.d` directory and create a new configuration file `openssl-1.1.1c.conf`.
@@ -45,13 +52,15 @@ Naviagate to the `/etc/ld.so.conf.d` directory and create a new configuration fi
 ```
 
 ```sh
-cd /etc/ld.so.conf.d/
+cd /etc/ld.so.conf.d
 
 cat > openssl-1.1.1c.conf
 
 /usr/local/ssl/lib
 
 # Ctrl + D to save the file
+
+cat openssl-1.1.1c.conf
 ```
 
 Reload the dynamic link by issuing the command below:
