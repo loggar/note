@@ -1,6 +1,6 @@
 # Local Network Host IP
 
-Find Your Local Network IP Address on MacOS / Linux:
+## Find Your Local Network IP Address on MacOS / Linux:
 
 ```
 # install net-tools if haven't, for example in centOS:
@@ -21,7 +21,7 @@ eth2      Link encap:Ethernet  HWaddr d0:50:99:4a:e8:68
           RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
 ```
 
-Find Your Local Network IP Address on Windows:
+## Find Your Local Network IP Address on Windows:
 
 ```
 $ ipconfig
