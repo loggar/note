@@ -97,7 +97,7 @@ to refer to one person use '**staff member**'
 
 **On the contrary** is used (usually) to express an opposite opinion.
 
-> Some people say climate change is not occurring. **On the contrary**, the evidence of ot is overwhelming.
+> Some people say climate change is not occurring. **On the contrary**, the evidence of it is overwhelming.
 
 **In contrast** is used more generally to describe differences.
 
@@ -151,7 +151,7 @@ to refer to one person use '**staff member**'
 
 > More money **was spent** on clothes than food.
 
-## close / clothes
+## cloth / clothes
 
 * **A cloth** can be used for cleaning. It is not a singular noun for clothes.
 * **clothes** are what we wear. It is a plural, uncountable noun.

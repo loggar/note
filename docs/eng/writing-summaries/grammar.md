@@ -143,13 +143,13 @@ When using any of these words to start a sentence __do not__ follow it with a co
 
 ## Comma Splices
 
-A comma slice describes what occurs when two main clauses are incorrectly joined using only a comma.
+A comma splice describes what occurs when two main clauses are incorrectly joined using only a comma.
 
 > The meeting will be held tomorrow, it is important that everyone is present. __(x)__
 
 > Unemployment is rising rapidly, the government needs to take action now. __(x)__
 
-The problem is that the comma is inadequate as a link, because the two parts actually qualify individually as complete sentences. However, there are three fairly simple strategies to fix comma splice problems:
+The problem is that the comma is inadequate as a link, because the two parts actually qualified individually as complete sentences. However, there are three fairly simple strategies to fix comma splice problems:
 
 1. Insert a full stop and start a new sentence
 	> The meeting will be held tomorrow<mark>. It is</mark> important that everyone is present. __(o)__
@@ -192,7 +192,7 @@ Sometimes, __which__ may refer to the whole of a previous clause.
 
 In this case, there is also a comma before 'which'.
 
-**Caution:** Sometimes, __which__ is used in wha is called a 'defining' or 'identifying' clause.
+**Caution:** Sometimes, __which__ is used in what is called a 'defining' or 'identifying' clause.
 
 Consider the difference between these two examples:
 

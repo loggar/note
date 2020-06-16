@@ -46,10 +46,16 @@ $ git revert <commit-hash>
 ## Checkout old commits
 
 ```
-git checkout hotfix
+git checkout <commit-hash>
 ```
 
 Unlike git reset, git checkout doesn’t move any branches around.
+
+Back to latest commit after checkout previous commit:
+
+```
+git checkout <branch-name>
+```
 
 ### Git Checkout File
 
