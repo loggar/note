@@ -17,19 +17,12 @@ C:\_dev\mysql\mysql-5.7.11-winx64\bin\mysqld --initialize --console
 C:\_dev\mysql\mysql-5.7.11-winx64\bin\mysqld --console
 ```
 
-[mysql client]
-
-```
-C:\_dev\mysql\mysql-5.7.11-winx64\bin\mysql -u root -p
-Enter password: *****
-```
-
 Start server with init file (process it once when you reset the root password):
 
 `my-init.txt`
 
 ```
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'admin';
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'mypass';
 FLUSH PRIVILEGES;
 ```
 
@@ -40,7 +33,14 @@ C:\_dev\mysql\mysql-5.7.11-winx64\bin\mysqld --console --init-file=C:\_dev\mysql
 [root pwd]
 
 ```
-mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'admin'; FLUSH PRIVILEGES;
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'mypass'; FLUSH PRIVILEGES;
 // or
-mysql> set password = password('admin');
+mysql> set password = password('mypass');
+```
+
+[mysql client]
+
+```
+C:\_dev\mysql\mysql-5.7.11-winx64\bin\mysql -u root -p
+Enter password: *****
 ```
