@@ -1,14 +1,18 @@
-# docker hostname
+# Host Hostname or IP from a container
 
-## Host Hostname or IP from a container
-
-Docker for Mac / Docker for Windows
+## Docker for Mac / Docker for Windows
 
 ```
 host.docker.internal
 ```
 
-Docker for Linux
+ps:
+
+```
+docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <container_name>
+```
+
+## Docker for Linux
 
 ```
 $ ip a
