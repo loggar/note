@@ -34,7 +34,7 @@ mysql -u root -p
 ```
 
 ```
-CREATE DATABASE MY_DATABASE_NM;
+CREATE DATABASE MY_DB_NAME;
 
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'mypass';
 CREATE USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'mypass';
@@ -64,30 +64,4 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 ```
 $ docker start mysql1
  mysql1
-```
-
-## Replicate remote db
-
-```
-chmod +x /root/mysql/shell-script/*.sh
-```
-
-```
-$ docker exec -i -t mysql1 /bin/bash
-
-$ /root/mysql/shell-script/replicate_sims_dev_to_local.sh
-
-$ /root/mysql/shell-script/replicate_sims_prod_to_local.sh
-
-$ /root/mysql/shell-script/import_local_file.sh
-```
-
-Or int the host of the container:
-
-```
-$ docker exec mysql1 bash -c "cd /root/mysql/shell-script && ./replicate_sims_dev_to_local.sh"
-
-$ docker exec mysql1 bash -c "cd /root/mysql/shell-script && ./replicate_sims_prod_to_local.sh"
-
-$ docker exec mysql1 bash -c "cd /root/mysql/shell-script && ./import_local_file.sh"
 ```
