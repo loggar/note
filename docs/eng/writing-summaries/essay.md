@@ -2,10 +2,10 @@
 
 ## Task achievement
 
-* write minimum of 250 words
-* address all parts of the task
-* present a clear position throughout
-* present, extend and support main ideas
+* Write minimum of 250 words
+* Address all parts of the task
+* Present a clear position throughout
+* Present, extend and support main ideas
 
 ## Address all parts of the task
 
