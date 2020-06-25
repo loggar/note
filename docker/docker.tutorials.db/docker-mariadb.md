@@ -168,8 +168,7 @@ MariaDB [(none)]> SELECT User, Host FROM mysql.user WHERE Host <> 'localhost';
 It is common for people to want to create a "root" user that can connect from anywhere, so as an example, we'll do just that, but to improve on it we'll create a root user that can connect from anywhere on my local area network (LAN), which has addresses in the subnet `192.168.100.0/24`.
 
 ```
-MariaDB [(none)]> GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.100.%'
-    ->   IDENTIFIED BY 'mypass' WITH GRANT OPTION;
+MariaDB [(none)]> GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.100.%' IDENTIFIED BY 'mypass' WITH GRANT OPTION;
 Query OK, 0 rows affected (0.000 sec)
 
 MariaDB [(none)]> SELECT User, Host FROM mysql.user WHERE Host <> 'localhost';
