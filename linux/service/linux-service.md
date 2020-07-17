@@ -1,4 +1,4 @@
-# List Services and Startups (Centos)
+# Services and Startups
 
 For current versions of Ubuntu, you probably have a mix of Upstart, and SystemV. Newer versions of Ubuntu after 15.04 "Vivid Vervet" (and other Linux distros like RHEL/CentOS 7) are moving to use SystemD.
 
@@ -74,10 +74,10 @@ ls /etc/rc*.d/
 
 ## [SystemD]
 
-* [SystemD for Upstart Users](https://wiki.ubuntu.com/SystemdForUpstartUsers)
-* [Understanding and administering systemd](https://docs.fedoraproject.org/en-US/quick-docs/understanding-and-administering-systemd/index.html)
-* [Redhat: Managing Services with SystemD](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/chap-managing_services_with_systemd)
-* [Overview of systemd for RHEL 7](https://access.redhat.com/articles/754933)
+- [SystemD for Upstart Users](https://wiki.ubuntu.com/SystemdForUpstartUsers)
+- [Understanding and administering systemd](https://docs.fedoraproject.org/en-US/quick-docs/understanding-and-administering-systemd/index.html)
+- [Redhat: Managing Services with SystemD](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/chap-managing_services_with_systemd)
+- [Overview of systemd for RHEL 7](https://access.redhat.com/articles/754933)
 
 To list all services:
 
