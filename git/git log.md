@@ -1,11 +1,19 @@
 ## git log
 
+command
+
+- `q` : quit
+
 ```
 git log
 ```
 
 ```
 git log -p -2
+```
+
+```
+git log --pretty=oneline --abbrev-commit
 ```
 
 ```
