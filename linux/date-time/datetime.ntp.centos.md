@@ -1,5 +1,13 @@
 # How to Obtain Accurate Server Time in CentOS
 
+Check the date
+
+```
+date
+```
+
+Set server time
+
 ```
 # yum install ntp ntpdate
 
