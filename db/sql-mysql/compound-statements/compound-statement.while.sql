@@ -1,8 +1,0 @@
-CREATE PROCEDURE dowhile()
-BEGIN
-  DECLARE v1 INT DEFAULT 5;
-
-  WHILE v1 > 0 DO
-    SET v1 = v1 - 1;
-  END WHILE;
-END;
