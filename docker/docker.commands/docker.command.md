@@ -1,5 +1,32 @@
 # Docker command
 
+## Basic Docker Commands
+
+```
+$ sudo docker info
+$ sudo docker version (docker --version)
+$ sudo docker search centos
+$ docker pull centos
+$ sudo docker images
+$ sudo docker rmi centos
+```
+
+## Run a docker container
+
+```
+$ docker run centos cat /etc/issue
+$ sudo docker ps -l
+$ sudo docker start <container-id>
+$ sudo docker start <container-name>
+$ docker run --name <image-name> centos cat /etc/issue
+$ docker run -it centos bash
+
+# uname -a
+# cat /etc/redhat-release
+# exit
+$ docker ps -l
+```
+
 ## docker commands
 
 - `docker build` — builds an image from a Dockerfile
