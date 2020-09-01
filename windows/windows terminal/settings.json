@@ -57,7 +57,7 @@
         "closeOnExit": "always",
         "source": "Windows.Terminal.Wsl",
         "fontSize": 10,
-        "colorScheme": "One Half Dark"
+        "colorScheme": "Campbell"
       },
       {
         "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -82,7 +82,29 @@
 
   // Add custom color schemes to this array.
   // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
-  "schemes": [],
+  "schemes": [
+    {
+      "name": "BlulocoDark",
+      "black": "#4a505d",
+      "red": "#f81141",
+      "green": "#23974a",
+      "yellow": "#fd7e57",
+      "blue": "#285bff",
+      "purple": "#8c62fd",
+      "cyan": "#366f9a",
+      "white": "#ccd5e5",
+      "brightBlack": "#61697a",
+      "brightRed": "#fc4a6d",
+      "brightGreen": "#37bd58",
+      "brightYellow": "#f6be48",
+      "brightBlue": "#199ffd",
+      "brightPurple": "#fc58f6",
+      "brightCyan": "#50acae",
+      "brightWhite": "#ffffff",
+      "background": "#1e2127",
+      "foreground": "#abb2bf"
+    }
+  ],
 
   // Add custom keybindings to this array.
   // To unbind a key combination from your defaults.json, set the command to "unbound".
