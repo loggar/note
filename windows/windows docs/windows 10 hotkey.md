@@ -18,4 +18,6 @@ capture and save simultaneously in directory "document > picture > screenshot" [
 task view [w]Tab
 
 windows snip [w][s]s
+
+emoji keypad [w].
 ```
