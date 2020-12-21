@@ -5,14 +5,13 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Python",
+      "name": "Python: Current file",
       "type": "python",
       "request": "launch",
       "stopOnEntry": false,
-      "pythonPath": "${config:python.pythonPath}",
       "program": "${file}",
       "cwd": "${workspaceFolder}",
-      "console": "internalConsole",
+      "console": "integratedTerminal",
       "envFile": "${workspaceFolder}/py.dev.env",
       "env": {}
     }
