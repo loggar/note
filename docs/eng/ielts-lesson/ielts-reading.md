@@ -19,12 +19,12 @@ reason
 > Most student prefer studying overseas **to improve their language.**
 > Most student prefer studying overseas **to study English.**
 
-# by + doer/subject
+# by + subject
 
 > the car was produced by A.
 > A manufactured the car.
 
-# that/which + noun (subject)
+# that/which + subject
 
 > people think **that** students should not be given homework
 
@@ -131,10 +131,10 @@ always the **LAST** paragraph
 |    |          | PLACE                                                                   | TIME                                             |
 |----|----------|-------------------------------------------------------------------------|--------------------------------------------------|
 | in | large    | city country in Sydney in France                                        | year month in 1991 in April                      |
-| on |          | street without number On Liverpool St.                                  | day date on Christmas on 1 April                 |
+| on |          | street without number On Liverpool St.                                  | day date on Christmas on 1 April on Monday       |
 | at | specific | name of building name of facility at RPA Hospital at Sydney Opera House | o'clock at 9 o'clock at 9-am at 1300-Hrs at 1-pm |
 
-2. a/an
+1. a/an
 
 - a/an + general noun/common noun
 

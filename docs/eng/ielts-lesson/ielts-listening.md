@@ -81,18 +81,18 @@ in audio script,
 ### _________ of something
 
 1. _________ of something
-2. something\`s _________
+2. something's _________
 3. his/her/its/their _________
 
 > status of chief
 
-> the chief\'s status
+> the chief's status
 
 > their status
 
 > The leaves of plants
 
-> The plants\' leaves
+> The plants' leaves
 
 > their leaves
 

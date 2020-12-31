@@ -94,8 +94,6 @@ city, town, urban area, metropolitan area
 
 decline, go down, dwindle, shrink, endangered, extinction(die out, disappear)
 
-animals, wildlife(nature), domestic animals(house), livestock(farm)
-
 pros, benefits, advantages (positive)
 
 cons, drawbacks, disadvantages (negative)
@@ -268,7 +266,7 @@ decision, decide, choice, choose
 
 factor, reason, cause
 
-replica, a copy, a reconstruction, a reproduction, a imitation
+replica, a copy, a reconstruction, a reproduction, an imitation
 
 before, prior, pre- (prehistory, previously)
 
@@ -284,7 +282,7 @@ dye
 
 potential, possibility (n), possible (adj), probable, **likely**, likelihood (n)
 
-> It is likely that i will pass the test
+> It is likely that I will pass the test
 
 immediately, fast, quick, rapid, **swift**, **instant**
 
@@ -382,7 +380,7 @@ go, head off, set off, fly off
 
 overseas, foreign countries, international, abroad (preposition only)
 
-study, education, educate,learn, train, trainee
+study, education, educate, learn, train, trainee
 
 school, educational facility, learning institution, educational institution, learning facility
 
@@ -563,7 +561,7 @@ build relationship, establish relationship
 
 establish business
 
-ba able to: good situations
+be able to: good situations
 
 could, develop: bad situations
 
@@ -579,7 +577,7 @@ notion (formal, essay only), an idea, assumption
 
 save from -ing
 
-> save time and money frm travelling
+> save time and money from travelling
 
 > save time from cooking
 
@@ -649,7 +647,7 @@ teacher, instructor, educator, mentor, trainer
 
 make copy, copy, recreate, replica, mimic, imitate
 
-past, previous, former, by-gone era, long-gone period, ancient time
+past, previous, former, bygone era, long-gone period, ancient time
 
 species, the kind of animals
 
@@ -687,21 +685,11 @@ evidence, proof, prove
 
 say, claim, believe, argue, assert
 
-danger, risk, risky, hazard, hostile
-
-impact, effect, affect(v), influence, consequence
-
-evidence, proof, prove
-
-say, claim, believe, argue, assert
-
 distance, length
 
 > meters, kilometres, miles
 
 documents (made of paper), manuscript (very old document)
-
-risk, hazard, danger, hostile
 
 aware of, conscious, can identify
 
