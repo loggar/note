@@ -97,6 +97,16 @@ sudo systemctl start test-serv
 sudo systemctl status test-serv.service
 ```
 
+```
+$ systemctl status tomcat.service
+
+$ systemctl status nginx.service
+
+$ systemctl status sshd.service
+
+$ systemctl status lighttpd.service
+```
+
 ## Stopping and Disabling the Service
 
 ```
