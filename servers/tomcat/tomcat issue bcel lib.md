@@ -34,3 +34,8 @@ Try to upgrade the version of TomCat. This is fixed in:
 - 8.0.x for 8.0.42 onwards
 - 7.0.x for 7.0.76 onwards
 ```
+
+```
+bouncycastle lib conflict : some dependencies already includes bouncycastle package (different version), those cause cyclic hierarchy.
+consider exclude duplicated bouncycastle libs.
+```
