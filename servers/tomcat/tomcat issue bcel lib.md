@@ -39,3 +39,21 @@ Try to upgrade the version of TomCat. This is fixed in:
 bouncycastle lib conflict : some dependencies already includes bouncycastle package (different version), those cause cyclic hierarchy.
 consider exclude duplicated bouncycastle libs.
 ```
+
+`pom.xml` dependencies
+
+```
+		<!-- https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on -->
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcprov-jdk15on</artifactId>
+			<version>1.58</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcpkix-jdk15on</artifactId>
+			<version>1.58</version>
+			<scope>provided</scope>
+		</dependency>
+```
