@@ -24,7 +24,7 @@
 | give       | provide                            |
 | want       | wish, require                      |
 | happy      | grateful                           |
-| I'm sorry | I regret                           |
+| I'm sorry  | I regret                           |
 | because of | owing to, due to, as a result of   |
 | and        | furthermore, moreover, in addition |
 | but        | however                            |
