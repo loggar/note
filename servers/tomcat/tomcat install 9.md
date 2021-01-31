@@ -8,8 +8,8 @@ wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.41/bin/apache-tomcat-9.0.
 `env`
 
 ```
-JAVA_HOME=/opt/jdk1.8.0_40
-CATALINA_HOME=/opt/apache-tomcat-9.0.41
+JAVA_HOME=/<DIR>/jdk1.8.0_40
+CATALINA_HOME=/<DIR>/apache-tomcat-9.0.41
 ```
 
 set `apache-tomcat-9.0.41/conf`
