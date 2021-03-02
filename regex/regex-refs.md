@@ -15,3 +15,9 @@ no-1-space after comma
 ```
 [,]{1}[^\s|"]{1}
 ```
+
+person name
+
+```
+^[a-zA-Z]+(([a-zA-Z, \'\` \.\-])?[a-zA-Z]*)*$
+```
