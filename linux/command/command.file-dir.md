@@ -1,5 +1,11 @@
 ## files and directories
 
+goto home dir:
+
+```
+cd ~
+```
+
 ```
 ls => list all files
 ls -a => list all files along with hidden ones
@@ -37,32 +43,24 @@ clear => clears the terminal screen
 pwd => displays the path of the current working directory.
 ```
 
-## file permissions
+### df: The df command shows the size, used space, and available space on the mounted filesystems of your computer.
 
 ```
-r - read, w - write, x - execute
-u - user, g - group, o - other, a - all
+df -h -x squashfs
+```
 
-0 - no permission
-1 - execute
-2 - write
-3 - execute + write
-4 - read
-5 - read + execute
-6 - read + write
-7 - all
+### find
+
+```
+find . -name *ones*
 ```
 
 ```
-chmod 777 ex.txt => gives all permissions to all users, groups and others.
+find . -type f -name *ones*
+```
 
-'+' - gives permission
-'-' - removes permission
-'=' - assigns the given permission
+Case-Insensitive:
 
-chmod u=rw ex.txt => gives read/write to user
-chmod a= ex.txt => removes all permission to all users.
-
-chgrp {group name} {filename} => changes group for a file
-chown {user} {filename} => changes owner of a file
+```
+find . -iname *wild*
 ```
