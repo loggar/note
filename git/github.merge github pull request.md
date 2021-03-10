@@ -38,7 +38,7 @@ git rebase master
 Last but not least, force push all the changes to the remote branch:
 
 ```
-git push -f origin <branch>
+git push -u origin <branch>
 ```
 
 The branch is synced with changes from all collaborators, your changes and changes from the master branch. Finally, when the branch is updated in the remote repository, you can hit the “Merge Pull Request” button on GitHub.
