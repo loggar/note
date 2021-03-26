@@ -1,5 +1,13 @@
 # rm
 
+## prune
+
+Rule Them All
+
+```
+docker system prune
+```
+
 ## container
 
 ```
@@ -16,6 +24,13 @@ Remove a container and its volumes:
 
 ```
 $ docker rm -v redis
+```
+
+Remove Exited Containers:
+
+```
+Remove Exited Containers
+$ docker rm $(docker ps -q -f "status=exited")
 ```
 
 ## volume
@@ -36,6 +51,12 @@ Remove all unused volumes:
 $ docker volume prune
 ```
 
+Remove Dangling Volumes:
+
+```
+$ docker volume rm $(docker volume ls -q -f "dangling=true")
+```
+
 ## images
 
 Remove images with IMAGE ID
@@ -49,6 +70,12 @@ Remove all unused images
 ```
 $ docker image ls
 $ docker image prune -a
+```
+
+Remove Dangling Images:
+
+```
+$ docker rmi $(docker images -q -f "dangling=true")
 ```
 
 ## network
