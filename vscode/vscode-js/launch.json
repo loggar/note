@@ -6,7 +6,8 @@
       "request": "launch",
       "name": "Launch Program .js",
       "program": "${file}",
-      "cwd": "${workspaceFolder}"
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
     },
     {
       "name": "Launch via babel-node",
@@ -15,7 +16,8 @@
       "runtimeExecutable": "npx",
       "runtimeArgs": ["babel-node", "--presets", "@babel/preset-env"],
       "program": "${file}",
-      "cwd": "${workspaceFolder}"
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
     },
     {
       "type": "node",
