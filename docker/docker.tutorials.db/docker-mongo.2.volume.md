@@ -14,7 +14,7 @@ docker images
 ## Run a container
 
 ```
-docker run -d --name mongo1 -v c:/Users/webnl/Documents/\_workspace_volume_mounted/mongo/mongo1/data:/data/db -p 33401:27017 mongo:4.4
+docker run -d --name mongo1 -v c:/Users/webnl/Documents/\_workspace_volume/mongo/mongo1/data:/data/db -p 33401:27017 mongo:4.4
 ```
 
 `docker-compose.yml`
@@ -26,7 +26,7 @@ services:
       ports:
         - "33401:27017"
     container_name: mongo1
-    volumes: c:/Users/webnl/Documents/\_workspace_volume_mounted/mongo/mongo1/data:/data/db
+    volumes: c:/Users/webnl/Documents/\_workspace_volume/mongo/mongo1/data:/data/db
 ```
 
 Pros:

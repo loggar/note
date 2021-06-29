@@ -24,11 +24,11 @@ docker image ls
 Create Container
 
 ```
-docker run --name mariadb1 -e MYSQL_ROOT_PASSWORD=mypass -p 33301:3306 -d mariadb:10.2
+docker run -d --name mariadb1 -e MYSQL_ROOT_PASSWORD=mypass -p 33301:3306 mariadb:10.2
 
 # or options for mysqld
 
-docker run --name mariadb1 -e MYSQL_ROOT_PASSWORD=mypass -p 33301:3306 -d mariadb:10.2 --log-bin --binlog-format=MIXED
+docker run -d --name mariadb1 -e MYSQL_ROOT_PASSWORD=mypass -p 33301:3306 mariadb:10.2 --log-bin --binlog-format=MIXED
 ```
 
 If want to make the container starts automatically when Docker starts.
