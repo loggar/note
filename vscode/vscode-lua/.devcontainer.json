@@ -1,0 +1,30 @@
+{
+  // .devcontainer.json in project root.
+  // Default path to open when attaching to a new container.
+  "workspaceFolder": "/home/workspace/workspace-lua",
+  // An array of extension IDs that specify the extensions to
+  // install inside the container when you first attach to it.
+  "extensions": [
+    "sumneko.lua"
+  ],
+  // Any *default* container specific VS Code settings
+  "settings": {
+    "terminal.integrated.profiles.linux": {
+      "ash": {
+        "path": "/bin/ash",
+        "args": []
+      }
+    },
+    "terminal.integrated.defaultProfile.linux": "ash",
+  },
+  // An array port numbers to forward
+  "forwardPorts": [
+    80
+  ],
+  // Container user VS Code should use when connecting
+  "remoteUser": "vscode",
+  // Set environment variables for VS Code and sub-processes
+  "remoteEnv": {
+    "MY_VARIABLE": "some-value"
+  }
+}
