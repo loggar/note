@@ -45,6 +45,42 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 5d7dad8c6cdc        mariadb:10.2        "docker-entrypoint.s…"   4 seconds ago       Up 3 seconds        0.0.0.0:33301->3306/tcp   mariadb1
 ```
 
+## volume
+
+```
+docker inspect mariadb1
+```
+
+```
+"Config": {
+    "Hostname": "3c6bb70ea59b",
+    ...
+    "Image": "mariadb:10.2",
+    "Volumes": {
+        "/var/lib/mysql": {}
+    },
+    "WorkingDir": "",
+    "Entrypoint": [
+        "docker-entrypoint.sh"
+    ],
+    "OnBuild": null,
+    "Labels": {}
+},
+```
+
+```
+docker run \
+  --detach \
+  --name mariadb1 \
+  -e MYSQL_ROOT_PASSWORD=mypass \
+  -p 33301:3306 mariadb:10.2 \
+  --log-bin \
+  --binlog-format=MIXED \
+  --volume=/root/docker/[container_name]/conf.d:/etc/mysql/conf.d \
+  --volume=/storage/docker/mysql-data:/var/lib/mysql \
+mysql
+```
+
 ## Running and Stopping the Container
 
 ```
