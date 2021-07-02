@@ -7,7 +7,7 @@
       "name": "Bash-Debug (current file)",
       "program": "${file}",
       "showDebugOutput": true,
-      "terminalKind": "debugConsole"
+      "terminalKind": "integrated"
     }
   ]
 }

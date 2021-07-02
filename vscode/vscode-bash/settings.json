@@ -1,6 +1,4 @@
 {
-  // terminal: WSL bash
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\bash.exe",
   // eol: unix-format
   "files.eol": "\n"
 }
