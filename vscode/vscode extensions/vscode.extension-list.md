@@ -15,12 +15,14 @@
 - PowerShell
 - Prettier - Code formatter
 - Project Manager
+- Pylance
 - Python
 - Remote - Containers
 - Remote - SSH
+- Remote - SSH: Editing Configuration Files
 - Remote - WSL
+- Render Line Endings
 - REST Client
-- Settings Sync
 - Sort JSON objects
 - Sort lines
 - WordCounter

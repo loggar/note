@@ -3,25 +3,24 @@
 `settings.json`
 
 ```json
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[jsonc]": {
+  "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "prettier.printWidth": 256,
 ```
 
 ## issue: vscode - prettier does not work after vscode update.
