@@ -1,5 +1,29 @@
 # Memory and Process
 
+## List running processes
+
+list running processes
+
+```
+ps
+```
+
+display all running processes for all users on your machine
+
+```
+ps aux
+```
+
+top or htop
+
+```sh
+top # 'q' for exit session
+
+sudo apt update && sudo apt install htop
+
+htop # 'q' for exit session
+```
+
 ## Memory usage by process
 
 ```
