@@ -1,4 +1,4 @@
-# vscode editing tips
+# vscode tips
 
 ## custom (charly.loggar)
 
