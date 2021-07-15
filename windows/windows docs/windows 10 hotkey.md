@@ -3,21 +3,24 @@
 [c] Ctrl key
 [s] Shift key
 
+close virtual-desktop [w][c]F4
 new virtual-desktop [w][c]d
 show other virtual-desktop  [w][c]arrow-key(L|R)
-close virtual-desktop [w][c]F4
+
+close current window [c]w
 divide screen [w]arrow-key
 show desktop wallpaper [w]d
-file explore [w]e
 lock windows [w]L
-close current window [c]w
+move current window to other monitor [w][s]arrow-key[L|R]
+
 task manager [c][s] Esc
 run [w] r
-move current window to other monitor [w][s]arrow-key[L|R]
-capture and save simultaneously in directory "document > picture > screenshot" [w]PrtCcr
 task view [w]Tab
+windows search [w]s
 
+file explore [w]e
+
+capture and save simultaneously in directory "document > picture > screenshot" [w]PrtCcr
 windows snip [w][s]s
-
 emoji keypad [w].
 ```
