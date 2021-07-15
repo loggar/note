@@ -8,6 +8,7 @@
 - Run Build Task `Ctrl+Shift+B`
 - Run Test Task `Ctrl+Shift+T`
 - Search in workspaces `Ctrl+H`
+- close other editors in group `Ctrl+Shift+F4`
 
 ## selections
 
