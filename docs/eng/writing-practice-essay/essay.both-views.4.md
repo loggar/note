@@ -1,7 +1,0 @@
-It is argued by some that people should change their jobs from time to time and others say that it is better to stay in a same job in lifetime. The purpose of this essay is to take a close look at the both aspects; moreover, this paper will present a social perspective in examining the benefits of them.
-
-To begin, moving to other job in someone's lifetime continuously can lead the experiences of the person expanded. People who have experienced in a various fields gained different social and practical skills from their works. In addition, they can visit diverse part of their country or the glove, which makes whose life abundant with the people, cultures and the sights they have seen.
-
-On the other hand, staying in a consistent job has different kind of pros. It is difficult to have multiple professions because it usually takes several years to complete a higher degree. Once people complete their study, staying in the fields they majored will much beneficial for the careers and incomes. With a permanent profession can be considered a stable individual income.
-
-By and large, there seems to be compelling reasons on either side of this arguments, but the people who keep change their job will be struggling with building the proper careers in their limited lifespan; various experience will result a short achievement. Therefore, I am of the belief that it is recommended to build a robust career in our lifetime for the reason that many regard the rewarding result as one of goals in our lives.
