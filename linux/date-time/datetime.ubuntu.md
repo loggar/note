@@ -3,5 +3,5 @@
 ## manual
 
 ```
-dpkg-reconfigure tzdata
+$ dpkg-reconfigure tzdata
 ```
