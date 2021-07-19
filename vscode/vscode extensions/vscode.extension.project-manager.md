@@ -1,5 +1,11 @@
 # project manager
 
+add a project
+
+```
+vscode command : [c]+[s]+p : save project
+```
+
 setting
 
 ```json
