@@ -40,3 +40,11 @@ The command palette is your best friend. You can open it with Command + P (on Ma
 ## Custom Key bindings
 
 One useful key binding missing from VS code is Save All. Let’s create our own key binding to save all modified files in the workspace with Command + Shift + S (on Mac) or Ctrl + Shift + S (on Windows).
+
+## Always open a new tab for opening a file
+
+settings
+
+```
+"workbench.editor.enablePreview": false,
+```
