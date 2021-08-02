@@ -1,5 +1,11 @@
 # powershell env variables
 
+show env variables
+
+```
+echo $env:Path
+```
+
 NODE_ENV
 
 ```
