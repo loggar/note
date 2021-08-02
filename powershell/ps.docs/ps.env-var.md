@@ -17,3 +17,9 @@ JAVA_HOME
 > Get-ChildItem Env:JAVA_HOME
 
 ```
+
+NODE PATH (append)
+
+```
+$env:Path += ";C:\_dev\nodejs\node-v14.17.4-win-x64"
+```
