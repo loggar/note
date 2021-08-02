@@ -1,9 +1,0 @@
-services:
-  mongo1:
-    image: mongo:4.4
-    ports:
-      - "33401:27017"
-    container_name: mongo1
-    volumes: volume_data_mongo:/data/db
-  volumes:
-    volume_data_mongo:

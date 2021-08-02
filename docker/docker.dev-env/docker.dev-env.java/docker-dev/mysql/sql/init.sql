@@ -1,1 +1,0 @@
-CREATE TABLE sample_table (col1 CHAR(20) CHARACTER SET utf8 COLLATE utf8_bin);
