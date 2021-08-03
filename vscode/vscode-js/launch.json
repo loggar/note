@@ -2,9 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Launch Program .js",
       "type": "node",
       "request": "launch",
-      "name": "Launch Program .js",
+      "runtimeExecutable": "C:\\_dev\\nodejs\\node-v14.17.4-win-x64\\node",
       "program": "${file}",
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal"
@@ -14,15 +15,18 @@
       "type": "node",
       "request": "launch",
       "runtimeExecutable": "npx",
-      "runtimeArgs": ["babel-node", "--presets", "@babel/preset-env"],
+      "runtimeArgs": [
+        "babel-node",
+        "--presets",
+        "@babel/preset-env"
+      ],
       "program": "${file}",
-      "cwd": "${workspaceFolder}",
-      "console": "integratedTerminal"
+      "cwd": "${workspaceFolder}"
     },
     {
+      "name": "Jest Current File",
       "type": "node",
       "request": "launch",
-      "name": "Jest Current File",
       "program": "${workspaceFolder}/node_modules/.bin/jest",
       "args": [
         "${relativeFile}",
@@ -32,22 +36,20 @@
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen",
       "disableOptimisticBPs": true,
-      "windows": {
-        "program": "${workspaceFolder}/node_modules/jest/bin/jest"
-      }
     },
     {
+      "name": "Jest All",
       "type": "node",
       "request": "launch",
-      "name": "Jest All",
       "program": "${workspaceFolder}/node_modules/.bin/jest",
-      "args": ["--runInBand", "--config", "${workspaceFolder}/jest.config.js"],
+      "args": [
+        "--runInBand",
+        "--config",
+        "${workspaceFolder}/jest.config.js"
+      ],
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen",
       "disableOptimisticBPs": true,
-      "windows": {
-        "program": "${workspaceFolder}/node_modules/jest/bin/jest"
-      }
     }
   ]
 }
