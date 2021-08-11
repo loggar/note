@@ -4,9 +4,9 @@ https://github.com/chocolatey/choco/wiki/Installation
 
 ## Requirements
 
-* Windows 7+ / Windows Server 2003+
-* PowerShell v2+
-* .NET Framework 4+ (the installation will attempt to install .NET 4.0 if you do not have it installed)
+- Windows 7+ / Windows Server 2003+
+- PowerShell v2+
+- .NET Framework 4+ (the installation will attempt to install .NET 4.0 if you do not have it installed)
 
 ## Installing Chocolatey
 
@@ -33,4 +33,14 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://chocolatey.org/ins
 ```
 PS C:\users\webnl> choco --version
 0.10.11
+```
+
+### upgrade
+
+```
+choco upgrade chocolatey
+```
+
+```
+choco upgrade all
 ```
