@@ -15,3 +15,7 @@ $ docker commit [CONTAINER_ID] [NEW_IMAGE_NAME]
 ```
 
 The commit operation will not include any data contained in volumes mounted inside the container.
+
+```
+docker commit <container-id> app-maria:0.0.1
+```
