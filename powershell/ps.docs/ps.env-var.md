@@ -33,11 +33,12 @@ $env:Path += ";C:\_dev\nodejs\node-v14.17.4-win-x64"
 Set dev terminal settings (java, maven)
 
 ```
-$env:Path = "C:\Windows;C:\WINDOWS;C:\WINDOWS\system32;C:\Windows\system32;C:\Windows\System32\Wbem;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\OpenSSH\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Dell\DW WLAN Card;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\_dev\git\cmd;C:\ProgramData\DockerDesktop\version-bin;C:\Users\webnl\AppData\Local\Microsoft\WindowsApps;C:\Users\webnl\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\webnl\AppData\Local\nvs\";
+$env:Path = "C:\Windows;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\_dev\git\cmd;C:\Users\webnl\AppData\Local\nvs\";
 $Env:JAVA_HOME = "C:\_dev\Java\openJDK-12"; $env:Path += ";C:\_dev\Java\openJDK-12\bin";
 $Env:MAVEN_HOME = "C:\_dev\maven\apache-maven-3.8.1"; $env:Path += ";C:\_dev\maven\apache-maven-3.8.1\bin";
+```
 
-
+```
 PS> java -version
 openjdk version "12" 2019-03-19
 OpenJDK Runtime Environment (build 12+33)
