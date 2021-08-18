@@ -21,17 +21,15 @@ git push -u origin master
 remove origin
 
 ```
-$ git remote -v
 # View current remotes
+$ git remote -v
 origin  https://github.com/OWNER/REPOSITORY.git (fetch)
 origin  https://github.com/OWNER/REPOSITORY.git (push)
 destination  https://github.com/FORKER/REPOSITORY.git (fetch)
 destination  https://github.com/FORKER/REPOSITORY.git (push)
 
-$ git remote rm destination
 # Remove remote
-
-$ git remote -vls -a
+$ git remote rm destination
 
 # Verify it's gone
 origin  https://github.com/OWNER/REPOSITORY.git (fetch)
@@ -42,7 +40,7 @@ Git init, add remote, and force to pull.
 
 ```
 git init
-git remote add origin https://github.com/loggar/java-9-above.git
+git remote add origin https://github.com/loggar/springboot25.git
 git fetch --all
 git reset --hard origin/master
 ```
