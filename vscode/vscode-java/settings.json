@@ -1,6 +1,8 @@
 {
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": true
+  "files.exclude": {
+    "target": true,
   },
-  "java.configuration.updateBuildConfiguration": "automatic"
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.home": "C:/_dev/Java/ms-jdk-11.0.11+9",
+  "maven.executable.path": "C:/_dev/maven/apache-maven-3.8.1/bin/mvn",
 }
