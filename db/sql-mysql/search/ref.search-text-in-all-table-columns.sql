@@ -1,9 +1,3 @@
-CREATE DEFINER=`root`@`%` PROCEDURE `getSearchedStringInAllTableColumns`(IN `tableSchemaText` VARCHAR(50), IN `conditionQuery` VARCHAR(256))
-	LANGUAGE SQL
-	NOT DETERMINISTIC
-	CONTAINS SQL
-	SQL SECURITY DEFINER
-	COMMENT 'Usage CALL getSearchedStringInAllTableColumns(\'TEST_DB\', "= \'Charly\'");'
 BEGIN
 
 -- variables

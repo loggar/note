@@ -1,0 +1,6 @@
+Shift + Ctrl + f
+
+- select db
+- check all tables
+- select all data type
+- find a text
