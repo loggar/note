@@ -15,3 +15,9 @@ export PY_ENV="production"
 
 printenv | grep PY_ENV
 ```
+
+printenv to a file
+
+```
+printenv > env.txt
+```
