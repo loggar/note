@@ -24,5 +24,10 @@ git branch -a
 ## Change git init default branch name
 
 ```
+## Git 2.28+
 git config --global init.defaultBranch main
+
+## Git 2.27-
+git config --global alias.new '!git init && git symbolic-ref HEAD refs/heads/main'
 ```
+
