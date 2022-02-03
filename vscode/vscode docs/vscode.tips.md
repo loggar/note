@@ -1,4 +1,9 @@
-# tips for Visual Studio Code to be productive in 2018
+# tips for vscode
+
+## commands
+
+ - file: copy path active file
+
 
 ## Live Share
 
