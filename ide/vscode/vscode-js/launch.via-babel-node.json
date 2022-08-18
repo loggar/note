@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch node",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "program": "${file}",
+      "runtimeExecutable": "node"
+    },
+    {
+      "name": "Launch babel-node",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "program": "${file}",
+      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/babel-node",
+      "runtimeArgs": ["--nolazy"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
