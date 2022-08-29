@@ -1,9 +1,35 @@
 {
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "C_Cpp.updateChannel": "Insiders",
-  "cSpell.enableFiletypes": ["sql"],
   "cSpell.enabled": true,
+  "cSpell.enableFiletypes": ["sql"],
   "cSpell.language": "en,en-GB",
   "cSpell.showStatus": true,
+  "cSpell.userWords": [
+    "autowired",
+    "heiis",
+    "jstl",
+    "servlet",
+    "springboot",
+    "taglib"
+  ],
   "cSpell.words": ["highcharts"],
   "editor.detectIndentation": false,
   "editor.linkedEditing": true,
@@ -18,11 +44,11 @@
   "explorer.incrementalNaming": "smart",
   "extensions.ignoreRecommendations": true,
   "files.exclude": {
-    "**/.git": true,
     "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.git": true,
     "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
+    "**/.settings": true
   },
   "files.watcherExclude": {
     "**/.git/objects/**": true,
@@ -38,6 +64,7 @@
   "html.format.wrapLineLength": 256,
   "javascript.autoClosingTags": true,
   "javascript.updateImportsOnFileMove.enabled": "never",
+  "redhat.telemetry.enabled": false,
   "remote.SSH.remotePlatform": {
     "10.1.10.31": "linux",
     "10.1.10.47": "linux"
@@ -55,37 +82,10 @@
   "window.zoomLevel": 0,
   "wordcounter.languages": ["markdown"],
   "workbench.colorTheme": "Visual Studio Light",
+  "workbench.editor.enablePreview": false,
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
   },
   "workbench.settings.enableNaturalLanguageSearch": false,
-  "workbench.startupEditor": "newUntitledFile",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "redhat.telemetry.enabled": false,
-  "cSpell.userWords": [
-    "autowired",
-    "heiis",
-    "jstl",
-    "servlet",
-    "springboot",
-    "taglib"
-  ],
-  "workbench.editor.enablePreview": false
+  "workbench.startupEditor": "newUntitledFile"
 }
