@@ -1,4 +1,4 @@
-# git mserge
+# git merge
 
 ## merge from other branch
 
