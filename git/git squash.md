@@ -10,6 +10,12 @@ eb7b757 feat (git) squash
 
 ```
 git rebase -i HEAD~3
+
+git rebase -i <the_commit_id_before_target_commits>
+
+git rebase --continue # continue rebase
+
+git rebase --edit-todo # edit current rebase
 ```
 
 ```
@@ -42,7 +48,7 @@ s f67a8fb feat (git) squash
 # However, if you remove everything, the rebase will be aborted
 ```
 
-Save and exit `:wq!`
+Save and exit `:wq`
 
 ```
 # This is a combination of 3 commits.
