@@ -20,7 +20,7 @@ Parent class should be replaced with it's child class.
 
 ## ISP
 
-Interface Segregation Priniple
+Interface Segregation Principle
 
 Client should not be dependent on an unused method of interfaces.
 
