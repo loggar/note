@@ -6,6 +6,12 @@ netstat -an | grep LISTEN
 
 # Checking who is using a port
 
+list listening port
+
+```
+$ netstat -tulpn
+```
+
 ```
 $ netstat -tulpn | grep 80
 tcp6       0      0 :::80                 :::*                   LISTEN     10177/java

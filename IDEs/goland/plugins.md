@@ -1,3 +1,4 @@
 # Goland plugins
 
 GitToolBox
+EnvFile
