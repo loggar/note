@@ -1,7 +1,9 @@
 ```
+# global
 git config --global user.email "email"
 
-git config user.name "name"
+# local project (current dir)
+git config --local user.name "name"
 ```
 
 or `.gitconfig`
