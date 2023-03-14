@@ -86,7 +86,6 @@ b89a4b5 (HEAD -> master) feat (git) squash
 ...
 ```
 
-
 ## Using squash when merging the branch
 
 ```
