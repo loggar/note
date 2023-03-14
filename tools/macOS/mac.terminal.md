@@ -14,7 +14,14 @@ list currently being used ports:
 sudo lsof -i -n -P | grep TCP
 sudo lsof -i -n -P | grep TCP | grep 59871
 sudo lsof -i -n -P | grep TCP | grep 8681
+```
 
+kill a process with port number
+
+```
+lsof -t -i :60544
+
+kill -9 <PID>
 ```
 
 ## env
