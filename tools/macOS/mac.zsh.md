@@ -13,6 +13,12 @@ iTerm2 and oh-my-zsh (Material colour profile)
 history: ctrl + r
 ```
 
+`zsh-syntax-highlighting`
+
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
 ## prompt
 
 git branch:
@@ -40,11 +46,10 @@ ZSH_THEME="robbyrussell"
 plugins=(
     git
     fzf
+    zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
-
-alias python=/opt/homebrew/bin/python3
 
 function parse_git_branch() {
     git branch 2> /dev/null | sed -n -e 's/^\* \(.*\)/[\1]/p'
