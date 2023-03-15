@@ -12,9 +12,4 @@ https://loggar.github.io/note/sample-res/sample.1.html
 https://loggar.github.io/note/sample-res/sample.1.png
 
 https://loggar.github.io/note/sample-res/sample.1.txt
-
-
-https://loggar.github.io/note/diagrams/diagram.singleton.a1.PNG
-
-https://loggar.github.io/note/settings/vscode.extensions.browser-preview.png
 ```
