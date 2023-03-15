@@ -13,3 +13,9 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
 ```
 system setting - general - login items
 ```
+
+## Battery information
+
+```
+system setting - general - system report - battery information
+```
