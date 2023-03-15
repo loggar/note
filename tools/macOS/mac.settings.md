@@ -1,4 +1,4 @@
-# mac settings
+# Mac settings
 
 ## Audio
 
