@@ -80,3 +80,11 @@ C:\_loggar\_workspace\loggar-note\node (master)
 λ bash
 loggar@DESKTOP-CLQSJPF:/mnt/c/_loggar/_workspace/loggar-note/node$
 ```
+
+## Interact with host: 2023-03
+
+Windows:
+
+```
+cd Microsoft.PowerShell.Core\FileSystem::\\wsl.localhost\Ubuntu-20.04\home\Microsoft.PowerShell.Core\FileSystem::\\wsl.localhost\Ubuntu-20.04\home\
+```

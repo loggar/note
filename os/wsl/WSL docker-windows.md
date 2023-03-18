@@ -70,3 +70,15 @@ Once that’s done, you’re all set. You’ll be able to access your mounts and
 If you’re using ConEmu, then you’ll want to make sure to upgrade to the latest alpha release (at least 18.05.06+ which you can see in the title bar of the settings). It contains a patched `wslbridge.exe` file to support a custom WSL root mount point.
 
 The default Ubuntu WSL terminal supports this by default, so you’re all good. I don’t know if other terminals support this yet. Let me know in the comments.
+
+## wsl 2 permission issue: dir/file permission regarding docker volumes
+
+I had an issue with modify/delete files which are mounted to docker containers
+
+I need the wsl root permission:
+
+```
+$ wsl -u root
+
+# rm -rf <dir-you-want-to-delete>
+```
