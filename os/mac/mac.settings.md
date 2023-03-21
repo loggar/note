@@ -47,3 +47,12 @@ Setting - Keyboard
 1. Key repeat rate : fast
 2. Delay until repeat: short
 ```
+
+# iCloud
+
+```
+Setting - Apple ID - iCould - Option
+- sync On/off
+- Uncheck sync items
+```
+
