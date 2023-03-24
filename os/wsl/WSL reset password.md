@@ -27,3 +27,14 @@ Switch back the default user to the normal user
 ```sh
 ubuntu config --default-user username
 ```
+
+## reset password using root user connection
+
+```
+# host
+> wsl --list
+> wsl -d <distro> -u root
+
+# distro
+$ passwd <user>
+```
