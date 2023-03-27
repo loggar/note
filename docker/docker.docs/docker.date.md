@@ -46,7 +46,7 @@ Tue Mar 28 15:30:02 AEDT 2023
 Revert to host date:
 
 ```
-$ docker run -it --rm --privileged -v /etc/localtime:/etc/localtime:ro alpine sh
+$ docker run -it --rm --privileged -v /etc/localtime:/etc/localtime:ro app sh
 ```
 
 ```yml
