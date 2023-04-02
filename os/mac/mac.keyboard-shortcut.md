@@ -13,6 +13,12 @@ previous keyboard input: <N/A> for code completion in IDEs
 next keyboard input: ctrl + option + space
 ```
 
+## control pannel
+
+```
+Show details: opt + shift + mouse Click
+```
+
 ## finder
 
 ```
