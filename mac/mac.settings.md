@@ -34,7 +34,7 @@ Three finger drag:
 
 ```
 Setting - Accessibility - Motor - Pointer control - Trackpad options
-1. Use tracpad for dragging
+1. Use trackpad for dragging
 2. Dragging style - Three-Finger Drag
 ```
 
@@ -55,4 +55,3 @@ Setting - Apple ID - iCould - Option
 - sync On/off
 - Uncheck sync items
 ```
-
