@@ -1,28 +1,62 @@
 # vscode extension list
 
+## tools
+
 - Active File In StatusBar
-- Bash Debug
-- Browser Preview
-- C/C++
 - Code Spell Checker
-- Debugger for Chrome
-- Docker
-- GitLens - Gt supercharged
-- Go
-- Import Cost
 - Markdown All in One
 - Path Intellisense
-- PowerShell
 - Prettier - Code formatter
 - Project Manager
-- Pylance
-- Python
-- Remote - Containers
-- Remote - SSH
-- Remote - SSH: Editing Configuration Files
-- Remote - WSL
-- Render Line Endings
+- PowerShell
 - REST Client
 - Sort JSON objects
 - Sort lines
 - WordCounter
+
+## bash
+
+- Bash Debug
+
+## front
+
+- Browser Preview
+- Debugger for Chrome
+
+# docker, wsl
+
+- Docker
+- Dev Containers
+- WSL
+
+## git
+
+- GitLens - Gt supercharged
+
+## c
+
+- C/C++
+
+## go
+
+- Go
+
+## node
+
+- Import Cost
+- ESLint
+
+## rust
+
+- CodeLLDB
+- rust-analyzer
+
+## python
+
+- isort
+- Pylance
+- Python
+
+## SQL
+
+SQL formatter
