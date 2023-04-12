@@ -50,3 +50,16 @@
   "files.eol": "\n"
 }
 ```
+
+## Interactive mode
+
+When add arg `-i`, the profile loaded from `.zshrc`, variables will be same with external variables.
+
+```
+  "terminal.integrated.profiles.osx": {
+    "zsh": {
+      "path": "/opt/homebrew/bin/zsh",
+      "args": ["-i"]
+    }
+  },
+```
