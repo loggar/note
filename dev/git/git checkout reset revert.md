@@ -137,4 +137,7 @@ Reset the branch to a commit:
 
 ```
 git reset --hard <the_commit_you_want_go_back_hash>
+
+# come back to before-reset
+# git pull
 ```
