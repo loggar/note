@@ -126,3 +126,15 @@ git restore --source [hash] path/to/file  ## restore from specific commit hash
 - git-revert is about making a new commit that reverts the changes made by other commits.
 - git-restore is about restoring files in the working tree from either the index or another commit. This command does not update your branch. The command can also be used to restore files in the index from another commit.
 - git-reset is about updating your branch, moving the tip in order to add or remove commits from the branch. This operation changes the commit history. git reset can also be used to restore the index, overlapping with git restore.
+
+Revert last merging commit:
+
+```
+git revert -m 1 <merge_commit_hash>
+```
+
+Reset the branch to a commit:
+
+```
+git reset --hard <the_commit_you_want_go_back_hash>
+```
