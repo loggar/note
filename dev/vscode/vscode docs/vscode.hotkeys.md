@@ -12,7 +12,7 @@
 
 ## custom (charly.loggar)
 
-- Delete Line `CTRL + D`
+- Delete Line `CTRL + D` `SHIFT CMD K`
 - Find Resource `CTRL + SHIFT + R`
 - Git Sync `CTRL + ALT + G`
 - Run Build Task `CTRL + SHIFT + B`
