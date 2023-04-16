@@ -1,0 +1,114 @@
+{
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnType": true
+  },
+  "cSpell.enabled": true,
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "elixir",
+    "erlang",
+    "git-commit",
+    "go",
+    "graphql",
+    "handlebars",
+    "haskell",
+    "html",
+    "jade",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "jupyter",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "python",
+    "pug",
+    "restructuredtext",
+    "rust",
+    "scala",
+    "scss",
+    "scminput",
+    "swift",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "yaml",
+    "yml"
+  ],
+  "cSpell.ignoreWords": [
+    "googleplay",
+    "psql",
+    "timezone"
+  ],
+  "cSpell.language": "en-GB",
+  "cSpell.maxNumberOfProblems": 100,
+  "cSpell.userWords": [
+    "AEDT",
+    "AEST",
+    "appstore",
+    "goland",
+    "iframes",
+    "keymap",
+    "lintyaml",
+    "macbook",
+    "Miro",
+    "Monokai",
+    "Pylance",
+    "retryable",
+    "rustc",
+    "sarama",
+    "Snyk",
+    "struct"
+  ],
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "explorer.incrementalNaming": "smart",
+  "files.autoSave": "onFocusChange",
+  "git.openRepositoryInParentFolders": "never",
+  "git.suggestSmartCommit": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.profiles.osx": {
+    "zsh": {
+      "args": [
+        "-i"
+      ],
+      "path": "/opt/homebrew/bin/zsh"
+    }
+  },
+  "terminal.integrated.scrollback": 10000,
+  "window.title": "${dirty}${rootName}${separator}${activeEditorLong}",
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Monokai Dimmed",
+  "workbench.editorAssociations": {
+    "*.txt": "default"
+  }
+}
