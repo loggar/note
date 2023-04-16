@@ -15,8 +15,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
-    "editor.formatOnType": true
+    "editor.defaultFormatter": "ms-python.python"
   },
   "cSpell.enabled": true,
   "cSpell.enabledLanguageIds": [
