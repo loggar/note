@@ -23,6 +23,23 @@
   },
 ```
 
+## Workspace prettier config
+
+`.prettierrc`
+
+```json
+{
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "printWidth": 1
+      }
+    }
+  ]
+}
+```
+
 ## issue: vscode - prettier does not work after vscode update.
 
 Uninstall prettier extension and reinstall it.
