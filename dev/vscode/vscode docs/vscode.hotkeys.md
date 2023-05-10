@@ -29,7 +29,7 @@
 - Navigate to a specific line `CTRL + G`
 - Select current line `CTRL + L`
 - Navigate to beginning and end of file `CTRL + Home|End`
-- Select similar occurrences of current selection `CTRL + SHIFT + L`
+- Select similar occurrences of current selection `CTRL + SHIFT + L` `CMD + SHIFT + L`
 - Select similar occurrences of current word `CTRL + F2`
 - Select until word end/line/block `SHIFT + ALT + ←|→`
 
