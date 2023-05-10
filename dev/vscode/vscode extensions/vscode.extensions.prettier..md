@@ -25,6 +25,8 @@
 
 ## Workspace prettier config
 
+Format `json`: 1 line - element:
+
 `.prettierrc`
 
 ```json
