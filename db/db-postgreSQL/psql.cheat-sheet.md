@@ -71,11 +71,3 @@ select * from table_name
 order by updated_ts desc
 limit 10;
 ```
-
-## current time
-
-```sql
-select now() at time zone 'utc';
-
-select timezone('utc', now());
-```
