@@ -48,6 +48,14 @@ Setting - Keyboard
 2. Delay until repeat: short
 ```
 
+Key mappings
+
+```
+Setting - modifier keys
+1. Select input device
+2. Change key mappings
+```
+
 # iCloud
 
 ```
