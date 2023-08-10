@@ -1,5 +1,12 @@
 # env
 
+## determine your shell
+
+```
+echo $SHELL
+/bin/zsh
+```
+
 ## remove duplicated items in `PATH`
 
 ```
