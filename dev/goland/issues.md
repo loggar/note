@@ -6,3 +6,9 @@
 Preferences - Go - GOROOT:
 set to <go-dir>
 ```
+
+## all type unresolved
+
+```
+File -> Invalidate Caches / Restart.
+```
