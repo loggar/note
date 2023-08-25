@@ -58,8 +58,17 @@ When add arg `-i`, the profile loaded from `.zshrc`, variables will be same with
 ```
   "terminal.integrated.profiles.osx": {
     "zsh": {
-      "path": "/opt/homebrew/bin/zsh",
-      "args": ["-i"]
+      "args": [
+        "-i"
+      ],
+      "path": "/opt/homebrew/bin/zsh"
     }
   },
+```
+
+Other terminal settings:
+
+```
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.persistentSessionScrollback": 9999,
 ```
