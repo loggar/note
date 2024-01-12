@@ -28,6 +28,12 @@ List `PATH` items in each line
 echo $PATH | tr ':' '\n'
 ```
 
+## Print Duplicates in `$PATH`
+
+```sh
+echo $PATH | tr ':' '\n' | sort | uniq -d
+```
+
 ## Remove Duplicates
 
 ```sh
