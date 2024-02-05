@@ -1,14 +1,18 @@
 # brew doctor
 
-## awscli
+## Check Formulae Usage
+
+```
+brew uses openssl@1.1 --installed
+```
+
+## Installing Formulae
+
+### awscli
 
 Issue:
 
 ```
-Please note that these warnings are just used to help the Homebrew maintainers
-with debugging if you file an issue. If everything you use Homebrew for is
-working fine: please don't worry or file an issue; just ignore this. Thanks!
-
 Warning: Some installed kegs have no formulae!
 This means they were either deleted or installed manually.
 You should find replacements for the following formulae:
@@ -78,6 +82,14 @@ $ brew link --overwrite docutils
 ```
 
 This command will overwrite existing files.
+
+Link all kegs at once:
+
+```sh
+for keg in python-packaging pycparser python-dateutil python-urllib3 python-charset-normalizer; do
+  brew link $keg
+done
+```
 
 If the issue still persists, you might need to change the ownership of the directories Homebrew is trying to write to. This can be done with the following command:
 
