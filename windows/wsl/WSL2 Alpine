@@ -43,3 +43,21 @@ export ASDF_DIR="$HOME/.asdf"
 . $ASDF_DIR/asdf.sh
 . $ASDF_DIR/completions/asdf.bash
 ```
+
+## git
+
+global:
+
+```
+git config --global user.name "Your Global Name"
+git config --global user.email "your.global.email@example.com"
+```
+
+local (project):
+
+```
+git config user.name ""
+git config user.email ""
+
+git config --list
+```
