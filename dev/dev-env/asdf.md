@@ -92,3 +92,11 @@ Settings > GO > GOROOT -> select go root for the project
     "go.toolsGopath": "/Users/charly.lee/ws-loggar/go"
 }
 ```
+
+## install with `.tool-versions` and `--ordered-install`
+
+https://github.com/asdf-vm/asdf/pull/1723
+
+```
+asdf install --ordered-install
+```
