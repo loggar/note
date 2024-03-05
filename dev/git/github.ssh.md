@@ -11,31 +11,23 @@ $ ssh-keygen -t rsa -b 4096 -C "charly.loggar@gmail.com"
 # Enter a file in which to save the key: /Users/charly.lee/.ssh/id_rsa_loggar
 ```
 
-Start SSH-agent or check if it's already running in background:
+SSH-agent (optional):
 
 ```
-eval "$(ssh-agent -s)"
-```
+# Start SSH-agent or check if it's already running in background:
+$ eval "$(ssh-agent -s)"
 
-List the keys in SSH-agent:
+# List the keys in SSH-agent:
+$ ssh-add -l
 
-```
-ssh-add -l
-```
+# Add the new key to SSH-agent:
+# ssh-add ~/.ssh/id_rsa_loggar
 
-Add the new key to SSH-agent:
-
-```
-ssh-add ~/.ssh/id_rsa_loggar
-
-# to remove
+# To remove
 $ ssh-add -d ~/.ssh/id_rsa_loggar
-```
 
-For a single SSH operation, you can specify the key directly using the -i option with the ssh command, like so:
-
-```
-ssh -i ~/.ssh/id_rsa_loggar git@github.com
+# For a single SSH operation, you can specify the key directly using the -i option with the ssh command, like so:
+$ ssh -i ~/.ssh/id_rsa_loggar git@github.com
 ```
 
 Set the pub key in Github account:

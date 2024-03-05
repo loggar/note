@@ -1,3 +1,5 @@
+# git remote origin
+
 for a new repository
 
 clone a exist repository
@@ -43,4 +45,14 @@ git init
 git remote add origin https://github.com/loggar/springboot25.git
 git fetch --all
 git reset --hard origin/master
+```
+
+## Change remote repositories
+
+```
+git remote set-url <an-existing-remote-name> <url>
+
+git remote set-url upstream git@github.com:sarahchima/personal-website.git
+
+git remote -v
 ```
