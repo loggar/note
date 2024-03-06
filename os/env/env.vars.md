@@ -43,15 +43,17 @@ PATH=$(echo $PATH | tr ':' '\n' | grep -v "/path/to/remove" | paste -sd ':' -)
 ## Print Duplicates in `$PATH`
 
 ```sh
-echo $PATH | tr ':' '\n' | awk '!seen[$0]++' | awk 'seen[$0]++'
+#!/bin/sh
+
+# Convert PATH into a newline-separated list, then sort it
+echo "$PATH" | tr ':' '\n' | sort | uniq -d
+
+# Explanation:
+# 1. `echo "$PATH"` prints the current PATH environment variable.
+# 2. `tr ':' '\n'` replaces colons with newlines, splitting the PATH into separate lines.
+# 3. `sort` sorts the paths. This is necessary for `uniq` to work correctly, as it only identifies adjacent duplicates.
+# 4. `uniq -d` filters out unique lines, leaving only the duplicates.
 ```
-
-1. `echo $PATH` prints the current PATH variable.
-2. `tr ':' '\n'` translates colons (:) into newlines, converting the PATH list into a vertical list of directories.
-3. The first `awk '!seen[$0]++'` processes each line; lines not seen before are passed through. This populates the seen array with the count of each line. Lines seen for the first time are not printed.
-4. The second `awk 'seen[$0]++'` then processes the output of the first awk command, printing only those lines (directories) that have been seen before, effectively showing duplicates.
-
-This command is tailored for zsh and uses awk to handle the logic for identifying duplicates, which is a common and powerful tool available in macOS and most Unix-like systems.
 
 ## Remove Duplicates
 
