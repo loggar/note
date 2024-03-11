@@ -29,6 +29,14 @@ $ psql -U <user>
 ```
 # format output on/off
 \x
+
+# format align on/off
+\a
+
+# set format column delimiter
+\f |
+\f '| '
+\f '\n'
 ```
 
 ## database
