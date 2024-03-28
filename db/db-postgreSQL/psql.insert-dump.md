@@ -1,6 +1,6 @@
 # Insert Dump
 
-Insert dump with uuid generated id, and created timestamp. (from 2hours ago for this case)
+Insert dump with uuid generated id, and created UTC timestamp. (from 2hours ago for this case)
 
 ```sql
 CREATE EXTENSION IF NOT EXISTS pgcrypto;
@@ -11,7 +11,7 @@ SELECT
     'value1',
     'value2',
     'value3',
-    (NOW() - INTERVAL '2 HOUR') - (s.id || ' SECOND')::INTERVAL
+    (CURRENT_TIMESTAMP AT TIME ZONE 'UTC' - INTERVAL '2 HOUR') - (s.id || ' SECOND')::INTERVAL
 FROM
     generate_series(1, 10000) AS s(id);
 ```
