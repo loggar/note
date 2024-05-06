@@ -33,6 +33,7 @@ show all open windows: ctrl + up, 4 finger up (cancel: ctrl + down, 4 finger dow
 show open windows in same app: ctrl + down (cancel: ctrl + up)
 zoom in: cmd + +
 zoom out: cmd + -
+zoom in-out (trackpad): gesture
 Move to next window between same applications: cmd + ` (cmd + shift + `)
 ```
 
