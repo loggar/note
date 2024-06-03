@@ -158,6 +158,21 @@ git rebase -i HEAD~4
 git push -f origin <branch>
 ```
 
+rebase commands:
+
+```
+# open rebase todo
+code .git/rebase-merge/git-rebase-todo
+# same as
+git rebase --edit-todo
+
+# resume rebase
+git rebase --continue
+
+# abort rebase
+git rebase --abort
+```
+
 ## git interactive editor
 
 open global setting

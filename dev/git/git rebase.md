@@ -30,3 +30,18 @@ git rebase --continue
 ```
 
 If you run again into conflicts, you can resolve them and run the commands again.
+
+## rebase commands:
+
+```
+# open rebase todo
+code .git/rebase-merge/git-rebase-todo
+# same as
+git rebase --edit-todo
+
+# resume rebase
+git rebase --continue
+
+# abort rebase
+git rebase --abort
+```
