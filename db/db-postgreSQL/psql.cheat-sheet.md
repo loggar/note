@@ -59,6 +59,21 @@ SELECT datname FROM pg_database;
 # list table details
 \dt+
 \d+
+
+# list table LIKE
+\dt *pattern*
+
+# list table regex
+\d+ .*pattern.*
+```
+
+select table names:
+
+```
+SELECT tablename
+FROM pg_tables
+WHERE schemaname = 'public'
+  AND tablename ~ '\d+data';
 ```
 
 table schema:
