@@ -32,7 +32,7 @@ git checkout "old_name"
 # Rename it:
 git branch -m "new_name"
 
-# Fetch latest changes 
+# Fetch latest changes
 git fetch
 
 # Remove the existing tracking connection with "origin/old_name":
@@ -40,4 +40,11 @@ git branch --unset-upstream
 
 # Create a new tracking connection with the new "origin/new_name" branch:
 git branch -u origin/new_name
+```
+
+## All merged feature branch in the origin
+
+```
+git fetch origin
+git branch -r --merged | grep origin/feature | grep -v "\*"
 ```
