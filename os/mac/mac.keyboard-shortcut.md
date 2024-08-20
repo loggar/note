@@ -43,3 +43,7 @@ Move to next window between same applications: cmd + ` (cmd + shift + `)
 end of line: cmd + right
 beginning of line: cmd + left
 ```
+
+## "Wants to open Send File to Bluetooth device"
+
+Turn off the shortcut: settings - keyboard - shortcuts - service - Send File to Bluetooth device.
