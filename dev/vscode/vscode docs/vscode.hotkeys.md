@@ -20,6 +20,10 @@
 - Search in workspaces `CTRL + H`
 - close other editors in group `CTRL + SHIFT + F4`
 
+## terminal
+
+- Run selected text in active terminal `CTRL + SHIFT + L`
+
 ## selections
 
 - Move line up and down `ALT + ↑|↓`
@@ -27,7 +31,7 @@
 - Go to Symbol in File `CTRL + SHIFT + O`
 - Go to Symbol in Workspace `CTRL + T`
 - Navigate to a specific line `CTRL + G`
-- Select current line `CTRL + L`
+- Select current line `CTRL + L` `CMD +L`
 - Navigate to beginning and end of file `CTRL + Home|End`
 - Select similar occurrences of current selection `CTRL + SHIFT + L` `CMD + SHIFT + L`
 - Select similar occurrences of current word `CTRL + F2`
