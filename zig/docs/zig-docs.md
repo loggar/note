@@ -22,6 +22,12 @@ zig init
 zig test test_1.zig
 ```
 
+Run all test under the test directory:
+
+```sh
+find ./src-test -name "*.zig" -printf "%p: " -exec zig test {} \;
+```
+
 ## Run a file that has main function
 
 ```
