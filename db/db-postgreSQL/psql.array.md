@@ -13,6 +13,6 @@ CROSS JOIN
 ```sql
 SELECT id1, id2
 FROM
-    unnest(ARRAY['a', 'b', 'c', 'd']) AS id1
+    unnest(ARRAY['a', 'b', 'c', 'd']) AS id1,
     unnest(ARRAY[186, 187]) AS id2;
 ```
