@@ -87,3 +87,11 @@ docker container stop $(docker container ls -q --filter name=myapp*)
 ```
 docker system df
 ```
+
+## docker ps
+
+Filter:
+
+```
+docker ps --filter "label=com.docker.compose.project=service-kafka"
+```

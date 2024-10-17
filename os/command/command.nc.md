@@ -1,5 +1,7 @@
 # nc – utility for TCP, UDP, or UNIX-domain sockets
 
+nc: netcat
+
 To scan for open TCP port 22 on a remote machine with the IP address 192.168.1.11, you would use the following command:
 
 ```
