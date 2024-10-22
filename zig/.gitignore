@@ -1,8 +1,0 @@
-# tmporary datas
-_tmp/
-
-# mac
-.DS_Store
-
-# zig cache
-zig-cache/

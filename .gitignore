@@ -1,9 +1,6 @@
 # tmporary datas
 _tmp/
 
-# visual studio code
-.vscode/
-
 # node
 node_modules/
 
