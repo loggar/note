@@ -15,7 +15,12 @@ echo $PATH | grep -q "/a/path"  && echo "Path is included" || echo "Path is not 
 ## Remove a path value
 
 ```sh
-PATH=$(echo $PATH | tr ':' '\n' | grep -v "/path/to/remove" | paste -sd ':' -)
+export PATH=$(echo $PATH | sed -e 's;:/usr/local/bin;;' -e 's;/usr/local/bin:;;' -e 's;/usr/local/bin;;')
+```
+
+```sh
+REMOVE_PATH="/usr/local/bin" && \
+export PATH=$(echo $PATH | sed -e "s;:$REMOVE_PATH;;" -e "s;$REMOVE_PATH:;;" -e "s;$REMOVE_PATH;;")
 ```
 
 ## Add a path value
