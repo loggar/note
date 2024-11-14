@@ -141,3 +141,12 @@ git reset --hard <the_commit_you_want_go_back_hash>
 # come back to before-reset
 # git pull
 ```
+
+## Go back to previous commit and come back
+
+```sh
+# go back
+git checkout <commit-id>
+# come back to latest
+git reset --hard origin/<branch-name>
+```
