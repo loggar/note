@@ -15,5 +15,6 @@ source ~/.zshrc
 https://docs.warp.dev/features/keyboard-shortcuts
 
 - Remove everything in the current command: command mode
+- `*`: Natural language mode
 - `#` or Ctrl + `Backtic`: ASK suggestions
 - Ctrl + R: Search
