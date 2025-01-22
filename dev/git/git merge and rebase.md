@@ -4,6 +4,82 @@
 
 Merging is a common practice for developers using version control systems. Whether branches are created for testing, bug fixes, or other reasons, merging commits changes to another location. To be more specific, merging takes the contents of a source branch and integrates them with a target branch. In this process, only the target branch is changed. The source branch history remains the same.
 
+## merge from other branch
+
+```
+git fetch
+git merge origin/<other-branch-name>
+```
+
+## Merge a file from one branch to another
+
+Sometimes, you may want to merge the content of a specific file in one branch into another. For example, you want to merge the content of a file `index.html` in the master branch of a project into the development branch. How can you do that?
+
+First, checkout to the right branch (the branch you want to merge the file) if you've not already done so. In our case, it's the development branch.
+
+```
+git checkout development
+```
+
+Then merge the file using the checkout `--patch` command.
+
+```
+git checkout --patch master index.html
+```
+
+If you want to completely overwrite the `index.html` file on the development branch with the one on the master branch, you leave out the `--patch` flag.
+
+```
+git checkout master index.html
+```
+
+Also, leave out the `--patch` flag if the `index.html` file does not exist on the development branch.
+
+## Merge a Pull Request
+
+At some point, you want to merge a branch to the master branch. You would use the GitHub interface to open a Pull Request (PR) before merging it. Pull Requests help to inspire discussions and peer reviews for an improved code quality and to share knowledge across collaborators.
+
+Before opening a PR, I usually follow these steps to checkout the branch, get all the updates to merge them with my own, get all the recent changes from the master branch too, and force push all the changes to the branch itself.
+
+First, when being on the master branch, update the master branch to the recent changes:
+
+```
+git pull --rebase origin master
+```
+
+Second, checkout the branch:
+
+```
+git checkout <branch>
+```
+
+If you have not the branch yet, fetch all the branches from the remote repository before and then checkout the branch:
+
+```
+git fetch
+git checkout <branch>
+```
+
+Third, pull rebase all recent changes from the branch:
+
+```
+git pull --rebase origin <branch>
+```
+
+Fourth, rebase all the changes locally from the recent master branch on top:
+
+```
+git rebase master
+```
+
+Last but not least, force push all the changes to the remote branch:
+
+```
+git push -u origin <branch>
+```
+
+The branch is synced with changes from all collaborators, your changes and changes from the master branch. Finally, when the branch is updated in the remote repository, you can hit the “Merge Pull Request” button on GitHub.
+
 ### Pros
 
 - Simple and familiar
@@ -107,3 +183,31 @@ By considering the following circumstances and guidelines, you can get best out 
 ## Conclusion
 
 I hope this explanation has given some insights on Git merge and Git rebase. Merge vs rebase strategy is always debatable. But perhaps this article will help dispel your doubts and allow you to adopt an approach that works for your team.
+
+## git theirs and ours
+
+### merge
+
+```
+git merge -Xtheirs feature
+
+git merge -Xours feature
+```
+
+### rebase
+
+Interestingly, it works in reverse order if you want to do rebasing of your branch onto the master and want to keep your changes over the master.
+
+So, if you are on your feature branch, the command you need to run will be:
+
+```
+git rebase master -Xtheirs
+
+```
+
+And to keep master branch changes over yours, you need to do:
+
+```
+And to keep master branch changes over yours, you need to do:
+
+```

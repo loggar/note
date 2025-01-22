@@ -94,3 +94,4 @@ Create PR -> PR prefilled if commit message is perfect
 ## AI
 
 OpenAI Assistant : Commit Genie
+Github Copilot

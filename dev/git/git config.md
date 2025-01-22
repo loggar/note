@@ -1,10 +1,33 @@
+# git config
+
+## user
+
+```
+# global
+git config --global user.email "email"
+
+# local project (current dir)
+git config --local user.name "name"
+```
+
+or `.gitconfig`
+
+```
+[user]
+	email = <email>
+	name = <name>
+```
+
+## credential.helper
+
 ### git-credential-store - Helper to store credentials on disk
+
 ```
 $ git config credential.helper store
 $ git push https://<username>:<password>@example.com/repo.git
 ```
 
-or 
+or
 
 ```
 $ git config credential.helper store
@@ -39,7 +62,8 @@ git config --global credential.https://github.com.username <your_username>
 git config --global --edit
 ```
 
-### git push, pull with username 
+### git push, pull with username
+
 ```
 $ git push https://<username>:<password>@github.com/webnlog/ssomac.github.io
 $ git pull https://<username>@github.com/webnlog/ssomac.github.io
