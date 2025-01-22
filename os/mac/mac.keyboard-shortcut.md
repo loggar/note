@@ -13,6 +13,13 @@ previous keyboard input: <N/A> for code completion in IDEs
 next keyboard input: ctrl + option + space
 ```
 
+Copy and Paste
+
+```
+Paste from history (Maccy): shift cmd + V
+Paste and match style: opt shift cmd + V
+```
+
 ## control pannel
 
 ```
