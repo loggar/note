@@ -35,3 +35,19 @@ https://gitmoji.dev/
 📝 (Memo) - Writing docs. Appropriate for commits that include updates or additions to documentation, possibly explaining the trace logic or how to use it.
 
 When choosing a gitmoji for your pull request, consider what aspect of your changes you want to highlight. This selection covers a range of scenarios, from adding new features or improvements (✨) to more specific actions like adding logs (🔊) or changing configuration files (🔧). The key is to match the emoji with the primary impact or intent of your changes, ensuring clarity and effective communication with your team.
+
+## gitmoji cli
+
+```
+brew install gitmoji
+
+# or with npm: npm install gitmoji-cli
+```
+
+```
+# Search
+gitmoji -s "criteria"
+
+# List all
+gitmoji -l
+```
