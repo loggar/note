@@ -61,6 +61,8 @@ http://localhost:11434/
 
 ## Kill ollama
 
+On MAC: Top app icons -> Find ollama -> Quit ollama
+
 ```
 ps aux | grep ollama
 
