@@ -6,7 +6,7 @@
 Top menu - Help - Change Memory Settings
 ```
 
-## run/debug/test
+## Run/debug/test code
 
 ```
 # run main function once (this creates a go build profile)
@@ -21,3 +21,7 @@ tab: EnvFile (plugin)
 
 # now you can run as you click run/debug button
 ```
+
+## Edit
+
+Line guide: Editor > Code Style > General > Visual guides
