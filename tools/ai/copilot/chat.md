@@ -13,3 +13,14 @@
 | `/optimize` | Analyze and improve running time of the selected code        | Highlight code and type:<br>`/optimize fetchPrediction method`                                                       |
 | `/new`      | Scaffold code for a new workspace                            | Type:<br>`/new create a new django app`                                                                              |
 | `/simplify` | Simplify the selected code                                   | Highlight code and type:<br>`/simplify`                                                                              |
+
+## Refactoring with mentioning file names
+
+Hash (`#`) filename and prompt:
+
+```
+#file: a.go
+Offer suggestions to simplify the code
+Refactor the nested conditions
+Refactor the error handling code
+```
