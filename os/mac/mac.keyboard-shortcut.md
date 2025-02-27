@@ -20,7 +20,7 @@ Paste from history (Maccy): shift cmd + V
 Paste and match style: opt shift cmd + V
 ```
 
-## control pannel
+## control panel
 
 ```
 Show details: opt + shift + mouse Click
@@ -54,3 +54,9 @@ beginning of line: cmd + left
 ## "Wants to open Send File to Bluetooth device"
 
 Turn off the shortcut: settings - keyboard - shortcuts - service - Send File to Bluetooth device.
+
+## Edit
+
+```
+Mac emoji keyboard with shortcuts: cmd + ctrl + space
+```
