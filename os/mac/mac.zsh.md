@@ -50,6 +50,7 @@ plugins=(
     fzf
     zsh-syntax-highlighting
 )
+echo "[ZSH plugins] $plugins"
 
 source $ZSH/oh-my-zsh.sh
 
