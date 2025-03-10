@@ -47,5 +47,9 @@ echo "$PATH" | tr ':' '\n' | sort | uniq -d
 ## Remove Duplicates
 
 ```sh
+# Print all PATH entries with counts
+echo -n $PATH | tr ':' '\n' | sort | uniq -c | awk '$1 > 1 {print "   " $2 " (appears " $1 " times)"}'
+
+# Remove duplicate entries in $PATH
 export PATH=$(echo -n $PATH | awk -v RS=: -v ORS=: '!arr[$0]++' | sed 's/:$//')
 ```
