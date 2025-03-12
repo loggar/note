@@ -49,3 +49,9 @@ $ git log --pretty="%h - %s" --author=gitster \
        --after="2008-10-01T00:00:00-0400"         \
       --before="2008-10-31T23:59:59-0400" --no-merges -- t/
 ```
+
+## Search by commit message
+
+```
+git log --grep="specific text"
+```
