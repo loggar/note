@@ -20,6 +20,22 @@ git rebase main
 git stash pop
 ```
 
+Other way, simple and if you have nothing to stash:
+
+```sh
+# First, ensure you're on your feature branch
+git checkout your-feature-branch
+
+# Fetch the latest changes from main
+git fetch origin main
+
+# Rebase your branch onto the latest main
+git rebase origin/main
+
+# Push force
+git push --force-with-lease origin your-feature-branch
+```
+
 ## Interactive Rebase
 
 I must admit, it is not an essential command for Git, but I use it often to organize my commits on a branch. I like to have a tidy branch before I open it as a PR for others. Tidying a branch means to bring commits in an order that makes sense, rewriting commit messages or “squashing” commit. To squash commits means to merge multiple commits into one.
