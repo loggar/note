@@ -50,8 +50,28 @@ $ git log --pretty="%h - %s" --author=gitster \
       --before="2008-10-31T23:59:59-0400" --no-merges -- t/
 ```
 
-## Search by commit message
+## Search by sth
 
 ```
 git log --grep="specific text"
+```
+
+By author:
+
+```
+git log --author="Charly Lee" --oneline
+```
+
+## Show
+
+Show log of a commit:
+
+```
+git show COMMIT_ID
+```
+
+Show log with modified file names:
+
+```
+git show --name-only COMMIT_ID
 ```
