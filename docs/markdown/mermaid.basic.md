@@ -45,3 +45,27 @@ flowchart LR
       in another
       way`"]
 ```
+
+## Shapes
+
+Document:
+
+```mermaid
+graph TD
+    DataIn[Input Data] --> Process(Process);
+    Process --> SingleDoc[Summary Report]@{shape: doc};
+    Process --> LinedDoc[Detailed Form]@{shape: lin-doc};
+    MultiDocs --> TaggedDoc[Tagged Records]@{shape: tag-doc};
+```
+
+Database:
+
+```mermaid
+graph TD
+    User[User Input] --> Process(Process Data);
+    Process --> Database[(Primary Database)];
+    Database --> Reports[Generate Reports];
+    Reports --> Archive[Archive Data]@{shape: cyl};
+    Archive --> Logs[(System Logs)]@{shape: lin-cyl};
+    Process --> Cache[Temporary Cache]@{shape: h-cyl};
+```
