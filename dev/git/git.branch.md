@@ -217,3 +217,23 @@ git push --prune origin
 chmod +x delete_merged_branches.sh
 ./delete_merged_branches.sh
 ```
+
+## Compare the branch with other branch
+
+To compare the current branch with `main`, you can use the following Git command in the terminal:
+
+```bash
+git diff main...HEAD
+```
+
+This will show the differences between the `main` branch and your current branch (`HEAD`). If you want a summary of changes, use:
+
+```bash
+git diff --stat main...HEAD
+```
+
+For a list of commits unique to your branch compared to `main`, use:
+
+```bash
+git log main..HEAD
+```
