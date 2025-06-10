@@ -49,6 +49,7 @@ zoom in: cmd + +
 zoom out: cmd + -
 zoom in-out (trackpad): gesture
 Move to next window between same applications: cmd + ` (cmd + shift + `)
+Move to next tab in browser: cmd + option + arrow
 ```
 
 ## cursor
