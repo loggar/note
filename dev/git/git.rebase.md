@@ -81,3 +81,30 @@ git rebase --continue
 # abort rebase
 git rebase --abort
 ```
+
+## rebase main
+
+To integrate changes from the `main` branch so they appear before your current branch's commits, you should use `git rebase`. This rewrites your branch's history to start from the latest commit of `main`.
+
+1.  **Fetch the latest changes from the remote:**
+    This ensures your local repository is aware of the latest commits on the `main` branch.
+
+    ```bash
+    git fetch origin
+    ```
+
+2.  **Rebase your current branch onto `main`:**
+    This command reapplies your branch's commits on top of the latest `main` branch history.
+
+    ```bash
+    git rebase origin/main
+    ```
+
+    If you encounter any merge conflicts, Git will pause the rebase and allow you to resolve them before continuing.
+
+3.  **Force push the rebased branch:**
+    Since you have rewritten the commit history, you must force push. Using `--force-with-lease` is a safer option that won't overwrite work if someone else has pushed to the branch.
+
+    ```bash
+    git push --force-with-lease
+    ```
