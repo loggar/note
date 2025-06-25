@@ -172,19 +172,19 @@ git push --set-upstream origin newer-branch
 
 ## Delete Branch
 
-### deleting local branches
+### Deleting local branches
 
 ```
 git branch -d 'branch-name'
 ```
 
-### deleting local branches without checking its merge status
+### Deleting local branches without checking its merge status
 
 ```
 git branch -D 'branch-name'
 ```
 
-### deleting remote branches
+### Deleting remote branches
 
 ```
 git push origin --delete 'branch-name'
@@ -197,7 +197,7 @@ git branch -d <branch>
 git push origin :<branch>
 ```
 
-### delete all merged branch
+### Delete all merged branch
 
 ```sh
 #!/bin/bash
@@ -216,6 +216,12 @@ git push --prune origin
 ```
 chmod +x delete_merged_branches.sh
 ./delete_merged_branches.sh
+```
+
+### Delete all branch except 'main'
+
+```sh
+git checkout main && git branch | grep -v "main" | xargs git branch -D
 ```
 
 ## Compare the branch with other branch
