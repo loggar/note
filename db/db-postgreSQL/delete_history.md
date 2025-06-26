@@ -465,3 +465,243 @@ SELECT safe_delete_user('abc');
 Unfortunately, if none of the above options work, the deleted data is likely permanently lost. PostgreSQL's MVCC system eventually reclaims space from deleted rows through VACUUM operations, making recovery impossible without proper audit trails or backups.
 
 **Key Takeaway**: Always implement audit logging or soft deletes BEFORE you need them!
+
+## Finding Executed DELETE Statements with Specific Values
+
+### Option 1: PostgreSQL Query Log (if enabled)
+
+```sql
+-- Check if statement logging is enabled
+SHOW log_statement;
+SHOW log_min_duration_statement;
+
+-- Check log file location
+SHOW log_directory;
+SHOW log_filename;
+```
+
+```bash
+# Search PostgreSQL logs for DELETE statements with specific value
+grep -i "delete.*abc" /var/log/postgresql/postgresql-*.log
+
+# More specific search for DELETE statements
+grep -E "DELETE FROM.*WHERE.*abc" /var/log/postgresql/postgresql-*.log
+
+# Search with context (show 2 lines before and after)
+grep -B2 -A2 -i "delete.*abc" /var/log/postgresql/postgresql-*.log
+
+# Search for DELETE statements in the last hour
+find /var/log/postgresql/ -name "*.log" -mtime -1 -exec grep -H "DELETE.*abc" {} \;
+```
+
+### Option 2: pg_stat_statements Extension
+
+```sql
+-- Check if pg_stat_statements is installed and enabled
+SELECT * FROM pg_extension WHERE extname = 'pg_stat_statements';
+
+-- If not installed, install it (requires restart)
+CREATE EXTENSION pg_stat_statements;
+
+-- Find DELETE statements with specific patterns
+SELECT 
+    query,
+    calls,
+    total_exec_time,
+    mean_exec_time,
+    last_exec,
+    rows
+FROM pg_stat_statements 
+WHERE query ILIKE '%delete%' 
+    AND query ILIKE '%abc%'
+ORDER BY last_exec DESC;
+
+-- More specific search for user_id patterns
+SELECT 
+    query,
+    calls,
+    total_exec_time,
+    last_exec
+FROM pg_stat_statements 
+WHERE query ~* 'DELETE.*WHERE.*user_id.*=.*''abc'''
+ORDER BY last_exec DESC;
+
+-- Search for any DELETE statements (to see patterns)
+SELECT 
+    query,
+    calls,
+    last_exec
+FROM pg_stat_statements 
+WHERE query ILIKE '%delete from%'
+ORDER BY last_exec DESC
+LIMIT 20;
+```
+
+### Option 3: Application Logs
+
+```bash
+# Search application logs for DELETE operations
+grep -i "delete.*abc" /path/to/application.log
+
+# Search for ORM/framework patterns (Django example)
+grep -E "(DELETE|User\.objects\.filter|\.delete\(\))" /path/to/app.log | grep abc
+
+# Search for SQL patterns in application logs
+grep -E "DELETE FROM.*WHERE.*abc" /path/to/app.log
+
+# Search with timestamps
+grep -E "$(date '+%Y-%m-%d').*DELETE.*abc" /path/to/app.log
+```
+
+### Option 4: Database Audit Logging (if enabled)
+
+```sql
+-- Check if audit logging is enabled (pgaudit extension)
+SELECT * FROM pg_extension WHERE extname = 'pgaudit';
+
+-- If pgaudit is enabled, check settings
+SHOW pgaudit.log;
+SHOW pgaudit.log_statement;
+```
+
+```bash
+# Search audit logs for DELETE statements
+grep -i "AUDIT.*DELETE.*abc" /var/log/postgresql/postgresql-*.log
+
+# Search for specific patterns in audit logs
+grep -E "AUDIT.*DELETE FROM.*WHERE.*user_id.*abc" /var/log/postgresql/postgresql-*.log
+```
+
+### Option 5: WAL File Analysis
+
+```bash
+# Use pg_waldump to search for DELETE operations
+# (requires access to PostgreSQL data directory)
+
+# List recent WAL files
+ls -la /var/lib/postgresql/data/pg_wal/ | tail -10
+
+# Search WAL files for DELETE operations with specific value
+pg_waldump /var/lib/postgresql/data/pg_wal/000000010000000000000001 | grep -i "delete.*abc"
+
+# Search multiple WAL files
+for wal in /var/lib/postgresql/data/pg_wal/0000000100000000000000*; do
+    echo "Checking $wal"
+    pg_waldump "$wal" 2>/dev/null | grep -i "delete.*abc"
+done
+```
+
+### Option 6: Enable Logging for Future Tracking
+
+```sql
+-- Enable statement logging for all statements
+ALTER SYSTEM SET log_statement = 'all';
+SELECT pg_reload_conf();
+
+-- Or enable logging only for DML statements (INSERT, UPDATE, DELETE)
+ALTER SYSTEM SET log_statement = 'mod';
+SELECT pg_reload_conf();
+
+-- Enable logging for statements taking longer than specified time
+ALTER SYSTEM SET log_min_duration_statement = '0ms';  -- Log all statements
+SELECT pg_reload_conf();
+
+-- Enable parameter logging to see actual values
+ALTER SYSTEM SET log_statement_sample_rate = 1.0;
+ALTER SYSTEM SET log_parameter_max_length = -1;  -- Log full parameters
+SELECT pg_reload_conf();
+```
+
+### Option 7: Real-time Monitoring
+
+```sql
+-- Monitor active queries in real-time
+SELECT 
+    pid,
+    usename,
+    application_name,
+    client_addr,
+    query_start,
+    state,
+    query
+FROM pg_stat_activity 
+WHERE query ILIKE '%delete%'
+    AND query ILIKE '%abc%'
+    AND state = 'active';
+
+-- Create a function to continuously monitor
+CREATE OR REPLACE FUNCTION monitor_deletes()
+RETURNS TABLE(
+    timestamp timestamptz,
+    username text,
+    client_addr inet,
+    query text
+) AS $$
+BEGIN
+    RETURN QUERY
+    SELECT 
+        now() as timestamp,
+        usename::text,
+        client_addr,
+        pg_stat_activity.query
+    FROM pg_stat_activity 
+    WHERE pg_stat_activity.query ILIKE '%delete%'
+        AND pg_stat_activity.query ILIKE '%abc%';
+END;
+$$ LANGUAGE plpgsql;
+
+-- Use the monitoring function
+SELECT * FROM monitor_deletes();
+```
+
+### Option 8: Create Custom Logging
+
+```sql
+-- Create a function to log DELETE operations
+CREATE OR REPLACE FUNCTION log_delete_operations()
+RETURNS event_trigger AS $$
+BEGIN
+    -- This would require more complex implementation
+    -- to capture the actual DELETE statements
+    RAISE LOG 'DELETE operation detected';
+END;
+$$ LANGUAGE plpgsql;
+
+-- Better approach: Use application-level logging
+-- In your application code, always log before DELETE:
+-- Example pseudo-code:
+-- logger.info(f"Executing DELETE: user_id={user_id}")
+-- execute_sql("DELETE FROM users WHERE user_id = %s", user_id)
+```
+
+### Quick Commands to Check Right Now:
+
+```bash
+# 1. Check if you have PostgreSQL logs
+ls -la /var/log/postgresql/
+
+# 2. Search recent logs for DELETE with 'abc'
+tail -1000 /var/log/postgresql/postgresql-*.log | grep -i "delete.*abc"
+
+# 3. Check system logs
+journalctl -u postgresql | grep -i "delete.*abc"
+```
+
+```sql
+-- 4. Check pg_stat_statements if available
+\dx pg_stat_statements
+
+-- 5. If available, search for DELETE patterns
+SELECT query, calls, last_exec 
+FROM pg_stat_statements 
+WHERE query ILIKE '%delete%' 
+ORDER BY last_exec DESC LIMIT 10;
+```
+
+### Pro Tips:
+
+1. **Enable logging BEFORE you need it** - set up comprehensive logging
+2. **Use structured logging** in applications with consistent patterns
+3. **Combine multiple approaches** - logs + pg_stat_statements + application logs
+4. **Set up log rotation** to prevent log files from growing too large
+5. **Consider centralized logging** (ELK stack, Splunk, etc.) for better searching
