@@ -3,6 +3,7 @@
 ## Quick Assessment
 
 ### Check Current Disk Usage
+
 ```bash
 # Basic disk usage check
 df -h
@@ -17,6 +18,7 @@ du -sh ~/* | sort -rh | head -10
 ## Immediate Cleanup Commands
 
 ### 1. System Caches and Logs
+
 ```bash
 # Clean user cache files
 rm -rf ~/Library/Caches/*
@@ -34,6 +36,7 @@ sudo rm -rf /Library/Application\ Support/CrashReporter/*
 ```
 
 ### 2. Downloads and Temporary Files
+
 ```bash
 # Check Downloads folder
 ls -lah ~/Downloads/ | head -20
@@ -43,13 +46,10 @@ ls -lah ~/Downloads/ | head -20
 
 # Clean Trash
 rm -rf ~/.Trash/*
-
-# Clean temporary files
-sudo rm -rf /private/tmp/*
-sudo rm -rf /private/var/tmp/*
 ```
 
 ### 3. Browser Caches
+
 ```bash
 # Safari cache
 rm -rf ~/Library/Caches/com.apple.Safari/*
@@ -67,6 +67,7 @@ rm -rf ~/Library/Caches/com.microsoft.edgemac/*
 ## Developer-Specific Cleanup
 
 ### Xcode and iOS Development
+
 ```bash
 # Clean Xcode derived data (can be large!)
 rm -rf ~/Library/Developer/Xcode/DerivedData/*
@@ -95,6 +96,7 @@ sudo rm -rf /Library/Developer/CoreSimulator/Volumes/iOS_*/
 ```
 
 ### Docker Cleanup
+
 ```bash
 # Clean Docker system
 docker system prune -a --volumes
@@ -116,6 +118,7 @@ docker system df
 ```
 
 ### Node.js and npm
+
 ```bash
 # Clean npm cache
 npm cache clean --force
@@ -131,6 +134,7 @@ find ~ -name "node_modules" -type d -prune -exec du -sh {} \; | sort -rh | head 
 ```
 
 ### Python and pip
+
 ```bash
 # Clean pip cache
 pip cache purge
@@ -146,6 +150,7 @@ conda clean -a
 ## Application-Specific Cleanup
 
 ### Mail and Messages
+
 ```bash
 # Clean Mail attachments (check first!)
 ls -lah ~/Library/Mail/V*/MailData/Attachments/
@@ -157,6 +162,7 @@ ls -lah ~/Library/Messages/Attachments/
 ```
 
 ### Photos and Media
+
 ```bash
 # Check Photos library size
 ls -lah ~/Pictures/Photos\ Library.photoslibrary
@@ -173,6 +179,7 @@ du -sh ~/Music/*
 ```
 
 ### Adobe Creative Cloud
+
 ```bash
 # Clean Adobe cache
 rm -rf ~/Library/Caches/Adobe/*
@@ -188,6 +195,7 @@ rm -rf ~/Library/Caches/Adobe/Premiere\ Pro/*
 ## Homebrew Cleanup
 
 ### Clean Homebrew Files
+
 ```bash
 # Clean Homebrew cache
 brew cleanup
@@ -209,6 +217,7 @@ brew cleanup --dry-run
 ## System Cleanup
 
 ### Language Files (Advanced)
+
 ```bash
 # Check language files (CAUTION: can break applications)
 sudo find /Applications -name "*.lproj" | grep -v English.lproj | head -20
@@ -218,6 +227,7 @@ sudo find /Applications -name "*.lproj" | grep -v English.lproj | head -20
 ```
 
 ### Kernel Extensions and System Files
+
 ```bash
 # Check kernel extension cache
 ls -lah /System/Library/Extensions/
@@ -232,6 +242,7 @@ sudo dscacheutil -flushcache
 ## Automated Cleanup Scripts
 
 ### Daily Cleanup Script
+
 ```bash
 cat > ~/Scripts/daily_cleanup.sh << 'EOF'
 #!/bin/bash
@@ -246,9 +257,6 @@ rm -rf ~/Library/Logs/* 2>/dev/null
 # Clean trash
 rm -rf ~/.Trash/* 2>/dev/null
 
-# Clean temporary files
-sudo rm -rf /private/tmp/* 2>/dev/null
-
 # Clean browser caches
 rm -rf ~/Library/Caches/com.apple.Safari/* 2>/dev/null
 rm -rf ~/Library/Caches/Google/Chrome/* 2>/dev/null
@@ -261,6 +269,7 @@ chmod +x ~/Scripts/daily_cleanup.sh
 ```
 
 ### Weekly Deep Cleanup Script
+
 ```bash
 cat > ~/Scripts/weekly_cleanup.sh << 'EOF'
 #!/bin/bash
@@ -303,6 +312,7 @@ echo "0 2 * * 0 ~/Scripts/weekly_cleanup.sh" | crontab -
 ## Safe Cleanup Tools
 
 ### Third-Party Applications
+
 ```bash
 # Install cleanup tools via Homebrew
 brew install --cask cleanmymac
@@ -316,6 +326,7 @@ brew install dua-cli   # Disk usage analyzer
 ```
 
 ### Built-in macOS Tools
+
 ```bash
 # Use macOS Storage Management
 # Apple Menu → About This Mac → Storage → Manage
@@ -330,6 +341,7 @@ brew install dua-cli   # Disk usage analyzer
 ## Monitoring and Prevention
 
 ### Setup Disk Usage Monitoring
+
 ```bash
 cat > ~/Scripts/disk_monitor.sh << 'EOF'
 #!/bin/bash
@@ -339,7 +351,7 @@ USAGE=$(df -h / | tail -1 | awk '{print $5}' | cut -d'%' -f1)
 if [ $USAGE -ge $THRESHOLD ]; then
     echo "⚠️  Disk usage is at ${USAGE}% - Running cleanup..."
     ~/Scripts/daily_cleanup.sh
-    
+
     # Send notification (macOS)
     osascript -e "display notification \"Disk cleanup completed\" with title \"Storage Alert\""
 fi
@@ -352,6 +364,7 @@ echo "0 * * * * ~/Scripts/disk_monitor.sh" | crontab -
 ```
 
 ### Create Aliases for Quick Cleanup
+
 ```bash
 # Add to ~/.zshrc or ~/.bash_profile
 cat >> ~/.zshrc << 'EOF'
@@ -375,6 +388,7 @@ source ~/.zshrc
 ## Emergency Space Recovery
 
 ### When Disk is 95%+ Full
+
 ```bash
 # Immediate actions (in order of safety)
 echo "Emergency cleanup starting..."
@@ -389,18 +403,14 @@ rm -rf ~/Library/Caches/*
 rm -rf ~/Library/Logs/*
 sudo rm -rf /private/var/log/*
 
-# 4. Clean temporary files
-sudo rm -rf /private/tmp/*
-sudo rm -rf /private/var/tmp/*
-
-# 5. Clean Downloads
+# 4. Clean Downloads
 ls -lah ~/Downloads/
 # Manually remove large files
 
-# 6. Docker nuclear option
+# 5. Docker nuclear option
 docker system prune -a -f --volumes
 
-# 7. Check results
+# 6. Check results
 df -h /
 echo "Emergency cleanup completed"
 ```
@@ -408,6 +418,7 @@ echo "Emergency cleanup completed"
 ## Recovery Estimates
 
 ### Typical Space Recovery by Category:
+
 - **User Caches**: 1-5GB
 - **Browser Caches**: 500MB-2GB
 - **Xcode DerivedData**: 5-20GB
@@ -419,10 +430,12 @@ echo "Emergency cleanup completed"
 - **Trash**: Varies widely
 
 ### Before You Start:
+
 1. **Backup important data**
 2. **Check what you're deleting**
 3. **Start with safest cleanups first**
 4. **Monitor results with `df -h`**
 
 ### Note:
+
 Always be cautious when deleting files. When in doubt, move files to a temporary folder first, test your system, then delete permanently.
