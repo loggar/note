@@ -1,5 +1,12 @@
 # git undo redo
 
+## TL;DR
+
+- Use `git reset --soft HEAD~1` to undo last commit but keep changes
+- Use `git reset --hard HEAD~1` to undo last commit and discard changes
+- Use `git revert <commit-hash>` for commits already pushed to remote
+- Use `git reflog` to find and recover lost commits
+
 ## reference
 
 | Command      | Scope        | Common use cases                                                     |
