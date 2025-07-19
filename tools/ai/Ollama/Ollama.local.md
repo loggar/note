@@ -16,6 +16,12 @@ ollama list
 
 ## Running DeepSeek R1 on Ollama
 
+`qwqwen2`
+
+```
+ollama run qwen2.5vl
+```
+
 `deepseek-r1:1.5b`
 
 ```sh

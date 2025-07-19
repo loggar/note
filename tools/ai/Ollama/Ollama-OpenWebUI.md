@@ -6,6 +6,7 @@ https://github.com/open-webui/open-webui
 
 ```
 $ ollama run deepseek-r1:8b
+# ollama run qwen2.5vl
 > /bye
 
 # http://localhost:11434/
@@ -13,6 +14,12 @@ $ ollama run deepseek-r1:8b
 ```
 
 ## Run Open Web UI
+
+```
+https://github.com/open-webui/open-webui
+
+pip install open-webui
+```
 
 ```sh
 docker run -d -p 21434:8080 \
@@ -24,3 +31,5 @@ docker run -d -p 21434:8080 \
 
 http://localhost:21434/auth
 http://localhost:21434/
+
+email and password ex:1234
