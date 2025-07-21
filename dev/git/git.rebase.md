@@ -84,6 +84,10 @@ git rebase --abort
 
 ## rebase main
 
+```sh
+git rebase -i main
+```
+
 To integrate changes from the `main` branch so they appear before your current branch's commits, you should use `git rebase`. This rewrites your branch's history to start from the latest commit of `main`.
 
 1.  **Fetch the latest changes from the remote:**
@@ -108,3 +112,23 @@ To integrate changes from the `main` branch so they appear before your current b
     ```bash
     git push --force-with-lease
     ```
+
+## squash
+
+The command `git rebase -i main` starts an interactive rebase session.
+
+It takes all the commits from your current branch that are not on the `main` branch and opens an editor. In this editor, you can modify the commit history before it's reapplied on top of the `main` branch.
+
+This allows you to perform actions like:
+
+- **`squash`**: Combine multiple commits into a single one.
+- **`reword`**: Change a commit message.
+- **`edit`**: Amend a commit's content.
+- **`drop`**: Remove a commit entirely.
+- **Reorder**: Change the order in which commits are applied.
+
+The primary use is to clean up your feature branch's history to be more linear and logical before merging it into `main`.
+
+```
+
+```
