@@ -42,7 +42,9 @@ $ asdf uninstall golang 1.20.7
 Set local `golang` for a project:
 
 ```sh
-$ asdf local golang 1.20.7
+# $ asdf local golang 1.20.7
+# From version 0.18.0
+$ asdf set golang 1.20.7
 ```
 
 This will update this file:
