@@ -75,9 +75,10 @@ $ go clean -cache && go clean -modcache
 
 ## environment variables
 
-```
-export GOPATH=$HOME/ws-loggar/go
-export GOROOT=$(asdf where golang)/go && export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
+```sh
+export GOPATH=$HOME/ws-loggar/go && \
+export GOROOT=$(asdf where golang)/go && \
+export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 ```
 
 ## goland
