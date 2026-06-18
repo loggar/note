@@ -54,3 +54,11 @@ Theme List
 ```
 ZSH_THEME="flazz"
 ```
+
+## clean
+
+Restart that terminal cleanly:
+
+```
+exec zsh -l
+```
