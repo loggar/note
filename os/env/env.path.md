@@ -46,6 +46,12 @@ echo "$PATH" | tr ':' '\n' | sort | uniq -d
 
 ## Remove Duplicates
 
+ZSH:
+
+```
+typeset -U path
+```
+
 ```sh
 # Print all PATH entries with counts
 echo -n $PATH | tr ':' '\n' | sort | uniq -c | awk '$1 > 1 {print "   " $2 " (appears " $1 " times)"}'
