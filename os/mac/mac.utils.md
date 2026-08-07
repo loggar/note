@@ -1,8 +1,8 @@
 # mac utils
 
-## Maccy
+## Clipboard Manager
 
-Clipboard Manager
+Maccy
 
 ## Video
 
@@ -28,6 +28,10 @@ https://support.audacityteam.org/basics/installing-ffmpeg
 brew install ffmpeg
 ```
 
-## Shottr
+## Screenshots recordings
 
-Screen shot.
+Shottr
+
+## Finder
+
+Folder Hub
